@@ -1,0 +1,131 @@
+{
+  "n_carbon_profiles": 90,
+  "n_historical_eci": 89,
+  "n_source_references": 2,
+  "n_unique_coordinates": 90,
+  "source_counts": {
+    "Liu et al., 2022": 76,
+    "Zhang et al., 2022": 14
+  },
+  "year_counts": {
+    "2014": 76,
+    "2016": 14
+  },
+  "method_counts": {
+    "direct": 89,
+    "direct,indirect": 1
+  },
+  "n_partial_bottom_layer": 85,
+  "latitude_range": [
+    43.21752778,
+    49.12
+  ],
+  "longitude_range": [
+    118.563125,
+    131.8470833
+  ],
+  "nearest_neighbor_median_km": 14.460652255106446,
+  "n_nearest_under_5km": 17,
+  "stock_summary": [
+    {
+      "group": "all_carbon_eligible",
+      "n": 90,
+      "median": 68.05851926977688,
+      "mean": 69.34113518975322,
+      "q25": 46.7825,
+      "q75": 88.82875,
+      "minimum": 24.188235294117646,
+      "maximum": 157.21276595744678
+    },
+    {
+      "group": "source_label_direct_only",
+      "n": 89,
+      "median": 68.64117647058825,
+      "mean": 69.63966014926615,
+      "q25": 47.03,
+      "q75": 89.01333333333334,
+      "minimum": 24.188235294117646,
+      "maximum": 157.21276595744678
+    },
+    {
+      "group": "historical_eci_common_sample",
+      "n": 89,
+      "median": 68.64117647058825,
+      "mean": 69.75946255143585,
+      "q25": 47.03,
+      "q75": 89.01333333333334,
+      "minimum": 24.188235294117646,
+      "maximum": 157.21276595744678
+    },
+    {
+      "group": "Liu et al., 2022",
+      "n": 76,
+      "median": 64.84570135746606,
+      "mean": 68.51985661909244,
+      "q25": 46.168749999999996,
+      "q75": 88.72053571428572,
+      "minimum": 24.188235294117646,
+      "maximum": 157.21276595744678
+    },
+    {
+      "group": "Zhang et al., 2022",
+      "n": 14,
+      "median": 80.23440860215054,
+      "mean": 73.7995045733403,
+      "q25": 55.29904761904763,
+      "q75": 88.71735294117647,
+      "minimum": 40.4,
+      "maximum": 104.77692307692308
+    },
+    {
+      "group": "method=direct",
+      "n": 89,
+      "median": 68.64117647058825,
+      "mean": 69.63966014926615,
+      "q25": 47.03,
+      "q75": 89.01333333333334,
+      "minimum": 24.188235294117646,
+      "maximum": 157.21276595744678
+    },
+    {
+      "group": "method=direct,indirect",
+      "n": 1,
+      "median": 42.77241379310345,
+      "mean": 42.77241379310345,
+      "q25": 42.77241379310345,
+      "q75": 42.77241379310345,
+      "minimum": 42.77241379310345,
+      "maximum": 42.77241379310345
+    }
+  ],
+  "grid_diagnostics": [
+    {
+      "grid_km": 25,
+      "occupied_cells": 70,
+      "largest_cell_n": 7,
+      "equal_cell_mean_stock": 68.4620465555568
+    },
+    {
+      "grid_km": 50,
+      "occupied_cells": 48,
+      "largest_cell_n": 7,
+      "equal_cell_mean_stock": 65.97404511977363
+    },
+    {
+      "grid_km": 100,
+      "occupied_cells": 27,
+      "largest_cell_n": 12,
+      "equal_cell_mean_stock": 65.52595460265722
+    }
+  ],
+  "eci_vs_stock_rho": 0.8426455566905007,
+  "top_k": 23,
+  "top_k_overlap": 19,
+  "median_absolute_rank_change": 8.0,
+  "maximum_absolute_rank_change": 38.0,
+  "map_source_range": [
+    31.37,
+    50.17
+  ],
+  "decision": "Carbon-stock description and evidence-quality assessment. Historical ECI is exploratory only; no environmental attribution model or revenue estimate."
+}

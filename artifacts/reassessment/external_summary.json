@@ -1,0 +1,40 @@
+{
+  "source_doi": "10.5061/dryad.cvdncjt89",
+  "n_records": 2140,
+  "n_unique_coordinates": 2136,
+  "n_records_in_boundary": 1066,
+  "n_records_outside_boundary": 1074,
+  "n_records_with_duplicate_coordinates": 8,
+  "n_records_with_duplicate_full_records": 0,
+  "missing": {
+    "source_row": 0,
+    "longitude": 0,
+    "latitude": 0,
+    "SOC": 0,
+    "inside_blacksoil_boundary": 0,
+    "duplicate_coordinates": 0,
+    "duplicate_full_record": 0
+  },
+  "fields": [
+    "source_row",
+    "longitude",
+    "latitude",
+    "SOC",
+    "inside_blacksoil_boundary",
+    "duplicate_coordinates",
+    "duplicate_full_record"
+  ],
+  "n_main_profiles_with_external_point_within_1km": 4,
+  "n_main_profiles_with_external_point_within_5km": 22,
+  "source_protocol": "README describes cropland sampling 5–10 km intervals, at least 200 m from roads; dichromate heating method. Article abstract states 0–20 cm.",
+  "missing_for_stock_or_causal_analysis": [
+    "per-point sampling date",
+    "bulk density",
+    "coarse fragments",
+    "management treatment",
+    "control assignment"
+  ],
+  "unit_status": "CSV and README do not state the SOC unit explicitly; no concentration conversion or pooled value comparison performed.",
+  "independence_status": "Different published source; no cross-source record lineage to prove independence. Spatial proximity is not pairing.",
+  "use": "Spatial coverage audit only; not added to the 0–30 cm stock denominator."
+}

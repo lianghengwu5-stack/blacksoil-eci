@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "status": "passed",
+  "csv_tables": [
+    "artifacts/reassessment/carbon_profile_selection.csv",
+    "artifacts/reassessment/carbon_profiles.csv",
+    "artifacts/reassessment/descriptive_correlations.csv",
+    "artifacts/reassessment/external_nearest_points.csv",
+    "artifacts/reassessment/external_sample_inventory.csv",
+    "artifacts/reassessment/grid_100km.csv",
+    "artifacts/reassessment/grid_25km.csv",
+    "artifacts/reassessment/grid_50km.csv",
+    "artifacts/reassessment/historical_eci_rank_changes.csv",
+    "artifacts/reassessment/nearest_neighbors.csv",
+    "artifacts/reassessment/source_year_method_counts.csv",
+    "artifacts/reassessment/spatial_grid_sensitivity.csv",
+    "artifacts/reassessment/stock_summary.csv"
+  ],
+  "tolerance": 1e-10,
+  "regression_checks": [
+    "90 carbon versus 89 historical ECI",
+    "target-layer methods 89+1 and 88+1",
+    "85 partial bottom layers"
+  ],
+  "inputs": "Copied locally verified inputs into an independent directory; not a fresh network-download test.",
+  "unit_tests": "8 prior unit tests passed, including 4 archival cashflow tests",
+  "source_script_hashes": {
+    "build_research_report.py": "548d7c0d057650814ca8a57fc36556dd58d854841286b47677feed548c517ef2",
+    "run_analysis.py": "bc48182db80f88e9a69267accaf34ccc7c49812f1accbb37bbfcf0281e6087be",
+    "fetch_revision_data.py": "4a82a2d48bd5906d8c16b96b3a453e192fac40022313b8403f15f94a7ca9543a",
+    "analyze_fixed_depth.py": "c0cc9b1a3e2e774e1b6d6372dddf85f9784a04ae273ee8d87edf2d351a215f66",
+    "rerun_legacy.py": "984a758b68ef8a184cba9915e727a1d8555e2767cbbdffd2285bb03fab0d16da",
+    "package_repository.py": "3eb36c7e2351b80cd01a3f8db9d7777ea371de72af4ad9cf9f41c5b9580588e3",
+    "build_paper.py": "0679a0efdb745986fda8755e7227d22cb1810cd7f3e4a7efcb6f7eacef1f78f8",
+    "prepare_paper_assets.py": "79f718c36201b14fe06a170587132d8f1109ed755b68ba2d944a88232e33d615",
+    "fetch_data.py": "d7433490241d7902de9eb01b2b2888994d4902c2ec725f47a98daa199f20ad8a",
+    "check_external_samples.py": "1563bcc20ce7e26c112194b86bd0ad5f0e56ff6833e39e79841f0cd69e34ff98",
+    "asset_scenarios.py": "c288b390badc50823ed654f5328b7099b09c14a863e4628d7b48498c6c3724fb",
+    "audit_results.py": "3b718bfd54a4b885db99f5790345f32a5ee9b8ee66e1ac024faa3fe60b3173b6",
+    "fetch_source_metadata.py": "d685ab74f3c6b0615c879a80168500514a62353a5c8a4e776666ce111837df47",
+    "render_audit_pdf.py": "1ba527c2adb8c35b78b56f2209e444813326883c32959eba159b92d6fc59652f",
+    "prepare_report_assets.py": "efd983c0486609de7020e1ac53f3ea592844d066c962478eed4e020b6d6e8cfa",
+    "reassess_evidence.py": "024d77e49b8fd8f8a5e0c2acbbd002c8eae7617c855af38d2434d7d54ec1c571",
+    "recover_local_data.py": "9a9a452efc1ff9275c44ced9ffec2ebff45785cb0cbd9ddca242378f13005c0b",
+    "run_project.py": "c09b49878d967aa9e4495b65b6cb6ac51a81f3f7ad3d1e15f69f470403e10767",
+    "write_audit_report.py": "1faec01b1476cbe35ee82e25749ab87728440c83dc007eadb257dc47a08af108"
+  }
+}

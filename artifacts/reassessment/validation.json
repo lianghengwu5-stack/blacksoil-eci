@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "historical_common_n_matches": true,
+    "unique_profile_keys": true,
+    "historical_stocks_unchanged": true,
+    "nonnegative_stocks": true
+  },
+  "inputs": [
+    {
+      "path": "data/raw/source_metadata/SOCS_V10.csv",
+      "sha256": "3cb6a1a1d8f89413e49d88b7fff467abd7cf147bf7bba6f20eebc9d131bf9a00"
+    },
+    {
+      "path": "artifacts/fixed_depth/fixed_depth_eci_profiles.csv",
+      "sha256": "7e51433e4dbc1dbc574f483e03c27574f9238f6931e46b35b4a818a10a8e8ad4"
+    }
+  ]
+}

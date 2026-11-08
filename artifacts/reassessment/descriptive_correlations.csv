@@ -1,0 +1,16 @@
+﻿group,n,variable,spearman_stock,interpretation
+all_89,89,eci_entropy,0.8426455566905007,descriptive association only; ECI contains stock
+all_89,89,SOC_0_30_g_kg_thickness_mean,0.9714117903216541,descriptive association only; ECI contains stock
+all_89,89,NDVI,0.035195323567022506,descriptive association only; ECI contains stock
+all_89,89,MAP,0.08501564213202455,descriptive association only; ECI contains stock
+all_89,89,AI,0.44101893850108986,descriptive association only; ECI contains stock
+"Liu et al., 2022",75,eci_entropy,0.8314935988620199,descriptive association only; ECI contains stock
+"Liu et al., 2022",75,SOC_0_30_g_kg_thickness_mean,0.9772470254079255,descriptive association only; ECI contains stock
+"Liu et al., 2022",75,NDVI,0.06499854360627745,descriptive association only; ECI contains stock
+"Liu et al., 2022",75,MAP,0.16554402520565475,descriptive association only; ECI contains stock
+"Liu et al., 2022",75,AI,0.44932743207947806,descriptive association only; ECI contains stock
+"Zhang et al., 2022",14,eci_entropy,0.8857142857142857,descriptive association only; ECI contains stock
+"Zhang et al., 2022",14,SOC_0_30_g_kg_thickness_mean,0.9164835164835166,descriptive association only; ECI contains stock
+"Zhang et al., 2022",14,NDVI,-0.17259631404179207,descriptive association only; ECI contains stock
+"Zhang et al., 2022",14,MAP,-0.6747252747252748,descriptive association only; ECI contains stock
+"Zhang et al., 2022",14,AI,0.39827408070358333,descriptive association only; ECI contains stock
