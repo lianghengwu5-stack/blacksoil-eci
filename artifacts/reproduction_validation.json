@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "csv_tables": [
+    "artifacts/fixed_depth/fixed_depth_eci_profiles.csv",
+    "artifacts/fixed_depth/profile_selection.csv",
+    "artifacts/fixed_depth/sensitivity.csv",
+    "artifacts/fixed_depth/soilgrids_layerwise_stock.csv",
+    "artifacts/fixed_depth/weighting_rank_correlations.csv",
+    "artifacts/fixed_depth/weights.csv",
+    "artifacts/asset_scenarios/cashflow_scenarios.csv",
+    "artifacts/asset_scenarios/price_gain_sensitivity.csv",
+    "artifacts/asset_scenarios/sample_state_cards.csv"
+  ],
+  "tolerance": 1e-10,
+  "note": "Clean directory with six locally verified source inputs. Not a fresh network-download test."
+}
