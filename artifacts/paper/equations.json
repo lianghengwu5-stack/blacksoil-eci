@@ -1,0 +1,1 @@
+["$S_i=10\\sum_l s_{il}\\,\\frac{h_{il}}{d_{il}-u_{il}}$", "$\\mathrm{ECI}_i=100\\sum_{j=1}^{5}w_j z_{ij},\\qquad \\sum_{j=1}^{5}w_j=1$", "$Q=Aq\\,\\frac{44}{12}(1-b),\\qquad C_{\\mathrm{MRV}}=Av+F$", "$R=\\max(PQ-C_{\\mathrm{MRV}},0),\\qquad Y=sR-Ac$", "$P^{*}=\\frac{Av+F+Ac/s}{Aq(44/12)(1-b)}$"]
