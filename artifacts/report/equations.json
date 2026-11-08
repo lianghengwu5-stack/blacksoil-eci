@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "latex": "\\bar{C}_i=\\frac{1}{30}\\sum_l C_{il}h_{il}",
+    "path": "equation_01.png"
+  },
+  {
+    "index": 2,
+    "latex": "S_i=10\\sum_l D_{il}\\frac{h_{il}}{H_{il}}",
+    "path": "equation_02.png"
+  },
+  {
+    "index": 3,
+    "latex": "z_{ij}=\\frac{x_{ij}^{*}-\\min_i x_{ij}^{*}}{\\max_i x_{ij}^{*}-\\min_i x_{ij}^{*}},\\qquad \\mathrm{ECI}_i=100\\sum_jw_jz_{ij}",
+    "path": "equation_03.png"
+  },
+  {
+    "index": 4,
+    "latex": "p_{ij}=\\frac{z_{ij}}{\\sum_i z_{ij}},\\quad e_j=-\\frac{\\sum_i p_{ij}\\ln p_{ij}}{\\ln n},\\quad w_j=\\frac{1-e_j}{\\sum_j(1-e_j)}",
+    "path": "equation_04.png"
+  },
+  {
+    "index": 5,
+    "latex": "y_k=\\ln(\\bar X_{T,k}/\\bar X_{C,k}),\\qquad \\delta=(\\exp(\\mu)-1)\\times100\\%",
+    "path": "equation_05.png"
+  },
+  {
+    "index": 6,
+    "latex": "Q=Aq\\frac{44}{12}(1-b),\\qquad R=PQ",
+    "path": "equation_06.png"
+  },
+  {
+    "index": 7,
+    "latex": "D=\\max(R-M,0),\\qquad G=\\max(M-R,0)",
+    "path": "equation_07.png"
+  },
+  {
+    "index": 8,
+    "latex": "N=sD-Ac,\\qquad P^*=\\frac{Av+F+Ac/s}{Aq(44/12)(1-b)}",
+    "path": "equation_08.png"
+  }
+]
