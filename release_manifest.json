@@ -1,0 +1,637 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 126,
+    "sha256": "dddab896e41114e151a42a603af6ec4525ed3cb55c63b37ac7e80e1cbf493ea7"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 598,
+    "sha256": "4236cdf9f8480ffe968de19f80d4362bbb08c7acfd3f6174a77b92cf239279b4"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4478,
+    "sha256": "2cca2fb8f9b7351322dc46b66f29cd3f776c05520152a027e817418723e6a998"
+  },
+  {
+    "path": "artifacts/asset_scenarios/base_scenario.json",
+    "bytes": 806,
+    "sha256": "f61500d119c611ca4afa1dc5452f0c7e6a69b615f4c86f8c95efcbf70b24a47f"
+  },
+  {
+    "path": "artifacts/asset_scenarios/cashflow_scenarios.csv",
+    "bytes": 22122,
+    "sha256": "b6d347ac165506c96c977df6b5dfb94841c45066df78caf3473a8441921e2271"
+  },
+  {
+    "path": "artifacts/asset_scenarios/fig04_cashflow_sensitivity.png",
+    "bytes": 96462,
+    "sha256": "cb86c6e30905db2f4b493dcd2ac0a9f93eb7b1c6bea5331008dabafd7c067d6a"
+  },
+  {
+    "path": "artifacts/asset_scenarios/fig05_scale_break_even.png",
+    "bytes": 71716,
+    "sha256": "5ab219066abfad7fd32eaa79afdfa19d1d2d3cc66b04d8ca4bee096b7f3fa2a0"
+  },
+  {
+    "path": "artifacts/asset_scenarios/price_gain_sensitivity.csv",
+    "bytes": 6058,
+    "sha256": "0a040484477652c20d808cacfe660752bcb31600ba13d31d5dcc932482d6fb9a"
+  },
+  {
+    "path": "artifacts/asset_scenarios/sample_state_cards.csv",
+    "bytes": 803,
+    "sha256": "3b4323205558a76401489b4fdf3468e242c955e72e57230182403f3b10f50871"
+  },
+  {
+    "path": "artifacts/asset_scenarios/sample_state_cards.json",
+    "bytes": 1550,
+    "sha256": "041f608c4ff027a731672b3f992d9e06c8ec4b6250a55abb6f15c66db439ff7b"
+  },
+  {
+    "path": "artifacts/audit/figshare_all_tillage_containing_study_effects_rho_0.0.csv",
+    "bytes": 397,
+    "sha256": "034be68cd0ef563de32f0adcd359449100c838efedbc431f3d5883fd93eff800"
+  },
+  {
+    "path": "artifacts/audit/figshare_all_tillage_containing_study_effects_rho_0.5.csv",
+    "bytes": 392,
+    "sha256": "e7be8b3020a3d690a11e35d9adbc339cddd4941272eb4549ff45b70b729f6b06"
+  },
+  {
+    "path": "artifacts/audit/figshare_all_tillage_containing_study_effects_rho_1.0.csv",
+    "bytes": 394,
+    "sha256": "a4c9983ec10f6226a8a66dc6ba1bc7d9b24415774e98aac6e5ea851ed79b0294"
+  },
+  {
+    "path": "artifacts/audit/figshare_management_composition.csv",
+    "bytes": 339,
+    "sha256": "1d011b20a2afbedc48cc6747f43bf27b75f809bec4704da6476b37e41de4b7bf"
+  },
+  {
+    "path": "artifacts/audit/figshare_tillage_coded_rows.csv",
+    "bytes": 9291,
+    "sha256": "d33de1cc88622176622de95646c67b8ffecdc93964e65dfeeb6ee1ed12d27dbb"
+  },
+  {
+    "path": "artifacts/audit/figshare_tillage_only_code_study_effects_rho_0.0.csv",
+    "bytes": 332,
+    "sha256": "92d27e83d639c783948b4b6b7ee984b645e8bf4c0c0044c8ed67e5c5da06be78"
+  },
+  {
+    "path": "artifacts/audit/figshare_tillage_only_code_study_effects_rho_0.5.csv",
+    "bytes": 327,
+    "sha256": "1240e2dccfc167412113ee66049cc65f1d67c63440f542589b212cdd2eafe42b"
+  },
+  {
+    "path": "artifacts/audit/figshare_tillage_only_code_study_effects_rho_1.0.csv",
+    "bytes": 330,
+    "sha256": "d4f0d16c2726003f6536d497c23eaa9ad1630a284eca202faf455941970b3f26"
+  },
+  {
+    "path": "artifacts/audit/kbs_cells_2001_2013.csv",
+    "bytes": 266,
+    "sha256": "13b66e27d94a4626b717899e98e991f092c8df5a13afb2aa6c40efb17cbeb8c5"
+  },
+  {
+    "path": "artifacts/audit/kbs_matched_replicate_changes.csv",
+    "bytes": 410,
+    "sha256": "37555a80779847ecffe72ccafa6cde9781269f8f35b4fdd40698cc1bc479946b"
+  },
+  {
+    "path": "artifacts/audit/legacy_csv_comparison.csv",
+    "bytes": 415,
+    "sha256": "d332cfa958f3a28c76f65c073da5371fc421098d0667278bc383228d43412f34"
+  },
+  {
+    "path": "artifacts/audit/meta_reanalysis.csv",
+    "bytes": 1911,
+    "sha256": "ca7931b51fad092bda7a4410f84a770f53fdbb5dda487a77a560fa0ca78bec6d"
+  },
+  {
+    "path": "artifacts/audit/soil_scenarios.csv",
+    "bytes": 1389,
+    "sha256": "f9fbbf28a2d5b730352c6de6d63a0aa3cc12ebcf69057ae9334450b012dfb23e"
+  },
+  {
+    "path": "artifacts/audit/summary.json",
+    "bytes": 12084,
+    "sha256": "86f5d495f963ca2fb390e416de386d6674568e6e978f6bf4df640ddaf67ba1a2"
+  },
+  {
+    "path": "artifacts/audit/traces_all_response_categories.csv",
+    "bytes": 189,
+    "sha256": "0dc5924727e5d948b55bdc49af68951c815d6e72017597fc6d0e202bf009bc47"
+  },
+  {
+    "path": "artifacts/audit/traces_comparison_audit.csv",
+    "bytes": 53671,
+    "sha256": "678d64a195318b77e434b68ac8cf4be6a01b039312022c6c63ce58fe9988a224"
+  },
+  {
+    "path": "artifacts/audit/traces_treatment_control_codes.csv",
+    "bytes": 126,
+    "sha256": "02edb5bd9aea5aae64fce4efb3f994c7ec5ae367dfe5e76c30cb486bf8b364a2"
+  },
+  {
+    "path": "artifacts/audit/v10_all_landcovers_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "99a50967a3a777ca7caf9d851761912cbe3855bab4d9b84c9208420d2ffee807"
+  },
+  {
+    "path": "artifacts/audit/v10_all_landcovers_scores.csv",
+    "bytes": 88204,
+    "sha256": "6401a4e8c86f16d6be936e77e386fafa398884c6cf89c622ee5b060f212083e6"
+  },
+  {
+    "path": "artifacts/audit/v10_all_landcovers_weights.csv",
+    "bytes": 283,
+    "sha256": "75d8ec1a5d7fd86346fb39b276517cab41cb2e3afad288f03b3dcb02d5d1fc6a"
+  },
+  {
+    "path": "artifacts/audit/v10_ambiguous_topsoil.csv",
+    "bytes": 1184,
+    "sha256": "97ea1e81838bc3a880ce934cf1b8056c28df578c90739d02157f6edfa891d2b0"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_all_landcovers_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "5f77bca26531f44c01c86663b081b617a4e214d97338df62f11ab3a6a48f6d49"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_all_landcovers_scores.csv",
+    "bytes": 44094,
+    "sha256": "4d3b59459a19f8a499ac7e25197a5ab909b70ea7a52f939453793f2529005bd5"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_all_landcovers_weights.csv",
+    "bytes": 285,
+    "sha256": "fe113f4660a4a95edcbdc0ce642508a85db74e3697c305a958fa585bded131f0"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_ambiguous_topsoil.csv",
+    "bytes": 364,
+    "sha256": "81decc48a5fd13fde018b5b174ccec0b88c612878917a1832713185c2f46b524"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_cropland_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "6a9e40b4b1dd3a4808af2636df505d4cc621ab6821b1304f3902c9b75b4481b2"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_cropland_scores.csv",
+    "bytes": 17160,
+    "sha256": "4eea11701aebe04dc84141947e3551f8c2ab631214e509840708e89981f33baf"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_cropland_weights.csv",
+    "bytes": 287,
+    "sha256": "a65bd3637c373b91b4eda043f52ec93b6549f52ab24e4aeee596365a73b452d0"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_depth_exclusions.csv",
+    "bytes": 249,
+    "sha256": "5b270445533f48174be9a88e886744495a2229dab7c72307b39d404f0e279e8f"
+  },
+  {
+    "path": "artifacts/audit/v10_blacksoil_strict_depth_profiles.csv",
+    "bytes": 24381,
+    "sha256": "dd446a9150df635195075bbb61c1f32ada46cea8256a47f958b2d3562523552d"
+  },
+  {
+    "path": "artifacts/audit/v10_cropland_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "0b8a1ff63c94b1e501e3ee8271f86ce3d25b0ad47baf342456637950531955c7"
+  },
+  {
+    "path": "artifacts/audit/v10_cropland_scores.csv",
+    "bytes": 37673,
+    "sha256": "96d675737a81f42d1a6b2f75d44e18c2c62bd4656741de5844c100c7598fe3a8"
+  },
+  {
+    "path": "artifacts/audit/v10_cropland_weights.csv",
+    "bytes": 285,
+    "sha256": "6be4b23ccff0774576d395f270813b53d6d79d719b415e4e12e2d9c8c0edfe25"
+  },
+  {
+    "path": "artifacts/audit/v10_depth_exclusions.csv",
+    "bytes": 321,
+    "sha256": "872bfd5c5e7e5af2e75762f8280dedd5f3fe53885112b5d16401379dd1f7907e"
+  },
+  {
+    "path": "artifacts/audit/v10_strict_depth_profiles.csv",
+    "bytes": 51340,
+    "sha256": "96b8813691fa4c28e7a5d5a26d8529e59b58671e0c38a4ea397a0de75df0a759"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_all_landcovers_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "5cf8137e1aad4944714bddca18e37cd3dcdcb090ef3ea861fabc19faa6c5d790"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_all_landcovers_scores.csv",
+    "bytes": 33454,
+    "sha256": "224dfdab531565c66542a7c5a49eb444fcbcf565330419675a67b87b0f0ea6af"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_all_landcovers_weights.csv",
+    "bytes": 285,
+    "sha256": "39418693ba04ecef6fcd187e0688ee3ef282cea323105c306c96532853593e9a"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_ambiguous_topsoil.csv",
+    "bytes": 364,
+    "sha256": "81decc48a5fd13fde018b5b174ccec0b88c612878917a1832713185c2f46b524"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_cropland_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "e1271f92e4e7d3724da50e75a754c9d93ecce439665fac8d1b64d2225c3d0555"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_cropland_scores.csv",
+    "bytes": 16696,
+    "sha256": "5dfdbc928b9513c5f7b7ffc7c2602a546a12ef79d19aee62b4d3133ace3677e5"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_cropland_weights.csv",
+    "bytes": 284,
+    "sha256": "6af923befc69bfb35580fab37102d833882cf05326528dd52e9edcc3434d83b5"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_depth_exclusions.csv",
+    "bytes": 249,
+    "sha256": "2131b078fd6f2a06b96a20494c783df390bc1a19b2c0c3a2f7faf32fa36271ff"
+  },
+  {
+    "path": "artifacts/audit/v10_typical_strict_depth_profiles.csv",
+    "bytes": 18615,
+    "sha256": "7c34070eebac93cb91785c95f86cb38b0d8f961c05c0859144e766335bcebd61"
+  },
+  {
+    "path": "artifacts/audit/v9_all_landcovers_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "f6209342ed7eb5fb7f2ac1c8224f629bbe05c665172acfd137f4436ddc0dedec"
+  },
+  {
+    "path": "artifacts/audit/v9_all_landcovers_scores.csv",
+    "bytes": 72713,
+    "sha256": "eece9fe4ec9b414bafda4b0a13856e5c708f470b142a78503ba79aa91257f437"
+  },
+  {
+    "path": "artifacts/audit/v9_all_landcovers_weights.csv",
+    "bytes": 283,
+    "sha256": "35d7240789bd8ff0775498c086bd45553190d58b4a784f3250f6ee78c9c5a6db"
+  },
+  {
+    "path": "artifacts/audit/v9_ambiguous_topsoil.csv",
+    "bytes": 298,
+    "sha256": "802505c7187748aa6bdbd7a21a4fc83e8a7ad832c1e0cb8eb0e862efbec8f0aa"
+  },
+  {
+    "path": "artifacts/audit/v9_cropland_rank_correlation.csv",
+    "bytes": 172,
+    "sha256": "1c072bfb596cd9b23307f5bb8189c97a4c3651cea27139c89daec062fe169722"
+  },
+  {
+    "path": "artifacts/audit/v9_cropland_scores.csv",
+    "bytes": 34432,
+    "sha256": "058aa6d47fe9af6efe9583e2422e00f3b27a3f1243a5f348b0fe7263b61b9e79"
+  },
+  {
+    "path": "artifacts/audit/v9_cropland_weights.csv",
+    "bytes": 281,
+    "sha256": "656baa232ac9d555ddee357cc7dcd9ccdb4ee8ebfcbd3940f8ece111d57fdfc2"
+  },
+  {
+    "path": "artifacts/audit/v9_depth_exclusions.csv",
+    "bytes": 494,
+    "sha256": "7d046b35ccf6adb1b6d4c934c9586ec2e05d2a8283b21760fd63bf6c21c0de62"
+  },
+  {
+    "path": "artifacts/audit/v9_strict_depth_profiles.csv",
+    "bytes": 66276,
+    "sha256": "3c787ba8ac73ab684a0c3c21fdcdcdf6b120438f61edc6aaa3b08e6618997dcd"
+  },
+  {
+    "path": "artifacts/fixed_depth/fig01_fixed_depth_distributions.png",
+    "bytes": 56084,
+    "sha256": "0310f13ad0963da1fe990389cc673c56e2545587ffb5780c94ccd0bc0fd1dd0d"
+  },
+  {
+    "path": "artifacts/fixed_depth/fig02_fixed_depth_weights.png",
+    "bytes": 46670,
+    "sha256": "8c35b61aae89bcec519ea5fb065bc0c1dcfc1857b4b30703a8e3455edbc1275a"
+  },
+  {
+    "path": "artifacts/fixed_depth/fig03_sample_locations.png",
+    "bytes": 170988,
+    "sha256": "26296f677b8ceaa1b8648d6c661697ee826861dd81fcdd922e53027723477128"
+  },
+  {
+    "path": "artifacts/fixed_depth/fixed_depth_eci_profiles.csv",
+    "bytes": 16205,
+    "sha256": "e862a4acdbba662b5b5b7bb59a1e0af2382924940775475be4342a3423f8d761"
+  },
+  {
+    "path": "artifacts/fixed_depth/profile_selection.csv",
+    "bytes": 13755,
+    "sha256": "816c714c9c589d8162b02abc41f9710a886ac47f9a9c067419c117de53a0cf03"
+  },
+  {
+    "path": "artifacts/fixed_depth/sensitivity.csv",
+    "bytes": 496,
+    "sha256": "c537e58b1026c899b99a01f4e4ca1a94ad239e4819c865ff644db6e4b8fd630c"
+  },
+  {
+    "path": "artifacts/fixed_depth/soilgrids_layerwise_stock.csv",
+    "bytes": 1498,
+    "sha256": "cf8872a73e51f9c7c5bbc270311bf81540edf1d122ac6ace61a4ae21f73eba73"
+  },
+  {
+    "path": "artifacts/fixed_depth/summary.json",
+    "bytes": 685,
+    "sha256": "37bd233f8169216fcc671103f199233598726a51e5436d7c615fefbae2b9d670"
+  },
+  {
+    "path": "artifacts/fixed_depth/weighting_rank_correlations.csv",
+    "bytes": 166,
+    "sha256": "2c8f653e7a3b37d2cd0b6a0f5204b27dc49514a7a5ec719b7eafad3b99ce92fd"
+  },
+  {
+    "path": "artifacts/fixed_depth/weights.csv",
+    "bytes": 306,
+    "sha256": "0fac56d408ebbb1c2b94158e91f74620f29a9f972e724dd0604420f3882d1007"
+  },
+  {
+    "path": "artifacts/paper/equation_1.png",
+    "bytes": 10773,
+    "sha256": "ad93d24eac82943f7f4f2ce939b58396a994f2c488fa504b04e86b475a4080c0"
+  },
+  {
+    "path": "artifacts/paper/equation_2.png",
+    "bytes": 13057,
+    "sha256": "1ba21258bcb28e8bb4a708e7f85034a3053fd12319a0ea8e73c4859f025a3ab3"
+  },
+  {
+    "path": "artifacts/paper/equation_3.png",
+    "bytes": 15052,
+    "sha256": "6ae9c948091f2fe3a2c6c60ea5248199122591c1e97d94b2ae7b10a812219c35"
+  },
+  {
+    "path": "artifacts/paper/equation_4.png",
+    "bytes": 17017,
+    "sha256": "758f04cda53b16bf4867bc4f8efbbdca78d217ff7bab7544874459e5a52809b1"
+  },
+  {
+    "path": "artifacts/paper/equation_5.png",
+    "bytes": 10693,
+    "sha256": "45f90f4a05cf603c32344679be6da92625c346c9fa79b2b3e869dfaecd1d071c"
+  },
+  {
+    "path": "artifacts/paper/equations.json",
+    "bytes": 298,
+    "sha256": "e8fb0c9ed4bd8e95449904a1cdbf6ab5f0f95911ef01ff7c70f3401bc2b776ae"
+  },
+  {
+    "path": "artifacts/paper/tables.json",
+    "bytes": 1954,
+    "sha256": "5ba5d8013a266bee6f05f2ed101e7b320de730088658d12b89b6de05b4a48984"
+  },
+  {
+    "path": "artifacts/paper/validation.json",
+    "bytes": 160,
+    "sha256": "5966c4e94a739df63f46378b7709126b5fce29d0ea25ac67012718caf4b506a4"
+  },
+  {
+    "path": "artifacts/report/equation_01.png",
+    "bytes": 7264,
+    "sha256": "629327ff3615faf58361ca18a990324d81954d794fe7a8a768783fe02c8a6e4f"
+  },
+  {
+    "path": "artifacts/report/equation_02.png",
+    "bytes": 8787,
+    "sha256": "2c7023049bf850d8041bdb1e3a4b3b6861cf088da383d225c3044365c0951524"
+  },
+  {
+    "path": "artifacts/report/equation_03.png",
+    "bytes": 17703,
+    "sha256": "396f911c8467b34dea005effabc91fe6afdb0265175ec978dbb13811a1b6f0b7"
+  },
+  {
+    "path": "artifacts/report/equation_04.png",
+    "bytes": 17111,
+    "sha256": "2722c1983cc8a32e0d925e2ced0311e9cd96cc2e1051ff7dbff7ff037f72e953"
+  },
+  {
+    "path": "artifacts/report/equation_05.png",
+    "bytes": 15513,
+    "sha256": "244dafdf43a6f31b2f5e13404b45bbaaa236ef573075b634cf94f8618d20d96d"
+  },
+  {
+    "path": "artifacts/report/equation_06.png",
+    "bytes": 10653,
+    "sha256": "a756086ff60bdb7d19e96dffc6a46b8fb978c785f103d56c87d6e962eac3c1c2"
+  },
+  {
+    "path": "artifacts/report/equation_07.png",
+    "bytes": 11517,
+    "sha256": "039dd01bab8639060713757b3b7322795112d4747ffc353557e3b322733eff56"
+  },
+  {
+    "path": "artifacts/report/equation_08.png",
+    "bytes": 15086,
+    "sha256": "4ca6f3c8f20e4c346e9381e34570724da1389817677b211c8c6a1a37338d13e7"
+  },
+  {
+    "path": "artifacts/report/equations.json",
+    "bytes": 1131,
+    "sha256": "d158a2f578e6fcc59414f11561dc2930eeb6e58f54c87b196eaba954e63a13fa"
+  },
+  {
+    "path": "artifacts/report/tables.json",
+    "bytes": 6380,
+    "sha256": "a9b07ee35ec084aaef3282ba499d06f68e3807f22a928588ba43b09cdefc5623"
+  },
+  {
+    "path": "artifacts/report/toc_pages.json",
+    "bytes": 594,
+    "sha256": "40d331dbc74586bc3bce8b5712ab3e71e70e66920355f2dd375ebd3f9a843f1f"
+  },
+  {
+    "path": "artifacts/report/validation.json",
+    "bytes": 363,
+    "sha256": "bd25bde6a2814318562f169a1043fe947a85382656565ffce7f42cf1331d4c33"
+  },
+  {
+    "path": "artifacts/reproduction_validation.json",
+    "bytes": 660,
+    "sha256": "2d96d2d637dddfef53da113e14a9bae23f06ddcbc692984a0f671b2e61ce589a"
+  },
+  {
+    "path": "data/external/README.md",
+    "bytes": 321,
+    "sha256": "893fdc3bf5825288042fc44fd899b05e1196d2bf1690d39a17aa6f80edf56c30"
+  },
+  {
+    "path": "data/external/soilgrids_queries.csv",
+    "bytes": 43349,
+    "sha256": "11693a5b63a2f4e8457b9400a4de4e4aad1657b866661de595bd37595560f618"
+  },
+  {
+    "path": "data/manifest.csv",
+    "bytes": 5483,
+    "sha256": "76cfc3a8d89cd3afeeb1e280db67102daa36da2b8c669c183c6fc69b5afa4dc3"
+  },
+  {
+    "path": "docs/政策与文献核查.md",
+    "bytes": 3313,
+    "sha256": "2736f61dd7ac3a19bf8dfbfcef02fc85e7619e755d78a130159054aea631029d"
+  },
+  {
+    "path": "docs/数据获取与许可.md",
+    "bytes": 2525,
+    "sha256": "b2e168c4b2467d802f425d6ebb23d438eb37fe9e48412f7e44d98170d0de5931"
+  },
+  {
+    "path": "docs/方法修订记录.md",
+    "bytes": 4326,
+    "sha256": "19cd7f44efb4aac830d212d7a2a336277ba57e30864dfb6ec09d02bff3b23e25"
+  },
+  {
+    "path": "docs/研究报告.md",
+    "bytes": 55331,
+    "sha256": "acc289d6d31e7acc3002a819026aa51a0a6331026c5348dfae5405ab065f2504"
+  },
+  {
+    "path": "docs/第一阶段数据与结果核查.md",
+    "bytes": 5706,
+    "sha256": "6fb01e16319af4d10aeead20378a9f41e8758156dd6daa3ded8f6859eb4feef5"
+  },
+  {
+    "path": "docs/论文初稿.md",
+    "bytes": 22792,
+    "sha256": "d31845dd8c233405b44addaa00707bfe6aba5f2df3f7ce85a3e27e9ef15d5fec"
+  },
+  {
+    "path": "reports/东北黑土区农田生态状态评价的稳健性与收益约束_论文初稿.docx",
+    "bytes": 228226,
+    "sha256": "5620171067da10ab10a8d4b0ffc0a9fa3c0778bf2845bcebd1b3a2369f940245"
+  },
+  {
+    "path": "reports/东北黑土区农田生态状态评价的稳健性与收益约束_论文初稿.pdf",
+    "bytes": 634561,
+    "sha256": "f4706ce5a332d27add23ab89a3daa8c4dd317fb9609605005dbf3fe0342d5df9"
+  },
+  {
+    "path": "reports/黑土生态价值量化与资产化路径研究报告_初稿.docx",
+    "bytes": 573757,
+    "sha256": "f1b0363d2b9ed0486e2e97d891157027dbba2c7d554d786996c3112f27065b57"
+  },
+  {
+    "path": "reports/黑土生态价值量化与资产化路径研究报告_初稿.pdf",
+    "bytes": 1298750,
+    "sha256": "2fb030527edc3051a1e9ae33a867a7dd7b0bc14b43b764800d6dd903876174ad"
+  },
+  {
+    "path": "requirements-lock.txt",
+    "bytes": 151,
+    "sha256": "f0849d3845e14ebcba2fecfe925187719e9f1981a225ca18c8b3496ff3d2919a"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 169,
+    "sha256": "c1622714ba623c2f2050edf2684bc72359abc0bf617d96e1fb9419d9124d9ed6"
+  },
+  {
+    "path": "scripts/analyze_fixed_depth.py",
+    "bytes": 9585,
+    "sha256": "34503c72000fb13d1b972aa4273c39d1fd76392dd78c7a82a16bc20e1eaa53bc"
+  },
+  {
+    "path": "scripts/asset_scenarios.py",
+    "bytes": 5999,
+    "sha256": "c288b390badc50823ed654f5328b7099b09c14a863e4628d7b48498c6c3724fb"
+  },
+  {
+    "path": "scripts/audit_results.py",
+    "bytes": 15873,
+    "sha256": "3b718bfd54a4b885db99f5790345f32a5ee9b8ee66e1ac024faa3fe60b3173b6"
+  },
+  {
+    "path": "scripts/build_paper.py",
+    "bytes": 3535,
+    "sha256": "08c80195048a6535df5605e69eed8ddcf4f649c544114ec192b46216e17370f9"
+  },
+  {
+    "path": "scripts/build_research_report.py",
+    "bytes": 9361,
+    "sha256": "607501a12b84e1650f729c1c4f8000a0ba82675992c2a23b4bebdedcb431f6eb"
+  },
+  {
+    "path": "scripts/fetch_data.py",
+    "bytes": 5204,
+    "sha256": "d7433490241d7902de9eb01b2b2888994d4902c2ec725f47a98daa199f20ad8a"
+  },
+  {
+    "path": "scripts/fetch_source_metadata.py",
+    "bytes": 1654,
+    "sha256": "d685ab74f3c6b0615c879a80168500514a62353a5c8a4e776666ce111837df47"
+  },
+  {
+    "path": "scripts/package_repository.py",
+    "bytes": 2284,
+    "sha256": "3eb36c7e2351b80cd01a3f8db9d7777ea371de72af4ad9cf9f41c5b9580588e3"
+  },
+  {
+    "path": "scripts/prepare_paper_assets.py",
+    "bytes": 2060,
+    "sha256": "9af406fe57de3c65444fc92345b4b097dac3e942a8b0d9e51ea402b4034481ab"
+  },
+  {
+    "path": "scripts/prepare_report_assets.py",
+    "bytes": 5217,
+    "sha256": "0d1df7298e9b7b5dc6d5e9b28b21a00ede90cd7c019eab806ab09889136a59df"
+  },
+  {
+    "path": "scripts/recover_local_data.py",
+    "bytes": 2397,
+    "sha256": "9a9a452efc1ff9275c44ced9ffec2ebff45785cb0cbd9ddca242378f13005c0b"
+  },
+  {
+    "path": "scripts/render_audit_pdf.py",
+    "bytes": 4365,
+    "sha256": "1ba527c2adb8c35b78b56f2209e444813326883c32959eba159b92d6fc59652f"
+  },
+  {
+    "path": "scripts/rerun_legacy.py",
+    "bytes": 1265,
+    "sha256": "984a758b68ef8a184cba9915e727a1d8555e2767cbbdffd2285bb03fab0d16da"
+  },
+  {
+    "path": "scripts/run_analysis.py",
+    "bytes": 466,
+    "sha256": "bc48182db80f88e9a69267accaf34ccc7c49812f1accbb37bbfcf0281e6087be"
+  },
+  {
+    "path": "scripts/run_project.py",
+    "bytes": 499,
+    "sha256": "ef576a95e8457224a1c92b66f855fbb7f0eece228914e0d1e85ceede026beddf"
+  },
+  {
+    "path": "scripts/write_audit_report.py",
+    "bytes": 7147,
+    "sha256": "1faec01b1476cbe35ee82e25749ab87728440c83dc007eadb257dc47a08af108"
+  },
+  {
+    "path": "tests/test_asset_scenarios.py",
+    "bytes": 1323,
+    "sha256": "fae2f9439fe17c9b07c96a5e311a19d96307e3a5c09a237d9d4425f8b9b42d55"
+  },
+  {
+    "path": "tests/test_depth_integration.py",
+    "bytes": 1178,
+    "sha256": "bbda4223845ac59f8b744eb128728c7941b8669ddc71767cd7b653c377561b09"
+  }
+]

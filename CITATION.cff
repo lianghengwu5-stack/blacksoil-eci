@@ -5,6 +5,7 @@ type: software
 authors:
   - name: "BlackSoil ECI project team"
 version: 0.1.0
+repository-code: "https://github.com/lianghengwu5-stack/blacksoil-eci"
 date-released: 2026-11-08
 abstract: "Reproducible fixed-depth soil assessment, evidence auditing, and explicitly hypothetical farmer cash-flow scenarios."
 keywords:
