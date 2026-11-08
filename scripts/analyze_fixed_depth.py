@@ -41,7 +41,8 @@ def build_profiles():
         if any(pd.isna(record.get(c)) or record.get(c, 0) <= 0 for c in covars):
             record['status'] = 'missing_or_nonpositive_covariate'
         record['source_sample_ids'] = ','.join(map(str, g.Samples.astype(int)))
-        record['stock_method_mix'] = ','.join(sorted(group.SOCD_methods.dropna().unique()))
+        # Only layers contributing to the 0–30 cm target determine its method.
+        record['stock_method_mix'] = ','.join(sorted(g.SOCD_methods.dropna().unique()))
         rows.append(record)
     full = pd.DataFrame(rows)
     full.to_csv(OUT / 'profile_selection.csv', index=False, encoding='utf-8-sig')

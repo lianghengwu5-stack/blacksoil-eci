@@ -8,7 +8,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from build_research_report import font,add_table,picture
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT.parent/'output/docx'
+OUT=ROOT.parent/'output/revision_20261109'
 
 def main():
  source=(ROOT/'docs/论文初稿.md').read_text();lines=source.splitlines()
@@ -58,7 +58,7 @@ def main():
    if re.match(r'^\[\d+\]',line):
     p.paragraph_format.first_line_indent=Pt(0);p.paragraph_format.line_spacing=Pt(14)
     for r in p.runs:font(r,9.5)
- target=OUT/'东北黑土区农田生态状态评价的稳健性与收益约束_论文初稿.docx'
+ target=OUT/'论文_碳储量与指数适用性_初稿.docx'
  doc.save(target)
  print(target);print('Han characters',len(re.findall(r'[\u4e00-\u9fff]',source)))
 

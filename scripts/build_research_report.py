@@ -15,7 +15,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT.parent/'output/docx'
+OUT=ROOT.parent/'output/revision_20261109'
 WIDTH=6.27
 
 
@@ -58,6 +58,7 @@ def add_table(doc,item):
             if i==0:
                 shade=OxmlElement('w:shd');shade.set(qn('w:fill'),'E9EEF0');tcpr.append(shade)
             for p in cell.paragraphs:
+                p.paragraph_format.keep_with_next=(i < len(table.rows)-1)
                 p.paragraph_format.first_line_indent=Pt(0);p.paragraph_format.line_spacing=Pt(13.5);p.paragraph_format.space_after=Pt(1)
                 p.alignment=WD_ALIGN_PARAGRAPH.LEFT if j==0 else WD_ALIGN_PARAGRAPH.CENTER
                 for run in p.runs:font(run,9.5,i==0)
@@ -161,7 +162,7 @@ def main():
                 for run in p.runs:font(run,10.5)
     settings=doc.settings.element
     update=OxmlElement('w:updateFields');update.set(qn('w:val'),'true');settings.append(update)
-    target=OUT/'黑土生态价值量化与资产化路径研究报告_初稿.docx'
+    target=OUT/'研究报告_修订稿.docx'
     doc.save(target)
     print(target)
     print('Body Chinese characters:',len(re.findall(r'[\u4e00-\u9fff]',text)))

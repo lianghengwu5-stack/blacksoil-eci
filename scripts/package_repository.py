@@ -6,7 +6,7 @@ import shutil
 import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-STAGE=ROOT.parent/'output/github/blacksoil-eci'
+STAGE=ROOT.parent/'output/github_revision_20261109/blacksoil-eci'
 
 
 def main():
@@ -21,10 +21,13 @@ def main():
     shutil.copy2(ROOT/'data/manifest.csv',STAGE/'data/manifest.csv')
     shutil.copytree(ROOT/'data/external',STAGE/'data/external',dirs_exist_ok=True)
     reports=STAGE/'reports';reports.mkdir(exist_ok=True)
-    for kind in ['pdf','docx']:
-        for p in (ROOT.parent/'output'/kind).glob('*.'+kind):
-            if '研究报告_初稿' in p.name or '论文初稿' in p.name:
-                shutil.copy2(p,reports/p.name)
+    for p in (ROOT.parent/'output/revision_20261109').iterdir():
+        if p.suffix in ['.pdf','.docx'] and p.name.startswith(('研究报告','论文_')):
+            shutil.copy2(p,reports/p.name)
+    historical=ROOT.parent/'output/github/blacksoil-eci/reports'
+    if historical.exists():
+        for p in historical.iterdir():
+            if p.is_file() and not (reports/p.name).exists():shutil.copy2(p,reports/p.name)
     forbidden=[p for p in STAGE.rglob('*') if p.is_file() and
                any(part in ['raw','archive','.venv','legacy_run','logs','__pycache__'] for part in p.relative_to(STAGE).parts)]
     assert not forbidden,forbidden
