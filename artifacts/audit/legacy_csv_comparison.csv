@@ -1,0 +1,10 @@
+﻿file,status
+真实DiD_2x2均值.csv,match_within_1e-10
+真实DiD_KBS回归.csv,match_within_1e-10
+真实ECI得分.csv,match_within_1e-10
+真实_剖面ECI与碳储量.csv,match_within_1e-10
+真实_权重.csv,match_within_1e-10
+真实_赋权敏感性.csv,match_within_1e-10
+真实保护性耕作SOC增量.csv,match_within_1e-10
+耕作_数值效应.csv,match_within_1e-10
+耕作_方向证据.csv,match_within_1e-10

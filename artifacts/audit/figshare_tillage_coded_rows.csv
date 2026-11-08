@@ -1,0 +1,50 @@
+﻿study_code,first_author,latitude,longitude,organically_managed_years,focal_organic_system,depth_measured,control_bulk_density,control_mean,control_sd,control_n,treatment_bulk_density,treatment_mean,treatment_sd,treatment_n,data_location,row_id,management_code,lnrr,variance
+007_Loaiza_Puerta_2018,Loaiza Puerta,47.44,8.53,6.0,tillage,0-20,,17.8,,4,,18.2,,4,table 2,7,tillage,0.02222313678471004,
+009_Baldivieso-Frietas_2018,Baldivieso-Frietas,41.56,2.19,9.0,tillage,0-10,,9.04,0.72,4,,10.42,1.6,4,table 3,9,tillage,0.1420678619211358,0.007480338971398481
+012_Krauss_2017,Krauss,47.5,8.02,13.0,tillage,0-10,1.17,22.3,3.6,4,1.05,28.0,3.4,4,SI,15,tillage,0.22761783170913072,0.010201537486236627
+012_Krauss_2017,Krauss,47.5,8.02,13.0,tillage,0-10,1.14,24.4,4.8,4,1.07,29.9,4.6,4,SI,16,tillage,0.20327534809748463,0.015591978360464914
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,21.3,1.6,4,table 5,19,organic amendment and till and cover crop,0.0679873409849328,0.003026775657462454
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,21.6,2.8,4,table 5,20,organic amendment and till and cover crop,0.08197358295967284,0.005817081024508913
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,21.2,1.2,4,table 5,21,organic amendment and till and cover crop,0.06328144994752001,0.0024171176010429926
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,18.5,0.6,4,table 5,22,organic amendment and till and cover crop,-0.037139546949456655,0.0006969934461488516
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,19.7,2.0,4,table 5,23,organic amendment and till and cover crop,0.02570835671020703,0.003010749672183715
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,20.8,0.2,4,table 5,24,organic amendment and till and cover crop,0.08004270767353656,0.00045714168310322166
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,21.2,2.6,4,table 5,25,organic amendment and till and cover crop,-0.046091107200266976,0.005403770386379375
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,22.2,1.4,4,table 5,26,organic amendment and till and cover crop,0.0,0.0026377729080431784
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,21.6,0.8,4,table 5,27,organic amendment and till and cover crop,-0.027398974188114388,0.001986470955439925
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,20.0,0.6,4,table 5,28,organic amendment and till and cover crop,0.005012541823544414,0.0018411208050301765
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,20.6,1.4,4,table 5,29,organic amendment and till and cover crop,0.03457134406508872,0.0027708007937190253
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,20.2,1.4,4,table 5,30,organic amendment and till and cover crop,0.01496287267671232,0.0028169834655536546
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,20.3,1.6,4,table 5,31,organic amendment and till and cover crop,0.01990115431729502,0.003169179602865601
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,18.8,1.2,4,table 5,32,organic amendment and till and cover crop,-0.021053409197832267,0.0014525882123635632
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,18.9,0.6,4,table 5,33,organic amendment and till and cover crop,-0.015748356968139168,0.0006859804106827917
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,19.9,1.8,4,table 5,34,organic amendment and till and cover crop,0.03580945269671078,0.002479430671644095
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,21.0,1.4,4,table 5,35,organic amendment and till and cover crop,0.08961215868968714,0.0015451388888888889
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,20.8,1.2,4,table 5,36,organic amendment and till and cover crop,-0.06513930217096138,0.0024756360190351873
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,21.5,0.4,4,table 5,37,organic amendment and till and cover crop,-0.03203935374461666,0.0017300686885414935
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,21.7,1.0,4,table 5,38,organic amendment and till and cover crop,-0.022780028331819885,0.0021744449815675497
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,22.0,1.4,4,table 5,39,organic amendment and till and cover crop,-0.009049835519917927,0.0026559321215340872
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,19.7,0.8,4,table 5,40,organic amendment and till and cover crop,-0.01010109598650382,0.002028396308135127
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,21.3,2.2,4,table 5,41,organic amendment and till and cover crop,0.0679873409849328,0.004283140135409952
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,26.3,9.2,4,table 5,42,organic amendment and till and cover crop,0.2788492074532722,0.03220785987889274
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.9,1.6,4,,20.8,0.8,4,table 5,43,organic amendment and till and cover crop,0.04423325497682566,0.0019859432902372774
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,21.7,1.0,4,table 5,44,organic amendment and till and cover crop,0.12240198151267793,0.0009649373320261161
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,21.1,1.4,4,table 5,45,organic amendment and till and cover crop,0.09436276144828508,0.0015346319870273451
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,21.7,1.0,4,table 5,46,organic amendment and till and cover crop,0.12240198151267793,0.0009649373320261161
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,19.2,0.8,4,,21.7,1.6,4,table 5,47,organic amendment and till and cover crop,0.12240198151267793,0.0017931562366535242
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,22.8,2.8,4,table 5,48,organic amendment and till and cover crop,0.02666824708216149,0.0054139263168236735
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,21.8,1.6,4,table 5,49,organic amendment and till and cover crop,-0.01818231908319036,0.002990223416545708
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,22.4,1.6,4,table 5,50,organic amendment and till and cover crop,0.008968669982760316,0.0029190456314008443
+015_Clark_2017,Clark,38.95,-92.33,3.0,organic amendment and till and cover crop,0-15,,22.2,1.8,4,,22.7,1.0,4,table 5,51,organic amendment and till and cover crop,0.022272635609123223,0.002128699121549645
+024_Zikeli_2013,Zikeli,48.78,9.18,18.0,tillage,0-20,,12.0625,1.625,4,,12.5,1.75,4,figure 2,71,tillage,0.035627177643151035,0.00943703455126312
+024_Zikeli_2013,Zikeli,48.78,9.18,18.0,tillage,0-20,,12.0625,1.625,4,,15.0,0.8125,4,figure 2,72,tillage,0.21794873443710575,0.005270541495707565
+024_Zikeli_2013,Zikeli,48.78,9.18,18.0,tillage,0-20,,12.0625,1.625,4,,15.5,1.3125,4,figure 2,73,tillage,0.25073855726009653,0.006329600888411924
+025_Almagro_2013,Almagro,37.87,-1.72,4.0,tillage,0-15,1.07,17.9,1.3,3,1.09,26.6,1.7,6,table 1,74,tillage,0.39611050294094413,0.0024389072304292895
+025_Almagro_2013,Almagro,37.87,-1.72,4.0,tillage,0-15,1.07,17.9,1.3,3,1.045,26.2,2.4,6,table 1,75,tillage,0.3809586979203419,0.003156683918790042
+025_Almagro_2013,Almagro,37.87,-1.72,4.0,tillage,0-15,1.07,10.4,0.9,3,1.11,10.0,1.732,3,table 1,76,tillage,-0.039220713153281385,0.012495715108481263
+031_Bilalis_2010,Bilalis,38.59,21.43,,organic amendment and till,0-35,1.54,10.9,,1,1.42,13.2,,1,table 4,99,organic amendment and till,0.19145404035722702,
+031_Bilalis_2010,Bilalis,38.59,21.43,,organic amendment and till,0-35,1.54,10.9,,1,1.49,12.2,,1,table 4,100,organic amendment and till,0.11267316250411281,
+031_Bilalis_2010,Bilalis,38.59,21.43,,organic amendment and till,0-35,1.54,12.7,,1,1.36,14.1,,1,table 4,101,organic amendment and till,0.10457280391957703,
+031_Bilalis_2010,Bilalis,38.59,21.43,,organic amendment and till,0-35,1.54,12.7,,1,1.36,13.8,,1,table 4,102,organic amendment and till,0.08306659869861348,
+035_Koch_2011,Koch,49.8988,10.9028,16.0,tillage,0-25,,13.7,,4,,14.6,,4,figure 3,108,tillage,0.06362569588021155,
+038_Lehocka_2009,Lehocka,48.573955,17.740225,3.0,tillage,0-20,,13.14,,3,,14.32,,3,table 1,114,tillage,0.08599614847603505,

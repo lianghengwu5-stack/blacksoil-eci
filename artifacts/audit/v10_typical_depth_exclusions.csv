@@ -1,0 +1,11 @@
+﻿CLCD,coverage_status,n
+Cropland,complete,87
+Cropland,incomplete_depth,24
+Forest,complete,47
+Forest,incomplete_depth,24
+Forest,overlap,1
+Grassland,complete,25
+Grassland,incomplete_depth,4
+Other,complete,12
+Other,incomplete_depth,4
+Other,overlap,1

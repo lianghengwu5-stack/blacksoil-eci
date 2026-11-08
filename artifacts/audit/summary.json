@@ -1,0 +1,388 @@
+{
+  "legacy_csv_comparison": [
+    {
+      "file": "真实DiD_2x2均值.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "真实DiD_KBS回归.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "真实ECI得分.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "真实_剖面ECI与碳储量.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "真实_权重.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "真实_赋权敏感性.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "真实保护性耕作SOC增量.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "耕作_数值效应.csv",
+      "status": "match_within_1e-10"
+    },
+    {
+      "file": "耕作_方向证据.csv",
+      "status": "match_within_1e-10"
+    }
+  ],
+  "soil_v9": {
+    "geographic_scope": "NE_rectangle",
+    "regional_layers": 2505,
+    "regional_profile_ids": 871,
+    "topsoil_rows_before_validity": 885,
+    "topsoil_valid_rows": 499,
+    "ambiguous_topsoil_rows_excluded": 4,
+    "ph_clay_r": 0.9999968598244923,
+    "texture_sum_median": 152.28,
+    "regional_map_median_as_stored": 46.0,
+    "scenarios": [
+      {
+        "source_version": "v9",
+        "subset": "all_landcovers",
+        "n": 495,
+        "eci_entropy_mean": 25.915253489968762,
+        "eci_entropy_min": 3.461582692825644,
+        "eci_entropy_max": 94.66550819894877,
+        "min_weighting_rho": 0.9602117887771539,
+        "surface_stock_median_tC_ha": 38.5,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 446,
+        "stock030_median_tC_ha": 52.66648351648351,
+        "stock030_mean_tC_ha": 64.52051501131675
+      },
+      {
+        "source_version": "v9",
+        "subset": "cropland",
+        "n": 234,
+        "eci_entropy_mean": 28.133409004061747,
+        "eci_entropy_min": 5.1279826278049345,
+        "eci_entropy_max": 97.35059760195743,
+        "min_weighting_rho": 0.9587898541053504,
+        "surface_stock_median_tC_ha": 41.7084,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 205,
+        "stock030_median_tC_ha": 57.64137931034483,
+        "stock030_mean_tC_ha": 66.85600097922224
+      }
+    ]
+  },
+  "soil_v10": {
+    "geographic_scope": "NE_rectangle",
+    "regional_layers": 2272,
+    "regional_profile_ids": 623,
+    "topsoil_rows_before_validity": 638,
+    "topsoil_valid_rows": 596,
+    "ambiguous_topsoil_rows_excluded": 19,
+    "ph_clay_r": -0.43085513209969484,
+    "texture_sum_median": 100.0,
+    "regional_map_median_as_stored": 46.16,
+    "scenarios": [
+      {
+        "source_version": "v10",
+        "subset": "all_landcovers",
+        "n": 577,
+        "eci_entropy_mean": 24.702524370936366,
+        "eci_entropy_min": 2.7014745541601295,
+        "eci_entropy_max": 89.72451588519453,
+        "min_weighting_rho": 0.9449626968230457,
+        "surface_stock_median_tC_ha": 37.3,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 491,
+        "stock030_median_tC_ha": 51.04444444444445,
+        "stock030_mean_tC_ha": 60.86456427249269
+      },
+      {
+        "source_version": "v10",
+        "subset": "cropland",
+        "n": 245,
+        "eci_entropy_mean": 28.714599730684643,
+        "eci_entropy_min": 1.5545384884307232,
+        "eci_entropy_max": 97.82819912773955,
+        "min_weighting_rho": 0.9561767129882741,
+        "surface_stock_median_tC_ha": 40.5,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 220,
+        "stock030_median_tC_ha": 56.3867201426025,
+        "stock030_mean_tC_ha": 63.98091513538359
+      }
+    ]
+  },
+  "soil_v10_blacksoil": {
+    "geographic_scope": "BlackSoilRegion",
+    "regional_layers": 975,
+    "regional_profile_ids": 304,
+    "topsoil_rows_before_validity": 307,
+    "topsoil_valid_rows": 299,
+    "ambiguous_topsoil_rows_excluded": 5,
+    "ph_clay_r": -0.43085513209969484,
+    "texture_sum_median": 100.0,
+    "regional_map_median_as_stored": 38.08,
+    "scenarios": [
+      {
+        "source_version": "v10_blacksoil",
+        "subset": "all_landcovers",
+        "n": 294,
+        "eci_entropy_mean": 39.148229615656724,
+        "eci_entropy_min": 2.9507410925176463,
+        "eci_entropy_max": 92.39621481087154,
+        "min_weighting_rho": 0.9229894352604233,
+        "surface_stock_median_tC_ha": 42.85,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 207,
+        "stock030_median_tC_ha": 59.604761904761915,
+        "stock030_mean_tC_ha": 65.93866950646743
+      },
+      {
+        "source_version": "v10_blacksoil",
+        "subset": "cropland",
+        "n": 113,
+        "eci_entropy_mean": 40.83212523367403,
+        "eci_entropy_min": 7.441132469655631,
+        "eci_entropy_max": 86.8550620146977,
+        "min_weighting_rho": 0.9517100272805908,
+        "surface_stock_median_tC_ha": 46.0,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 90,
+        "stock030_median_tC_ha": 68.05851926977688,
+        "stock030_mean_tC_ha": 69.34113518975322
+      }
+    ]
+  },
+  "soil_v10_typical": {
+    "geographic_scope": "TypicalBlackSoilRegion",
+    "regional_layers": 786,
+    "regional_profile_ids": 229,
+    "topsoil_rows_before_validity": 232,
+    "topsoil_valid_rows": 227,
+    "ambiguous_topsoil_rows_excluded": 5,
+    "ph_clay_r": -0.43085513209969484,
+    "texture_sum_median": 100.0,
+    "regional_map_median_as_stored": 40.2,
+    "scenarios": [
+      {
+        "source_version": "v10_typical",
+        "subset": "all_landcovers",
+        "n": 222,
+        "eci_entropy_mean": 39.391320997666206,
+        "eci_entropy_min": 8.14479236315859,
+        "eci_entropy_max": 87.08016803856799,
+        "min_weighting_rho": 0.9720862026322327,
+        "surface_stock_median_tC_ha": 48.9,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 171,
+        "stock030_median_tC_ha": 64.856,
+        "stock030_mean_tC_ha": 69.91638823380787
+      },
+      {
+        "source_version": "v10_typical",
+        "subset": "cropland",
+        "n": 110,
+        "eci_entropy_mean": 40.839430457878294,
+        "eci_entropy_min": 6.266291432922749,
+        "eci_entropy_max": 85.46268814751845,
+        "min_weighting_rho": 0.9509140499966188,
+        "surface_stock_median_tC_ha": 46.3,
+        "surface_stock_is_fixed_depth": false,
+        "stock030_n": 87,
+        "stock030_median_tC_ha": 68.64117647058825,
+        "stock030_mean_tC_ha": 69.90644278753396
+      }
+    ]
+  },
+  "meta": [
+    {
+      "subset": "all_tillage_containing",
+      "n_rows": 49,
+      "n_studies": 9,
+      "complete_rows": 42,
+      "complete_studies": 5,
+      "unweighted_lnrr_effect_pct": 7.6310781714812705,
+      "analysis": "observation_level_DL_exploratory",
+      "k": 42,
+      "lnrr": 0.06041992001700586,
+      "effect_pct": 6.228252659746452,
+      "ci_low_pct": 3.0923440714709596,
+      "ci_high_pct": 9.459550704558138,
+      "i2_pct": 75.58114564289919,
+      "tau2": 0.0066361582002366585,
+      "interval": "normal"
+    },
+    {
+      "subset": "all_tillage_containing",
+      "n_rows": 49,
+      "n_studies": 9,
+      "complete_rows": 42,
+      "complete_studies": 5,
+      "unweighted_lnrr_effect_pct": 7.6310781714812705,
+      "analysis": "study_level_DL_modified_HK",
+      "assumed_rho": 0.0,
+      "k": 5,
+      "lnrr": 0.1846978662632133,
+      "effect_pct": 20.285496215645278,
+      "ci_low_pct": -3.8505436436834413,
+      "ci_high_pct": 50.48031625083127,
+      "i2_pct": 95.57924659576543,
+      "tau2": 0.0293536138427795,
+      "interval": "modified_Hartung_Knapp_t"
+    },
+    {
+      "subset": "all_tillage_containing",
+      "n_rows": 49,
+      "n_studies": 9,
+      "complete_rows": 42,
+      "complete_studies": 5,
+      "unweighted_lnrr_effect_pct": 7.6310781714812705,
+      "analysis": "study_level_DL_modified_HK",
+      "assumed_rho": 0.5,
+      "k": 5,
+      "lnrr": 0.18337168402799756,
+      "effect_pct": 20.126081457284613,
+      "ci_low_pct": -2.084471726653618,
+      "ci_high_pct": 47.37473923439218,
+      "i2_pct": 87.9832941185236,
+      "tau2": 0.02262603964560457,
+      "interval": "modified_Hartung_Knapp_t"
+    },
+    {
+      "subset": "all_tillage_containing",
+      "n_rows": 49,
+      "n_studies": 9,
+      "complete_rows": 42,
+      "complete_studies": 5,
+      "unweighted_lnrr_effect_pct": 7.6310781714812705,
+      "analysis": "study_level_DL_modified_HK",
+      "assumed_rho": 1.0,
+      "k": 5,
+      "lnrr": 0.18185155482677384,
+      "effect_pct": 19.943613015973014,
+      "ci_low_pct": -1.2454889531114872,
+      "ci_high_pct": 45.67912038463553,
+      "i2_pct": 80.5471935235256,
+      "tau2": 0.018786478156750355,
+      "interval": "modified_Hartung_Knapp_t"
+    },
+    {
+      "subset": "tillage_only_code",
+      "n_rows": 12,
+      "n_studies": 7,
+      "complete_rows": 9,
+      "complete_studies": 4,
+      "unweighted_lnrr_effect_pct": 18.007824821592653,
+      "analysis": "observation_level_DL_exploratory",
+      "k": 9,
+      "lnrr": 0.21943341143612696,
+      "effect_pct": 24.537091773374907,
+      "ci_low_pct": 13.063042239225133,
+      "ci_high_pct": 37.17556966629431,
+      "i2_pct": 70.49631072377063,
+      "tau2": 0.014557670046242371,
+      "interval": "normal"
+    },
+    {
+      "subset": "tillage_only_code",
+      "n_rows": 12,
+      "n_studies": 7,
+      "complete_rows": 9,
+      "complete_studies": 4,
+      "unweighted_lnrr_effect_pct": 18.007824821592653,
+      "analysis": "study_level_DL_modified_HK",
+      "assumed_rho": 0.0,
+      "k": 4,
+      "lnrr": 0.23585789928281806,
+      "effect_pct": 26.59943986724067,
+      "ci_low_pct": 6.797910860392917,
+      "ci_high_pct": 50.072394165558684,
+      "i2_pct": 71.56138108873257,
+      "tau2": 0.007723075794619579,
+      "interval": "modified_Hartung_Knapp_t"
+    },
+    {
+      "subset": "tillage_only_code",
+      "n_rows": 12,
+      "n_studies": 7,
+      "complete_rows": 9,
+      "complete_studies": 4,
+      "unweighted_lnrr_effect_pct": 18.007824821592653,
+      "analysis": "study_level_DL_modified_HK",
+      "assumed_rho": 0.5,
+      "k": 4,
+      "lnrr": 0.23745534346297534,
+      "effect_pct": 26.801837021705783,
+      "ci_low_pct": 7.268278727956558,
+      "ci_high_pct": 49.892457143425375,
+      "i2_pct": 54.17723903340025,
+      "tau2": 0.0058510069011545925,
+      "interval": "modified_Hartung_Knapp_t"
+    },
+    {
+      "subset": "tillage_only_code",
+      "n_rows": 12,
+      "n_studies": 7,
+      "complete_rows": 9,
+      "complete_studies": 4,
+      "unweighted_lnrr_effect_pct": 18.007824821592653,
+      "analysis": "study_level_DL_modified_HK",
+      "assumed_rho": 1.0,
+      "k": 4,
+      "lnrr": 0.23805856226583005,
+      "effect_pct": 26.878349348550834,
+      "ci_low_pct": 7.401070919888625,
+      "ci_high_pct": 49.88784930664827,
+      "i2_pct": 40.25811378953645,
+      "tau2": 0.0043908779731649345,
+      "interval": "modified_Hartung_Knapp_t"
+    }
+  ],
+  "traces": [
+    {
+      "region": "global",
+      "n_total": 167,
+      "n_unique_references": 99,
+      "neutral": 72,
+      "increase": 66,
+      "non_reported": 23,
+      "decrease": 3,
+      "variable": 3
+    },
+    {
+      "region": "china",
+      "n_total": 23,
+      "n_unique_references": 15,
+      "neutral": 11,
+      "increase": 10,
+      "non_reported": 2
+    },
+    {
+      "region": "northeast_rectangle",
+      "n_total": 2,
+      "n_unique_references": 2,
+      "increase": 1,
+      "neutral": 1
+    }
+  ],
+  "kbs": {
+    "matched_late_successional_n": 3,
+    "matched_conventional_n": 2,
+    "matched_change_difference_tC_ha": 3.6711329184796115,
+    "welch_p": 0.6303111610525202,
+    "interpretation": "External system contrast, not a pre-intervention conservation-tillage DiD."
+  },
+  "v10_national_profile_count_in_file": 7955,
+  "v10_national_layer_count": 23103,
+  "source_checksums": {
+    "China_SOC_profiles_2010_2024.csv": "65a8a291605c3d5b8f2e38d1b007aa4c9a33ddc2ebde9743277159e2d7c3516b",
+    "source_metadata/SOCS_V10.csv": "3cb6a1a1d8f89413e49d88b7fff467abd7cf147bf7bba6f20eebc9d131bf9a00"
+  }
+}
