@@ -22,8 +22,9 @@ def main():
     shutil.copytree(ROOT/'data/external',STAGE/'data/external',dirs_exist_ok=True)
     reports=STAGE/'reports';reports.mkdir(exist_ok=True)
     for kind in ['pdf','docx']:
-        for p in (ROOT.parent/'output'/kind).glob('*研究报告_初稿.'+kind):
-            shutil.copy2(p,reports/p.name)
+        for p in (ROOT.parent/'output'/kind).glob('*.'+kind):
+            if '研究报告_初稿' in p.name or '论文初稿' in p.name:
+                shutil.copy2(p,reports/p.name)
     forbidden=[p for p in STAGE.rglob('*') if p.is_file() and
                any(part in ['raw','archive','.venv','legacy_run','logs','__pycache__'] for part in p.relative_to(STAGE).parts)]
     assert not forbidden,forbidden
