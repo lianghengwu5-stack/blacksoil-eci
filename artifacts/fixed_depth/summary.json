@@ -1,0 +1,16 @@
+{
+  "n_fixed_depth_profiles": 89,
+  "n_source_references": 2,
+  "stock_median_tC_ha": 68.64117647058825,
+  "stock_q25_tC_ha": 47.03,
+  "stock_q75_tC_ha": 89.01333333333334,
+  "eci_entropy_mean": 46.78985952823773,
+  "eci_entropy_min": 8.19191994225824,
+  "eci_entropy_max": 89.11415137479499,
+  "minimum_weighting_rho": 0.9766428328226081,
+  "soilgrids_valid_n": 14,
+  "soilgrids_stock_min": 42.5065,
+  "soilgrids_stock_max": 115.86400000000002,
+  "MAP_unit_status": "Source readme says mm; magnitude inconsistent with annual mm, physical interpretation withheld.",
+  "interpretation": "Relative ecological condition index; not management-attributable contribution or carbon credit."
+}

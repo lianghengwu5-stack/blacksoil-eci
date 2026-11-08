@@ -1,0 +1,8 @@
+﻿analysis,omitted,n,spearman_vs_five_indicator_entropy
+leave_one_indicator_out,SOC_0_30_g_kg_thickness_mean,89,0.9740381341504939
+leave_one_indicator_out,stock_0_30_tC_ha,89,0.975723527408921
+leave_one_indicator_out,NDVI,89,0.9990296220633301
+leave_one_indicator_out,MAP,89,0.9763704460333674
+leave_one_indicator_out,AI,89,0.9715185563500172
+leave_one_source_out_recalibrated,"Liu et al., 2022",14,0.8681318681318682
+leave_one_source_out_recalibrated,"Zhang et al., 2022",75,0.9993741109530582
