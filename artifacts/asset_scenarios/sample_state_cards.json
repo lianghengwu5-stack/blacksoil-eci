@@ -1,0 +1,47 @@
+[
+  {
+    "profile_id": 3886,
+    "latitude": 45.41238333,
+    "longitude": 122.894,
+    "Year": 2014,
+    "References": "Liu et al., 2022",
+    "stock_0_30_tC_ha": 55.0,
+    "SOC_0_30_g_kg_thickness_mean": 13.633333333333333,
+    "eci_entropy": 18.517152057342784,
+    "selection_label": "lower_score",
+    "selection_rule": "closest observed entropy score to quantile 0.1",
+    "point_type": "public_dataset_sample_not_owned_or_field_verified_plot",
+    "observed_carbon_credit": null,
+    "observed_income": null
+  },
+  {
+    "profile_id": 3900,
+    "latitude": 43.75763333,
+    "longitude": 124.89095,
+    "Year": 2014,
+    "References": "Liu et al., 2022",
+    "stock_0_30_tC_ha": 53.85294117647058,
+    "SOC_0_30_g_kg_thickness_mean": 11.98,
+    "eci_entropy": 48.574134144734,
+    "selection_label": "median_score",
+    "selection_rule": "closest observed entropy score to quantile 0.5",
+    "point_type": "public_dataset_sample_not_owned_or_field_verified_plot",
+    "observed_carbon_credit": null,
+    "observed_income": null
+  },
+  {
+    "profile_id": 4168,
+    "latitude": 48.41427778,
+    "longitude": 126.2064167,
+    "Year": 2014,
+    "References": "Liu et al., 2022",
+    "stock_0_30_tC_ha": 105.4,
+    "SOC_0_30_g_kg_thickness_mean": 30.0,
+    "eci_entropy": 70.73590042271132,
+    "selection_label": "higher_score",
+    "selection_rule": "closest observed entropy score to quantile 0.9",
+    "point_type": "public_dataset_sample_not_owned_or_field_verified_plot",
+    "observed_carbon_credit": null,
+    "observed_income": null
+  }
+]

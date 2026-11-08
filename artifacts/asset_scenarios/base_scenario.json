@@ -1,0 +1,23 @@
+{
+  "area_ha": 100,
+  "assumed_gain_tC_ha_yr": 0.3,
+  "assumed_price_yuan_tCO2": 100,
+  "assumed_buffer_fraction": 0.2,
+  "assumed_farmer_share": 0.7,
+  "assumed_farm_cost_yuan_ha_yr": 100,
+  "assumed_mrv_variable_yuan_ha_yr": 20,
+  "assumed_mrv_fixed_yuan_yr": 1000,
+  "assumed_distributable_tCO2_yr": 88.0,
+  "gross_yuan_yr": 8800.0,
+  "mrv_cost_yuan_yr": 3000,
+  "distributable_cash_yuan_yr": 5800.0,
+  "project_funding_gap_yuan_yr": 0.0,
+  "farmer_receipt_yuan_yr": 4059.9999999999995,
+  "farmer_net_yuan_yr": -5940.0,
+  "farmer_net_yuan_ha_yr": -59.4,
+  "farmer_net_yuan_mu_yr": -3.96,
+  "farmer_compensation_gap_yuan_yr": 5940.0,
+  "assumed_break_even_price_yuan_tCO2": 196.42857142857144,
+  "scenario_is_financially_feasible": false,
+  "evidence_type": "hypothetical_scenario_not_observed_revenue"
+}

@@ -1,0 +1,4 @@
+﻿profile_id,latitude,longitude,Year,References,stock_0_30_tC_ha,SOC_0_30_g_kg_thickness_mean,eci_entropy,selection_label,selection_rule,point_type,observed_carbon_credit,observed_income
+3886,45.41238333,122.894,2014,"Liu et al., 2022",55.0,13.633333333333333,18.517152057342784,lower_score,closest observed entropy score to quantile 0.1,public_dataset_sample_not_owned_or_field_verified_plot,,
+3900,43.75763333,124.89095,2014,"Liu et al., 2022",53.85294117647058,11.98,48.574134144734,median_score,closest observed entropy score to quantile 0.5,public_dataset_sample_not_owned_or_field_verified_plot,,
+4168,48.41427778,126.2064167,2014,"Liu et al., 2022",105.4,30.0,70.73590042271132,higher_score,closest observed entropy score to quantile 0.9,public_dataset_sample_not_owned_or_field_verified_plot,,
