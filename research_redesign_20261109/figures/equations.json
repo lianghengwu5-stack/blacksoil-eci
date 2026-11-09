@@ -1,0 +1,6 @@
+{
+  "eq_index": "I_H=100\\exp\\left\\{\\sum_l\\frac{h_l}{H}\\left[\\alpha\\ln\\frac{C_{T,l}}{C_{C,l}}+(1-\\alpha)\\ln\\frac{A_{T,l}}{A_{C,l}}\\right]\\right\\}",
+  "eq_carbon": "q=\\frac{(S_{T,1}-S_{T,0})-(S_{C,1}-S_{C,0})}{\\Delta t}\\times\\frac{44}{12}\\times\\frac{1}{15},\\qquad V=qP",
+  "eq_subsidy": "S_{\\mathrm{gap}}=\\max\\{0,\\ U-\\Delta M\\}",
+  "eq_margin": "\\Delta M=(G_T-K_T)-(G_C-K_C)"
+}
