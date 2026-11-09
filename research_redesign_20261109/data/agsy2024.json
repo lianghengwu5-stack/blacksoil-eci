@@ -1,0 +1,252 @@
+{
+  "id": "zhang_agsy2024",
+  "doi": "10.1016/j.agsy.2024.103872",
+  "title": "Effects of tillage practices on environment, energy, and economy of maize production in Northeast China",
+  "source": "User-provided ScienceDirect_articles_09Nov2026_00-07-55.979.zip; target PDF only extracted; 21 PDFs in archive, no supplementary file",
+  "sha256": "6d8a57d6c81cee332d1bda878e04ce32b5fcd714b0543a91295873d6de8c1cec",
+  "locator": "Tables 1-2 p.4; Table 3 p.5; Table 4 p.6; Tables 5-6 p.7; all visually checked",
+  "design": {
+    "site": "Changchun, Jilin, 44N 125.4E; Mollisol",
+    "established": 2012,
+    "observation_years": [
+      2020,
+      2021
+    ],
+    "randomized_complete_blocks": 4,
+    "plot_m2": 234,
+    "crop": "rainfed continuous spring maize",
+    "grain_moisture_fraction": 0.14,
+    "treatments": {
+      "CT": "moldboard ploughing and ridge building; complete residue removal for feed/fuel",
+      "MP": "same ploughing/ridging as CT, residue returned",
+      "NT": "no disturbance except sowing; residue retained"
+    },
+    "soil_gas_boundary": "Growing season only; samples twice monthly; linear temporal interpolation"
+  },
+  "conversion": {
+    "yuan_per_usd_source": 6.4,
+    "mu_per_ha": 15
+  },
+  "price_usd_kg": {
+    "2020": 0.4,
+    "2021": 0.43
+  },
+  "table2_inputs": [
+    {
+      "item": "diesel",
+      "unit_as_table2": "L",
+      "unit_price_usd": 0.87,
+      "CT": 270,
+      "MP": 230,
+      "NT": 100
+    },
+    {
+      "item": "N",
+      "unit_as_table2": "kg",
+      "unit_price_usd": 0.34,
+      "CT": 156,
+      "MP": 156,
+      "NT": 156
+    },
+    {
+      "item": "P",
+      "unit_as_table2": "kg",
+      "unit_price_usd": 0.2,
+      "CT": 78,
+      "MP": 78,
+      "NT": 78
+    },
+    {
+      "item": "K",
+      "unit_as_table2": "kg",
+      "unit_price_usd": 0.31,
+      "CT": 78,
+      "MP": 78,
+      "NT": 78
+    },
+    {
+      "item": "seed",
+      "unit_as_table2": "kg",
+      "unit_price_usd": 5.75,
+      "CT": 22.92,
+      "MP": 22.92,
+      "NT": 22.92
+    },
+    {
+      "item": "herbicide",
+      "unit_as_table2": "kg",
+      "unit_price_usd": 17.67,
+      "CT": 3.54,
+      "MP": 3.54,
+      "NT": 3.54
+    }
+  ],
+  "diesel_ghg_kgCO2e_L": 4.1,
+  "aighg_published_kgCO2e_ha": {
+    "CT": 1604,
+    "MP": 1440,
+    "NT": 907
+  },
+  "energy_input_MJ_ha": {
+    "CT": 26817,
+    "MP": 24564,
+    "NT": 17244
+  },
+  "energy_output_MJ_ha": {
+    "2020": {
+      "CT": 96244,
+      "MP": 98671,
+      "NT": 97595
+    },
+    "2021": {
+      "CT": 155909,
+      "MP": 157926,
+      "NT": 156385
+    }
+  },
+  "grain_energy_MJ_kg": 15.1,
+  "table5_cost_total_usd_ha": {
+    "CT": 522,
+    "MP": 487,
+    "NT": 374
+  },
+  "table5_cost_components_usd_ha": {
+    "CT": [
+      235,
+      53,
+      16,
+      24,
+      132,
+      63
+    ],
+    "MP": [
+      200,
+      53,
+      16,
+      24,
+      132,
+      63
+    ],
+    "NT": [
+      87,
+      53,
+      16,
+      24,
+      132,
+      63
+    ]
+  },
+  "table5_grain_revenue_usd_ha": {
+    "2020": {
+      "CT": 2550,
+      "MP": 2614,
+      "NT": 2595
+    },
+    "2021": {
+      "CT": 4440,
+      "MP": 4497,
+      "NT": 4453
+    }
+  },
+  "table6_neeb_usd_ha": {
+    "2020": {
+      "CT": 2028,
+      "MP": 2127,
+      "NT": 2211
+    },
+    "2021": {
+      "CT": 3918,
+      "MP": 4010,
+      "NT": 4079
+    }
+  },
+  "table6_neeb_se_usd_ha": {
+    "2020": {
+      "CT": 67,
+      "MP": 97,
+      "NT": 51
+    },
+    "2021": {
+      "CT": 60,
+      "MP": 50,
+      "NT": 110
+    }
+  },
+  "table6_cf_kgCO2e_kg": {
+    "2020": {
+      "CT": 0.31,
+      "MP": 0.27,
+      "NT": 0.18
+    },
+    "2021": {
+      "CT": 0.19,
+      "MP": 0.17,
+      "NT": 0.11
+    }
+  },
+  "table3_soil_gwp_kgCO2e_ha": {
+    "2020": {
+      "CT": 348.64,
+      "MP": 323.48,
+      "NT": 246.25
+    },
+    "2021": {
+      "CT": 359.22,
+      "MP": 358.04,
+      "NT": 247.71
+    }
+  },
+  "table3_soil_gwp_se": {
+    "2020": {
+      "CT": 8.8,
+      "MP": 6.39,
+      "NT": 5.98
+    },
+    "2021": {
+      "CT": 3.34,
+      "MP": 6.21,
+      "NT": 8.89
+    }
+  },
+  "table3_ch4_kg_ha": {
+    "2020": {
+      "CT": -0.81,
+      "MP": -1.0,
+      "NT": -1.03
+    },
+    "2021": {
+      "CT": -0.85,
+      "MP": -0.99,
+      "NT": -1.06
+    }
+  },
+  "table3_n2o_kg_ha": {
+    "2020": {
+      "CT": 1.24,
+      "MP": 1.17,
+      "NT": 0.91
+    },
+    "2021": {
+      "CT": 1.28,
+      "MP": 1.28,
+      "NT": 0.92
+    }
+  },
+  "gwp_factors_source": {
+    "CH4": 25,
+    "N2O": 298
+  },
+  "limitations": [
+    "NEEB here is grain revenue minus listed material inputs only; no land rent, complete machinery service/capital costs, labor or straw-sale opportunity value",
+    "Published ANOVA: yield and NEEB differences not significant; do not equate absence of significance with proven equivalence",
+    "2020 NT Table 5 revenue minus total cost is 2221, but Table 6 NEEB is 2211 USD/ha; cannot silently correct original values",
+    "Table 5 rounded component costs differ from rounded totals by 1 USD/ha, consistent with independent rounding",
+    "Herbicide quantity is kg in Table 2 but Table 1 environmental coefficients use L; do not silently assume density=1",
+    "Formula 2 excludes SOC stock change and seasonal soil respiration CO2; not full ecosystem carbon balance",
+    "Growing-season sampling excludes off-season fluxes; no verified carbon credits",
+    "No measured soil-carbon stock increment or MWD in main paper; do not borrow another site's SOC rate or compute the soil index with imputed MWD",
+    "Costs use two-year mean inputs and source FX 6.4, not current FX; period is eight/nine years after establishment, not transition costs",
+    "Supplement S1/S2 retrieved from publisher on 2026-11-09: 2020 soil concentrations and machinery specifications only; no bulk density, SOC stock trajectory, MWD or full machinery costs."
+  ],
+  "supplement_file": "agsy2024_supplement.json"
+}

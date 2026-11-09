@@ -1,0 +1,118 @@
+{
+  "doi": "10.1016/j.agsy.2024.103872",
+  "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0308521X24000222-mmc1.docx",
+  "retrieved_date": "2026-11-09",
+  "retrieval": "User Chrome, publisher Appendix A, browser download confirmed; copied from Downloads",
+  "sha256": "62ce8b95c1d0ed9302cbee4fe44d384105475b17b32a9af68a1e1699358ffdd1",
+  "bytes": 22710,
+  "tables_verbatim": {
+    "S1": [
+      [
+        "Treatment",
+        "SOC(g kg−1)",
+        "TN(g kg−1)",
+        "TP(g kg−1)",
+        "TK(g kg−1)"
+      ],
+      [
+        "CT",
+        "16.27 ± 0.23 b",
+        "1.47 ± 0.02 b",
+        "0.52 ± 0.01 a",
+        "22.93 ± 0.15 a"
+      ],
+      [
+        "MP",
+        "17.96 ± 0.44 a",
+        "1.64 ± 0.04 a",
+        "0.53 ± 0.01 a",
+        "23.46 ± 0.35 a"
+      ],
+      [
+        "NT",
+        "18.31 ± 0.71 a",
+        "1.67 ± 0.06 a",
+        "0.54 ± 0.01 a",
+        "23.59 ± 0.04 a"
+      ]
+    ],
+    "S2": [
+      [
+        "Equipment",
+        "Field operation",
+        "Row number",
+        "Width(cm)",
+        "Depth(cm)",
+        "Weight(kg)",
+        "Speed(km h−1)"
+      ],
+      [
+        "No-till planter",
+        "Sowing, fertilization ",
+        "2",
+        "220",
+        "1-5",
+        "1000",
+        "8"
+      ],
+      [
+        "Sprayer",
+        "Herbicides spraying",
+        "12",
+        "120",
+        "_",
+        "275",
+        "10"
+      ],
+      [
+        "Ridge float",
+        "Ridge building ",
+        "2",
+        "130",
+        "25",
+        "275",
+        "15"
+      ],
+      [
+        "Maize harvester",
+        "Harvesting ",
+        "4",
+        "300",
+        "_",
+        "6500",
+        "4"
+      ],
+      [
+        "Raker",
+        "Residue removal ",
+        "4",
+        "260",
+        "_",
+        "550",
+        "4.5"
+      ],
+      [
+        "Moldboard plow",
+        "Moldboard plowing ",
+        "2",
+        "130",
+        "25",
+        "425",
+        "1.5"
+      ]
+    ]
+  },
+  "derived_SOC_concentration_percent": {
+    "NT_vs_CT": 12.538414259373077,
+    "MP_vs_CT": 10.387215734480648,
+    "NT_vs_MP": 1.948775055679275
+  },
+  "interpretation_zh": [
+    "S1为2020年0–20 cm土壤有机碳及全氮、全磷、全钾浓度；不等于碳储量或逐年增汇。",
+    "SOC显著性字母：CT为b，MP和NT均为a；NT与MP未检出显著差异。",
+    "NT与CT差异同时包含免耕和秸秆归还差异，不能单独归因于免耕。",
+    "附件未提供容重、团聚体MWD、完整经营成本或原始重复小区观测；不能据此填补综合指数或碳汇核算缺项。",
+    "附件自身未定义±数值为SD还是SE，保留原文，不自行判定。",
+    "S2为设备参数，不是作业服务收费；原文喷雾机宽度120 cm照录，未擅自改为1200。"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "2026-11-09 prototype; published treatment means, not plot raw data",
+  "chen2021": {
+    "doi": "10.3390/agriculture11100939", "source": "https://doi.org/10.3390/agriculture11100939",
+    "locator": "Tables 2-4, PDF pages 6-8; visually checked", "site": "Hailun, Heilongjiang", "soil_year": 2019,
+    "depth_cm": [[0,5],[5,10],[10,20],[20,30]],
+    "soc_g_kg": {"CT_IR":[25.09,25.71,21.03,19.47],"CT_BR":[22.92,23.87,20.46,18.00],"ST_IR":[26.82,26.09,22.83,18.35],"ST_BR":[28.81,26.22,22.15,18.61],"NT":[30.20,26.73,22.99,19.05]},
+    "mwd_mm": {"CT_IR":[0.92,0.93,0.94,0.70],"CT_BR":[0.68,0.61,0.43,0.45],"ST_IR":[1.01,0.92,1.00,0.69],"ST_BR":[1.27,1.08,0.93,0.78],"NT":[1.42,1.10,1.01,0.75]},
+    "yield_years": [2009,2011,2013,2015,2017,2019],
+    "yield_kg_ha": {"CT":[8096,8835,8570,9740,8612,9146],"NT":[6822,8030,9527,9850,9129,8975],"ST":[null,8225,8775,9477,9133,9239]},
+    "limitations": ["CT removes residues; NT retains them: package contrast", "IR/BR area fractions unavailable; do not assume 50:50", "Treatment mean SOC and MWD lack SD and their covariance", "ST started later than CT/NT; common calendar years are not common treatment ages"]
+  },
+  "liang2021": {
+    "doi": "10.11975/j.issn.1002-6819.2021.01.017", "source": "https://www.aeeisp.com/nygcxb/cn/article/pdf/preview/10.11975/j.issn.1002-6819.2021.01.017.pdf",
+    "locator": "Tables 1-3, journal pp.135-136, PDF pages 3-4; visually checked", "site": "Gongzhuling, Jilin", "soil_year": 2017, "duration_years_reported": 6,
+    "depth_cm": [[0,10],[10,20],[20,30],[30,40]],
+    "soc_g_kg": {"CK":[15.43,14.79,12.75,11.04],"SM":[18.88,16.68,14.69,12.19],"SI":[18.22,18.28,18.05,14.25]},
+    "soc_sd": {"CK":[0.30,0.75,0.70,1.00],"SM":[1.21,1.06,1.30,1.85],"SI":[1.45,0.87,0.47,1.21]},
+    "mwd_mm": {"CK":[0.74,0.72,0.69,0.74],"SM":[0.95,0.86,0.68,0.70],"SI":[0.92,0.90,0.89,0.81]},
+    "mwd_sd": {"CK":[0.03,0.03,0.06,0.03],"SM":[0.04,0.02,0.01,0.04],"SI":[0.05,0.03,0.06,0.03]},
+    "bulk_density_g_cm3": {"CK":[1.31,1.49,1.37,1.45],"SM":[1.39,1.45,1.37,1.44],"SI":[1.26,1.34,1.31,1.39]},
+    "stock_tC_ha": {"CK":[20.0,22.5,17.5,16.3],"SM":[26.2,24.2,20.1,17.6],"SI":[23.0,24.5,23.6,20.7]},
+    "stock_initial_0_20_20_40": [42.37,33.94],
+    "sequestered_tC_ha_0_20_20_40": {"CK":[0.48,-0.20],"SM":[8.07,4.64],"SI":[5.08,10.42]},
+    "rate_tC_ha_year_0_20_20_40": {"CK":[0.08,-0.03],"SM":[1.34,0.77],"SI":[0.85,1.74]},
+    "yield_period_reported": "2011-2016 (paper also says trial started autumn 2011); date discrepancy retained",
+    "yield_dry_Mg_ha_year": {"CK":9.30,"SM":8.59,"SI":10.04},
+    "yield_sd_as_printed": {"CK":1.36,"SM":1.01,"SI":1.49},
+    "limitations": ["CK rotary tillage with stover removal; SM stover mulch without that tillage; SI deep plough >=30 cm with stover", "Three replicates; random allocation not explicit", "Yield is oven-dry mass: cannot multiply directly by market moisture grain price", "Stocks, sequestration quantities and reported rates do not fully reconcile", "Fixed-depth stocks; no equivalent-soil-mass correction demonstrated", "SI is a residue-management comparator, not no-till conservation tillage", "Missing plot covariance prevents a defensible composite confidence interval"]
+  },
+  "eco2024": {
+    "doi":"10.12357/cjea.20230346", "source":"https://www.ecoagri.ac.cn/article/doi/10.12357/cjea.20230346", "locator":"Table 2, p.75, PDF page 6; visually checked", "site":"Gongzhuling Fanj屯 Xiangshan, Jilin",
+    "years":[2018,2019,2020], "yield_kg_ha":{"CK":[11786.5,11092.2,10854.3],"T1":[10902.2,9365.8,9798.0],"T2":[11155.5,9658.7,9577.2],"T3":[11309.0,11419.3,10759.3]},
+    "limitations":["Separate experiment, not same site units as Liang2021", "T1/T2 full-cover no tillage; T3 reduced/strip-cover package", "Cannot compute this index: no MWD", "Do not pool annual repeated observations as independent experiments", "Soil organic matter measurement method changed across years"]
+  },
+  "xu2024": {
+    "doi":"10.7606/j.issn.1000-7601.2024.02.14", "source":"https://cms.cern.ac.cn/eWebEditor/file/20240523/20240523171431_958.pdf", "locator":"Table 2, p.127, PDF page 7; visually checked", "site":"Meilisi, Qiqihar, Heilongjiang",
+    "columns":["year","treatment","manure_cost","other_cost","total_cost","revenue","net_reported","delta_reported"], "unit":"CNY/ha/year",
+    "rows":[[2021,"YS40",1275,5400,6675,32167,25492,2637],[2021,"WS40",0,4800,4800,26920,22120,-735],[2021,"YS20",1275,5400,6675,32169,25494,2639],[2021,"WS20",0,4800,4800,25563,20763,-2092],[2021,"YB",1275,4800,6075,34325,28625,5770],[2021,"CK",0,5100,5100,27955,22855,0],[2022,"YS40",0,5565,5565,33082,27517,4060],[2022,"WS40",0,4965,4965,27885,22920,-537],[2022,"YS20",0,5565,5565,34245,28680,5223],[2022,"WS20",0,4965,4965,26538,21573,-1884],[2022,"YB",0,5115,5115,32190,27075,3618],[2022,"CK",0,5415,5415,28890,23457,0]],
+    "maize_price_yuan_kg":{"2021":2.58,"2022":2.70},
+    "limitations":["CK itself is no tillage with stubble; not conventional tillage", "All groups receive same chemical fertilizer and straw; Y* groups also receive manure", "Land rent and all imputed costs not explicit: report listed-cost trial margin", "Two table arithmetic discrepancies retained; recalculation does not establish which source cell is wrong", "No economic SD or individual farm records"]
+  },
+  "luancheng2022": {
+    "doi":"10.3390/agronomy12010176", "source":"https://doi.org/10.3390/agronomy12010176", "locator":"Table 3, PDF page 7; visually checked", "site":"Luancheng, Hebei; wheat-maize double cropping", "years":[2001,2006,2011,2018],
+    "stock_0_30_tC_ha":{"CK":[38.1,38.0,42.3,41.5],"CT":[37.1,39.9,45.8,48.9],"RT":[36.4,41.1,44.2,44.7],"NT":[36.9,41.8,41.9,43.0]},
+    "limitations":["CK straw-removal treatment split from ploughing plots in 2004, so do not use CK from 2001 as independent long-term control", "Stock-rate heading says kg but values correspond to Mg; use stock differences", "Not Northeast black soil", "Fixed-depth SOC only; not full GHG balance", "NT/CT differ in wheat sowing and fertilizer placement as well as tillage"]
+  },
+  "baselines": [
+    {"region":"Liaoyang","year":2023,"source":"https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/2024102419143214552/index.shtml","revenue":1708.21,"total_cost":1646.97,"profit_reported":61.24,"cash_return":null,"status":"previous-year comparison reported in 2024 release; not tillage-classified"},
+    {"region":"Liaoyang","year":2024,"source":"https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/2024102419143214552/index.shtml","revenue":1143.83,"total_cost":1884.97,"profit_reported":-741.14,"cash_return":null,"status":"official forecast/survey; quoted grain price and yield do not reconcile with revenue; not tillage-classified"},
+    {"region":"Weihai","year":2026,"source":"https://fgw.weihai.gov.cn/art/2026/10/29/art_53887_6709046.html","revenue":890.30,"total_cost":1045.95,"profit_reported":null,"cash_return":40.36,"status":"official direct-report survey; production 867.57 + land 178.28 = 1045.85, differs from reported total by 0.10; not tillage-classified"}
+  ],
+  "ccer2025": {"source":"https://www.ccer.com.cn/wcm/ccer/html/2307ptggc1/20260101/090113981.shtml","mean":70.76,"daily_mean_min":50.84,"daily_mean_max":107.36,"unit":"CNY/tCO2e","use":"2025 observed market benchmark, not soil credit eligibility or actual farm income"},
+  "jilin2026": {"source":"https://www.jl.gov.cn/gb/2026/zb_430670/szfwj_426267/202610/t20261029_9735043.html","issued":"2026-08-15","high_cover_cap":80,"additional_operation_cap":25,"combined_cap":105,"unit":"CNY/mu","eligibility":"cover >=60%; extra strip/mix/subsoil operation per local implementation; <30% no subsidy; caps are not verified farmer receipts"}
+}

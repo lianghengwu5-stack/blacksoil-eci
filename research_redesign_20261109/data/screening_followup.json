@@ -1,0 +1,59 @@
+{
+  "screened_date": "2026-11-09",
+  "wang2024": {
+    "doi": "10.1016/j.geodrs.2024.e00840",
+    "title": "No-tillage with straw retention influenced maize root growth morphology by changing soil physical properties and aggregate structure in Northeast China: A ten-year field experiment",
+    "source": "https://www.sciencedirect.com/science/article/pii/S2352009424000877",
+    "file": "sources/wang_geodrs2024_print.pdf",
+    "sha256": "71c83a06e5325603696948a49774943e4d23dbee8879b422fc85b0e509bcc386",
+    "file_provenance": "Printed 9-page PDF from publisher full-text viewer through user institutional access; not original downloaded binary",
+    "soil_year": 2022,
+    "measurement": "Dry sieving; not water-stable MWD",
+    "decision": "Mechanistic context only; no merge with 2020 SOC and 2020/2021 budgets",
+    "reasons": [
+      "2022 soil sampling versus 2020 supplementary SOC",
+      "Dry-sieved aggregates are not interchangeable with wet-sieved water-stable aggregates",
+      "Published site coordinates, climate, design and operations differ from Zhang2024; plot identity not established",
+      "SOC only baseline 17.08 g/kg; treatment SOC not reported"
+    ],
+    "locators": [
+      "Methods 2.1-2.4 PDF pages 2-3",
+      "Results 3.2.2 PDF page 4; dry sieving prevents inclusion"
+    ],
+    "reported_mwd_increase_pct_0_40": 9.9,
+    "reported_mwd_use": "Context only; opposite-direction percentage in prose does not invert consistently; no extraction from chart as exact observation"
+  },
+  "jining2021": {
+    "source": "https://dlrk.jining.gov.cn/art/2021/10/20/art_78316_2781135.html",
+    "date": "2021-10-20",
+    "region": "Yanzhou, Jining, Shandong",
+    "crop": "maize",
+    "harvest_fee_before_straw_credit_yuan_mu": 120,
+    "straw_credit_yuan_mu": 70,
+    "farmer_cash_harvest_payment_yuan_mu": 50,
+    "decision": "Illustration of in-kind straw opportunity value; not a paired conservation-tillage trial and not a Northeast parameter",
+    "limits": [
+      "120 - 70 = 50; do not add 70 a second time after using the reduced service fee",
+      "Separate reported straw purchase model 210 yuan/mu is a different arrangement; not averaged or substituted",
+      "No local conservation-tillage cost/yield counterfactual; cannot calculate adoption compensation"
+    ]
+  },
+  "other_screened": [
+    {
+      "doi": "10.11841/j.issn.1007-4333.2025.12.07",
+      "status": "Publisher abstract accessible; PDF retrieval failed; only prior-art context, no numeric extraction"
+    },
+    {
+      "doi": "10.11924/j.issn.1000-6850.2013-2019",
+      "status": "Publisher abstract retrieved; full cost table not yet verified; not included numerically"
+    },
+    {
+      "doi": "10.1016/j.geoderma.2018.05.037",
+      "status": "Abstract only this round; reported rates not promoted to new core data"
+    },
+    {
+      "doi": "10.3864/j.issn.0578-1752.2023.18.005",
+      "status": "Different crops (potato and wheat), excluded from maize economic core"
+    }
+  ]
+}
