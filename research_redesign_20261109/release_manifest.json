@@ -1,0 +1,178 @@
+{
+  "README.md": {
+    "bytes": 6170,
+    "sha256": "3bdf2dd3607c655b3c1b6cc6378058415ce422159415ccc4965b868791326cf7"
+  },
+  "analyze.py": {
+    "bytes": 9596,
+    "sha256": "42cb8b9c5b8493c1c8ca6d7bf6ca14049230676cd0366389b7547528cb64875d"
+  },
+  "analyze_agsy2024.py": {
+    "bytes": 7381,
+    "sha256": "e023d45432255bc29913a31c3cd3a659515696e474853031ef473b79508cc044"
+  },
+  "build_live_slides.mjs": {
+    "bytes": 9797,
+    "sha256": "3fdacfd538b618eb0e48b92c0bf062059fd93a72ba5f96cb344dc52996f33080"
+  },
+  "build_manuscripts.py": {
+    "bytes": 32526,
+    "sha256": "1f53b44b8276f011b4a14374ec3618ded2283c5a3a31e2382761cd9131b34d7c"
+  },
+  "build_report.py": {
+    "bytes": 29289,
+    "sha256": "c2a0a3beb03c9245d8602473fa0bbc4fdc4021fa9ddcd8df2fd396ebba3d6650"
+  },
+  "check_analysis.py": {
+    "bytes": 1479,
+    "sha256": "389846e9c0e13e33b83accd0ea48711fa8d1eef54a7bf6c90098790444dcfd65"
+  },
+  "data/agsy2024.json": {
+    "bytes": 5875,
+    "sha256": "929909f95f5bd69a7e5eda655b6ae1b41feb09f42641d466eb8e8fdcfb48d9af"
+  },
+  "data/agsy2024_supplement.json": {
+    "bytes": 2810,
+    "sha256": "b342f7b14fc74fadd80c8a9f01e52e695c457e08f91ba6dc168b33d332ea4829"
+  },
+  "data/evidence.json": {
+    "bytes": 7690,
+    "sha256": "f7e74bbff35df17e06d9e1574b3e6bdfd4791e73ea8c411f73a81758c25e1925"
+  },
+  "data/screening_followup.json": {
+    "bytes": 2993,
+    "sha256": "31b426cd418fd87ffb284ea8ea1227d1a6975c7adddecd79a18bd6ab77037221"
+  },
+  "document_helpers.py": {
+    "bytes": 2759,
+    "sha256": "cecec90a23a79dafedc8e8be6d14b5425ba4e12cb496183691717d9b10890dd4"
+  },
+  "figures/01_soil_components.png": {
+    "bytes": 94310,
+    "sha256": "54c01b097e0206ecde5292f6e80b7cf3d6905d8e969be5520f4f6d07ca4dbd6e"
+  },
+  "figures/01_soil_components.svg": {
+    "bytes": 18774,
+    "sha256": "c805a265b2cef3890567f7df941a6a8eb501a9c26c76139a62eb11652058662a"
+  },
+  "figures/02_depth_weight_sensitivity.png": {
+    "bytes": 211227,
+    "sha256": "7c4fbae13c49b832f4fae706c9b3faa16df0f628664f4fb3bb3a96c2bb8bffc8"
+  },
+  "figures/02_depth_weight_sensitivity.svg": {
+    "bytes": 29183,
+    "sha256": "94eb1c4ebd4520c650bca02b554afd88cd3e8262ca15889c81d89d482ab8b3b6"
+  },
+  "figures/03_margin_controls.png": {
+    "bytes": 82346,
+    "sha256": "02d82ebdf185e2f0c04700f14b7eb50f92ffdcc80c7ad999a5e8bbd0f7055442"
+  },
+  "figures/03_margin_controls.svg": {
+    "bytes": 16866,
+    "sha256": "16ab054a2f84fd406cbcd1e1d22ce5a5772a314812de6df8137a54626aeee103"
+  },
+  "figures/04_climate_and_soc.png": {
+    "bytes": 125923,
+    "sha256": "d8cc39416da82e2a51b392f8b6064e07d75fa815fd434e59f2fbaf5895d23028"
+  },
+  "figures/04_climate_and_soc.svg": {
+    "bytes": 23449,
+    "sha256": "36e6d2d84829c5534b14d269e57f2f3017903d895e29efa2b6667af72dd35b90"
+  },
+  "figures/eq_carbon.png": {
+    "bytes": 15741,
+    "sha256": "93caa0febe28531b6220f4df3df93727e3bddcc42200620f449c02c43e8bb4c5"
+  },
+  "figures/eq_index.png": {
+    "bytes": 23057,
+    "sha256": "9a520c1fe24535e776c6da82f29cbeabe60621548ed5aa0eada0c7c8e2f63dc8"
+  },
+  "figures/eq_margin.png": {
+    "bytes": 9780,
+    "sha256": "a5afa622df2ed11da316d1a9cbc1e2196399baf1a114cfd8765427feedf0a8a8"
+  },
+  "figures/eq_subsidy.png": {
+    "bytes": 13232,
+    "sha256": "0d0a7bd1a03a9ae1a5731db5bbc809187b782f21cc96660b4093c5aeef05b9fe"
+  },
+  "figures/equations.json": {
+    "bytes": 404,
+    "sha256": "4584c4194e3fc34148f9b83a3f9ee8ca159e49c4274597b0a6186d47a13c914d"
+  },
+  "make_figures.py": {
+    "bytes": 6181,
+    "sha256": "fac37f8d0d96c5dd81b83b6c915c34068cf2a18758d9ef09b212123a69f3ca2a"
+  },
+  "manuscript/paper_content.json": {
+    "bytes": 27538,
+    "sha256": "b030413a87ffc797858f6d51a9dfb93164c6f088bb921dda19e4adbb14f63004"
+  },
+  "manuscript/report_content.json": {
+    "bytes": 28641,
+    "sha256": "9da19d67ae42fed97d8812796f6459e7a45d0f44fec7fc1da4d69f4df5d27a69"
+  },
+  "output/manuscripts/保护性耕作研究报告_整合稿.docx": {
+    "bytes": 575384,
+    "sha256": "fa4fdab4d81be58057d40c2c820a569e5012a2f595118d739e7100f9c8a90cd6"
+  },
+  "output/manuscripts/保护性耕作研究报告_整合稿.pdf": {
+    "bytes": 1016273,
+    "sha256": "07d20859135c369525c862b8e0148624f3206102972d5527e22ef4f754fed977"
+  },
+  "output/manuscripts/土壤保育与经营收益权衡_论文稿.docx": {
+    "bytes": 462978,
+    "sha256": "50a82571913ded267c21b0fa026ca942790aa353edc5d9928bf8440026288039"
+  },
+  "output/manuscripts/土壤保育与经营收益权衡_论文稿.pdf": {
+    "bytes": 896256,
+    "sha256": "6d7196941d20efdb30963a2b95bb9eed34d67057cedec883b35140777bc52447"
+  },
+  "requirements-authoring.txt": {
+    "bytes": 184,
+    "sha256": "812dd023cf8cb95019b0069240106504eb08af44dabc811e03fa67f1f3b4a54e"
+  },
+  "results/agsy2024_budget.csv": {
+    "bytes": 1085,
+    "sha256": "fc27179c9c4e36c3694f1e0b3b7a2acf2fd7893cfe05e9e9de3f3f990b3be507"
+  },
+  "results/agsy2024_compensation_thresholds.csv": {
+    "bytes": 469,
+    "sha256": "8dce6fe40753c3eb8cb8db6ac1282365dc1b0a743510123eadd188e4e6d9795b"
+  },
+  "results/agsy2024_contrasts.csv": {
+    "bytes": 1490,
+    "sha256": "85db62aebc0ec1b1972323c236a69897a655e7e452d37b5702cc1bd601120fde"
+  },
+  "results/agsy2024_results.json": {
+    "bytes": 17844,
+    "sha256": "513612ee08ca3606cffdc0ddc1c992427281b93e0e3ea6a40a03eb18dae68aba"
+  },
+  "results/agsy2024_soil_contrasts.csv": {
+    "bytes": 711,
+    "sha256": "67460fb92ac6082eee810085f171ea073d2c81e20850e798ceb3b9741c89c432"
+  },
+  "results/liang_carbon.csv": {
+    "bytes": 1389,
+    "sha256": "b32c61cf910ea1775dd777be27126fecadde90f9f10a8d1cdae451b59d9d80e4"
+  },
+  "results/luancheng_carbon.csv": {
+    "bytes": 443,
+    "sha256": "d830be2f264cd2c3791b964be74c5c24204866ab0b239173a76d0479f0c03b34"
+  },
+  "results/margin_contrasts.csv": {
+    "bytes": 685,
+    "sha256": "6420c14e1146809c3af0a179ca895999e04f61d0068ff9420d447d02ff7e03a0"
+  },
+  "results/results.json": {
+    "bytes": 45553,
+    "sha256": "558bebb21115ead78a98d935a652a53349acad700dc6b2a9b136a28a8c189170"
+  },
+  "results/sensitivity.csv": {
+    "bytes": 5395,
+    "sha256": "20086988981bb7856a873df569b6cc3f8a482a6837ad6af3a7a2a5eef21cb521"
+  },
+  "sources/verified_core_manifest.json": {
+    "bytes": 3259,
+    "sha256": "5ccee190af980529df3a153a96d051724fe58f30d4fb1d6b385c634e83801118"
+  }
+}

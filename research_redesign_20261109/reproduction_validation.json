@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-09",
+  "scripts": [
+    "analyze.py",
+    "check_analysis.py",
+    "analyze_agsy2024.py"
+  ],
+  "results_byte_identical": true,
+  "files_in_zip": 45,
+  "zip_sha256": "b029a8ae8cba9eb9a13185307305f19ed61c83eb56c27f8ee206a56936135709",
+  "excluded": [
+    "publisher full texts",
+    "supplement originals",
+    "official form with personal identifiers",
+    "temporary files"
+  ]
+}

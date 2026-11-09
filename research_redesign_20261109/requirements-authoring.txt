@@ -1,0 +1,6 @@
+# Numerical reproduction uses only Python standard library.
+# Optional for figures and Word/PDF manuscript authoring:
+matplotlib>=3.8,<4
+python-docx>=1.1,<2
+Pillow>=10
+reportlab>=4,<5
