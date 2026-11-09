@@ -1,4 +1,36 @@
-# BlackSoil ECI
+# BlackSoil：保护性耕作、土壤保育与经营收益
+
+正式立项名称：基于ECI模型的黑土生态价值量化与资产化路径研究。
+
+## 当前成果（2026年11月9日整合版）
+
+当前研究主线为**保护性耕作的土壤保育响应、经营收益与生态补偿**，使用公开田间试验与官方成本收益资料再分析，对东北黑土区作重点说明。以下独立目录为最新成果；下方旧ECI及剖面数据分析仅保留追溯用途。
+
+- [研究方法、数据与复算说明](research_redesign_20261109/README.md)
+- [研究报告PDF](research_redesign_20261109/output/manuscripts/保护性耕作研究报告_整合稿.pdf)（同目录有Word）
+- [论文稿PDF](research_redesign_20261109/output/manuscripts/土壤保育与经营收益权衡_论文稿.pdf)（同目录有Word；尚未投稿）
+- [结构化来源数据](research_redesign_20261109/data/)、[计算结果](research_redesign_20261109/results/)与[图表](research_redesign_20261109/figures/)
+- [全新目录复算验证](research_redesign_20261109/reproduction_validation.json)
+
+最新数值复算只需Python标准库：
+
+```bash
+cd research_redesign_20261109
+python3 analyze.py
+python3 check_analysis.py
+python3 analyze_agsy2024.py
+```
+
+复合指标用于描述土壤有机碳与水稳性团聚体的相对响应，不代表完整生态价值或已经验证的通用评价标准。成本覆盖不全的田间收益称为经营结余；土壤固碳与避免排放分开核算，参考碳价估值不等于可出售碳信用或农户实际收入。补贴模型用于核算参与门槛，不能据此确定最优补贴。正式结项表含个人信息，仅在本地交付。
+
+仓库暂为私有，代码许可尚待团队确定。出版商论文全文及补充材料原件不随仓库分发。
+
+---
+
+## 历史阶段：剖面碳储量与ECI适用性审查
+
+以下为前一阶段记录，其中“当前”均指该历史阶段，请勿替代上方最新研究成果。
+
 
 正式立项名称：基于ECI模型的黑土生态价值量化与资产化路径研究。
 
