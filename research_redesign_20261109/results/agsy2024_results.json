@@ -1,0 +1,497 @@
+{
+  "source": "10.1016/j.agsy.2024.103872",
+  "unit": "CNY/mu/year unless stated; growing-season soil flux only",
+  "baseline_and_treatments": [
+    {
+      "year": 2020,
+      "treatment": "CT",
+      "grain_revenue_yuan_mu": 1088.0,
+      "table5_material_cost_yuan_mu": 222.72000000000003,
+      "table2_material_cost_recalculated_yuan_mu": 222.74636800000005,
+      "table6_margin_yuan_mu": 865.2800000000001,
+      "table6_margin_se_yuan_mu": 28.58666666666667,
+      "table5_margin_recalculated_yuan_mu": 865.2800000000001,
+      "energy_implied_grain_yield_kg_ha": 6373.774834437087,
+      "source_net_ghg_kgCO2e_ha": 1952.6399999999999,
+      "cf_published": 0.31
+    },
+    {
+      "year": 2020,
+      "treatment": "MP",
+      "grain_revenue_yuan_mu": 1115.3066666666668,
+      "table5_material_cost_yuan_mu": 207.7866666666667,
+      "table2_material_cost_recalculated_yuan_mu": 207.89836800000003,
+      "table6_margin_yuan_mu": 907.5200000000001,
+      "table6_margin_se_yuan_mu": 41.38666666666667,
+      "table5_margin_recalculated_yuan_mu": 907.5200000000001,
+      "energy_implied_grain_yield_kg_ha": 6534.503311258279,
+      "source_net_ghg_kgCO2e_ha": 1763.48,
+      "cf_published": 0.27
+    },
+    {
+      "year": 2020,
+      "treatment": "NT",
+      "grain_revenue_yuan_mu": 1107.2,
+      "table5_material_cost_yuan_mu": 159.57333333333335,
+      "table2_material_cost_recalculated_yuan_mu": 159.64236800000003,
+      "table6_margin_yuan_mu": 943.36,
+      "table6_margin_se_yuan_mu": 21.76,
+      "table5_margin_recalculated_yuan_mu": 947.6266666666668,
+      "energy_implied_grain_yield_kg_ha": 6463.245033112583,
+      "source_net_ghg_kgCO2e_ha": 1153.25,
+      "cf_published": 0.18
+    },
+    {
+      "year": 2021,
+      "treatment": "CT",
+      "grain_revenue_yuan_mu": 1894.4,
+      "table5_material_cost_yuan_mu": 222.72000000000003,
+      "table2_material_cost_recalculated_yuan_mu": 222.74636800000005,
+      "table6_margin_yuan_mu": 1671.68,
+      "table6_margin_se_yuan_mu": 25.6,
+      "table5_margin_recalculated_yuan_mu": 1671.68,
+      "energy_implied_grain_yield_kg_ha": 10325.099337748345,
+      "source_net_ghg_kgCO2e_ha": 1963.22,
+      "cf_published": 0.19
+    },
+    {
+      "year": 2021,
+      "treatment": "MP",
+      "grain_revenue_yuan_mu": 1918.72,
+      "table5_material_cost_yuan_mu": 207.7866666666667,
+      "table2_material_cost_recalculated_yuan_mu": 207.89836800000003,
+      "table6_margin_yuan_mu": 1710.9333333333334,
+      "table6_margin_se_yuan_mu": 21.333333333333336,
+      "table5_margin_recalculated_yuan_mu": 1710.9333333333334,
+      "energy_implied_grain_yield_kg_ha": 10458.675496688742,
+      "source_net_ghg_kgCO2e_ha": 1798.04,
+      "cf_published": 0.17
+    },
+    {
+      "year": 2021,
+      "treatment": "NT",
+      "grain_revenue_yuan_mu": 1899.9466666666667,
+      "table5_material_cost_yuan_mu": 159.57333333333335,
+      "table2_material_cost_recalculated_yuan_mu": 159.64236800000003,
+      "table6_margin_yuan_mu": 1740.3733333333334,
+      "table6_margin_se_yuan_mu": 46.93333333333334,
+      "table5_margin_recalculated_yuan_mu": 1740.3733333333334,
+      "energy_implied_grain_yield_kg_ha": 10356.622516556292,
+      "source_net_ghg_kgCO2e_ha": 1154.71,
+      "cf_published": 0.11
+    }
+  ],
+  "contrasts": [
+    {
+      "year": 2020,
+      "treatment": "NT",
+      "control": "CT",
+      "margin_delta_table6_yuan_mu": 78.07999999999993,
+      "margin_delta_table5_yuan_mu": 82.34666666666669,
+      "table2_material_cost_saving_yuan_mu": 63.10400000000002,
+      "avoided_input_ghg_kgCO2e_ha": 696.9999999999999,
+      "avoided_soil_nonCO2_ghg_kgCO2e_ha": 102.38999999999999,
+      "avoided_total_kgCO2e_ha": 799.3899999999999,
+      "avoided_total_kgCO2e_mu": 53.292666666666655,
+      "emissions_reduction_pct": 40.93893395607997,
+      "benchmark_value_yuan_mu": 3.7709890933333328,
+      "grain_yield_change_implied_pct": 1.4037238685008946,
+      "net_profit_delta": null,
+      "soil_stock_increment": null,
+      "verified_carbon_revenue": null
+    },
+    {
+      "year": 2020,
+      "treatment": "NT",
+      "control": "MP",
+      "margin_delta_table6_yuan_mu": 35.83999999999992,
+      "margin_delta_table5_yuan_mu": 40.10666666666668,
+      "table2_material_cost_saving_yuan_mu": 48.256000000000014,
+      "avoided_input_ghg_kgCO2e_ha": 533.0,
+      "avoided_soil_nonCO2_ghg_kgCO2e_ha": 77.23000000000002,
+      "avoided_total_kgCO2e_ha": 610.23,
+      "avoided_total_kgCO2e_mu": 40.682,
+      "emissions_reduction_pct": 34.60373806337469,
+      "benchmark_value_yuan_mu": 2.8786583200000004,
+      "grain_yield_change_implied_pct": -1.0904926472823928,
+      "net_profit_delta": null,
+      "soil_stock_increment": null,
+      "verified_carbon_revenue": null
+    },
+    {
+      "year": 2020,
+      "treatment": "MP",
+      "control": "CT",
+      "margin_delta_table6_yuan_mu": 42.24000000000001,
+      "margin_delta_table5_yuan_mu": 42.24000000000001,
+      "table2_material_cost_saving_yuan_mu": 14.848000000000006,
+      "avoided_input_ghg_kgCO2e_ha": 164.0,
+      "avoided_soil_nonCO2_ghg_kgCO2e_ha": 25.159999999999968,
+      "avoided_total_kgCO2e_ha": 189.15999999999985,
+      "avoided_total_kgCO2e_mu": 12.610666666666656,
+      "emissions_reduction_pct": 9.68739757456571,
+      "benchmark_value_yuan_mu": 0.8923307733333328,
+      "grain_yield_change_implied_pct": 2.5217156394164775,
+      "net_profit_delta": null,
+      "soil_stock_increment": null,
+      "verified_carbon_revenue": null
+    },
+    {
+      "year": 2021,
+      "treatment": "NT",
+      "control": "CT",
+      "margin_delta_table6_yuan_mu": 68.69333333333338,
+      "margin_delta_table5_yuan_mu": 68.69333333333338,
+      "table2_material_cost_saving_yuan_mu": 63.10400000000002,
+      "avoided_input_ghg_kgCO2e_ha": 696.9999999999999,
+      "avoided_soil_nonCO2_ghg_kgCO2e_ha": 111.51000000000002,
+      "avoided_total_kgCO2e_ha": 808.51,
+      "avoided_total_kgCO2e_mu": 53.900666666666666,
+      "emissions_reduction_pct": 41.18285266042522,
+      "benchmark_value_yuan_mu": 3.8140111733333337,
+      "grain_yield_change_implied_pct": 0.30530630047014284,
+      "net_profit_delta": null,
+      "soil_stock_increment": null,
+      "verified_carbon_revenue": null
+    },
+    {
+      "year": 2021,
+      "treatment": "NT",
+      "control": "MP",
+      "margin_delta_table6_yuan_mu": 29.440000000000055,
+      "margin_delta_table5_yuan_mu": 29.440000000000055,
+      "table2_material_cost_saving_yuan_mu": 48.256000000000014,
+      "avoided_input_ghg_kgCO2e_ha": 533.0,
+      "avoided_soil_nonCO2_ghg_kgCO2e_ha": 110.33000000000001,
+      "avoided_total_kgCO2e_ha": 643.3299999999999,
+      "avoided_total_kgCO2e_mu": 42.88866666666666,
+      "emissions_reduction_pct": 35.77951547240328,
+      "benchmark_value_yuan_mu": 3.0348020533333333,
+      "grain_yield_change_implied_pct": -0.9757734635208903,
+      "net_profit_delta": null,
+      "soil_stock_increment": null,
+      "verified_carbon_revenue": null
+    },
+    {
+      "year": 2021,
+      "treatment": "MP",
+      "control": "CT",
+      "margin_delta_table6_yuan_mu": 39.25333333333333,
+      "margin_delta_table5_yuan_mu": 39.25333333333333,
+      "table2_material_cost_saving_yuan_mu": 14.848000000000006,
+      "avoided_input_ghg_kgCO2e_ha": 164.0,
+      "avoided_soil_nonCO2_ghg_kgCO2e_ha": 1.1800000000000068,
+      "avoided_total_kgCO2e_ha": 165.18000000000006,
+      "avoided_total_kgCO2e_mu": 11.012000000000004,
+      "emissions_reduction_pct": 8.413728466498918,
+      "benchmark_value_yuan_mu": 0.7792091200000004,
+      "grain_yield_change_implied_pct": 1.2937033782526974,
+      "net_profit_delta": null,
+      "soil_stock_increment": null,
+      "verified_carbon_revenue": null
+    }
+  ],
+  "soil_2020": {
+    "CT": {
+      "SOC": {
+        "mean_g_kg": 16.27,
+        "reported_plus_minus": 0.23,
+        "letters": "b",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TN": {
+        "mean_g_kg": 1.47,
+        "reported_plus_minus": 0.02,
+        "letters": "b",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TP": {
+        "mean_g_kg": 0.52,
+        "reported_plus_minus": 0.01,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TK": {
+        "mean_g_kg": 22.93,
+        "reported_plus_minus": 0.15,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      }
+    },
+    "MP": {
+      "SOC": {
+        "mean_g_kg": 17.96,
+        "reported_plus_minus": 0.44,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TN": {
+        "mean_g_kg": 1.64,
+        "reported_plus_minus": 0.04,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TP": {
+        "mean_g_kg": 0.53,
+        "reported_plus_minus": 0.01,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TK": {
+        "mean_g_kg": 23.46,
+        "reported_plus_minus": 0.35,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      }
+    },
+    "NT": {
+      "SOC": {
+        "mean_g_kg": 18.31,
+        "reported_plus_minus": 0.71,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TN": {
+        "mean_g_kg": 1.67,
+        "reported_plus_minus": 0.06,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TP": {
+        "mean_g_kg": 0.54,
+        "reported_plus_minus": 0.01,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      },
+      "TK": {
+        "mean_g_kg": 23.59,
+        "reported_plus_minus": 0.04,
+        "letters": "a",
+        "spread_kind": "not defined in supplementary file"
+      }
+    }
+  },
+  "soil_contrasts": [
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "CT",
+      "metric": "SOC",
+      "response_pct": 12.538414259373077,
+      "source_letters_differ": true,
+      "source_letters": "a/b",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "CT",
+      "metric": "TN",
+      "response_pct": 13.605442176870742,
+      "source_letters_differ": true,
+      "source_letters": "a/b",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "CT",
+      "metric": "TP",
+      "response_pct": 3.8461538461538547,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "CT",
+      "metric": "TK",
+      "response_pct": 2.878325337985177,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "MP",
+      "metric": "SOC",
+      "response_pct": 1.948775055679275,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "MP",
+      "metric": "TN",
+      "response_pct": 1.8292682926829285,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "MP",
+      "metric": "TP",
+      "response_pct": 1.8867924528301883,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "NT",
+      "control": "MP",
+      "metric": "TK",
+      "response_pct": 0.5541346973571892,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "MP",
+      "control": "CT",
+      "metric": "SOC",
+      "response_pct": 10.387215734480648,
+      "source_letters_differ": true,
+      "source_letters": "a/b",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "MP",
+      "control": "CT",
+      "metric": "TN",
+      "response_pct": 11.564625850340127,
+      "source_letters_differ": true,
+      "source_letters": "a/b",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "MP",
+      "control": "CT",
+      "metric": "TP",
+      "response_pct": 1.9230769230769162,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    },
+    {
+      "year": 2020,
+      "depth_cm": "0-20",
+      "treatment": "MP",
+      "control": "CT",
+      "metric": "TK",
+      "response_pct": 2.3113824683820283,
+      "source_letters_differ": false,
+      "source_letters": "a/a",
+      "soil_stock_increment": null
+    }
+  ],
+  "compensation_thresholds": [
+    {
+      "year": 2020,
+      "treatment": "NT",
+      "control": "CT",
+      "uncovered_burden_threshold_table6_yuan_mu": 78.07999999999993,
+      "uncovered_burden_threshold_table5_yuan_mu": 82.34666666666669,
+      "remaining_burden_observed": null,
+      "required_compensation_yuan_mu": null
+    },
+    {
+      "year": 2020,
+      "treatment": "NT",
+      "control": "MP",
+      "uncovered_burden_threshold_table6_yuan_mu": 35.83999999999992,
+      "uncovered_burden_threshold_table5_yuan_mu": 40.10666666666668,
+      "remaining_burden_observed": null,
+      "required_compensation_yuan_mu": null
+    },
+    {
+      "year": 2020,
+      "treatment": "MP",
+      "control": "CT",
+      "uncovered_burden_threshold_table6_yuan_mu": 42.24000000000001,
+      "uncovered_burden_threshold_table5_yuan_mu": 42.24000000000001,
+      "remaining_burden_observed": null,
+      "required_compensation_yuan_mu": null
+    },
+    {
+      "year": 2021,
+      "treatment": "NT",
+      "control": "CT",
+      "uncovered_burden_threshold_table6_yuan_mu": 68.69333333333338,
+      "uncovered_burden_threshold_table5_yuan_mu": 68.69333333333338,
+      "remaining_burden_observed": null,
+      "required_compensation_yuan_mu": null
+    },
+    {
+      "year": 2021,
+      "treatment": "NT",
+      "control": "MP",
+      "uncovered_burden_threshold_table6_yuan_mu": 29.440000000000055,
+      "uncovered_burden_threshold_table5_yuan_mu": 29.440000000000055,
+      "remaining_burden_observed": null,
+      "required_compensation_yuan_mu": null
+    },
+    {
+      "year": 2021,
+      "treatment": "MP",
+      "control": "CT",
+      "uncovered_burden_threshold_table6_yuan_mu": 39.25333333333333,
+      "uncovered_burden_threshold_table5_yuan_mu": 39.25333333333333,
+      "remaining_burden_observed": null,
+      "required_compensation_yuan_mu": null
+    }
+  ],
+  "audit": [
+    {
+      "year": 2020,
+      "treatment": "NT",
+      "table5_revenue_less_cost_usd_ha": 2221,
+      "table6_neeb_usd_ha": 2211,
+      "discrepancy_usd_ha": 10,
+      "energy_implied_revenue_usd_ha": 2585.2980132450334,
+      "energy_implied_neeb_usd_ha": 2211.1362132450336,
+      "action": "retain all branches; energy-derived values are cross-checks, not additional observations"
+    }
+  ],
+  "limits": [
+    "NEEB here is grain revenue minus listed material inputs only; no land rent, complete machinery service/capital costs, labor or straw-sale opportunity value",
+    "Published ANOVA: yield and NEEB differences not significant; do not equate absence of significance with proven equivalence",
+    "2020 NT Table 5 revenue minus total cost is 2221, but Table 6 NEEB is 2211 USD/ha; cannot silently correct original values",
+    "Table 5 rounded component costs differ from rounded totals by 1 USD/ha, consistent with independent rounding",
+    "Herbicide quantity is kg in Table 2 but Table 1 environmental coefficients use L; do not silently assume density=1",
+    "Formula 2 excludes SOC stock change and seasonal soil respiration CO2; not full ecosystem carbon balance",
+    "Growing-season sampling excludes off-season fluxes; no verified carbon credits",
+    "No measured soil-carbon stock increment or MWD in main paper; do not borrow another site's SOC rate or compute the soil index with imputed MWD",
+    "Costs use two-year mean inputs and source FX 6.4, not current FX; period is eight/nine years after establishment, not transition costs",
+    "Supplement S1/S2 retrieved from publisher on 2026-11-09: 2020 soil concentrations and machinery specifications only; no bulk density, SOC stock trajectory, MWD or full machinery costs."
+  ],
+  "supplement_limits": [
+    "S1为2020年0–20 cm土壤有机碳及全氮、全磷、全钾浓度；不等于碳储量或逐年增汇。",
+    "SOC显著性字母：CT为b，MP和NT均为a；NT与MP未检出显著差异。",
+    "NT与CT差异同时包含免耕和秸秆归还差异，不能单独归因于免耕。",
+    "附件未提供容重、团聚体MWD、完整经营成本或原始重复小区观测；不能据此填补综合指数或碳汇核算缺项。",
+    "附件自身未定义±数值为SD还是SE，保留原文，不自行判定。",
+    "S2为设备参数，不是作业服务收费；原文喷雾机宽度120 cm照录，未擅自改为1200。"
+  ],
+  "subsidy_rule": "Let U = omitted incremental cost + lost net straw value + supported transition risk - realized carbon net cash - existing actual subsidy benefit. Incremental compensation = max(0, U - listed material margin gain). U is signed and unobserved; no default of zero. This is an accounting threshold, not an optimal subsidy estimate."
+}

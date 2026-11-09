@@ -1,0 +1,7 @@
+﻿year,treatment,control,meaning,delta_revenue,delta_listed_cost,delta_margin_recalculated,delta_margin_published
+2021,CK,WS20,no-till vs rotary; same straw/fertilizer,159.46666666666667,20.0,139.46666666666667,139.46666666666667
+2021,CK,WS40,no-till vs subsoil; same straw/fertilizer,69.0,20.0,49.0,49.0
+2021,YB,CK,"added manure under no-till, not a tillage effect",424.6666666666667,65.0,359.6666666666667,384.6666666666667
+2022,CK,WS20,no-till vs rotary; same straw/fertilizer,156.8,30.0,126.80000000000001,125.6
+2022,CK,WS40,no-till vs subsoil; same straw/fertilizer,67.0,30.0,37.0,35.8
+2022,YB,CK,"added manure under no-till, not a tillage effect",220.0,-20.0,240.0,241.2

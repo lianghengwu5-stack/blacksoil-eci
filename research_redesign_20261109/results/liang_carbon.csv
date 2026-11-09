@@ -1,0 +1,7 @@
+﻿treatment,control,method,additional_tC_ha_year,additional_tCO2_mu_year,value_at_2025_mean,value_at_daily_price_min,value_at_daily_price_max,eligible_cash_income,status
+SM,CK,endpoint_stocks_common_initial,1.9666666666666661,0.4807407407407406,34.01721481481481,24.440859259259252,51.61232592592591,,unresolved source reconciliation; fixed-depth soil-C benchmark valuation only
+SM,CK,published_sequestered_quantities,2.0716666666666668,0.5064074074074074,35.83338814814815,25.745752592592595,54.36789925925926,,unresolved source reconciliation; fixed-depth soil-C benchmark valuation only
+SM,CK,published_rates,2.0600000000000005,0.5035555555555556,35.63159111111112,25.60076444444445,54.06172444444445,,unresolved source reconciliation; fixed-depth soil-C benchmark valuation only
+SI,CK,endpoint_stocks_common_initial,2.5833333333333335,0.6314814814814815,44.683629629629635,32.104518518518525,67.79585185185185,,unresolved source reconciliation; fixed-depth soil-C benchmark valuation only
+SI,CK,published_sequestered_quantities,2.5366666666666666,0.620074074074074,43.87644148148148,31.524565925925923,66.57115259259258,,unresolved source reconciliation; fixed-depth soil-C benchmark valuation only
+SI,CK,published_rates,2.54,0.6208888888888889,43.93409777777778,31.56599111111111,66.6586311111111,,unresolved source reconciliation; fixed-depth soil-C benchmark valuation only

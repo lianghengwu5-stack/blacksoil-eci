@@ -1,0 +1,1865 @@
+{
+  "status": "Descriptive prototype from published means; no composite CI or credit certification",
+  "index": [
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 30,
+      "index": 115.7307768231201,
+      "carbon_concentration_response": 116.71459904127659,
+      "aggregate_response": 114.75524753630972,
+      "component_min": 114.75524753630972,
+      "point_estimate_decline_layers": [
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 1.152156862745098,
+          "mwd_ratio": 0.9855072463768118
+        }
+      ],
+      "layers": [
+        {
+          "depth_cm": [
+            0,
+            10
+          ],
+          "h": 10,
+          "soc_ratio": 1.2235904082955282,
+          "mwd_ratio": 1.2837837837837838
+        },
+        {
+          "depth_cm": [
+            10,
+            20
+          ],
+          "h": 10,
+          "soc_ratio": 1.1277890466531442,
+          "mwd_ratio": 1.1944444444444444
+        },
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 1.152156862745098,
+          "mwd_ratio": 0.9855072463768118
+        }
+      ]
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 30,
+      "index": 126.7245488176993,
+      "carbon_concentration_response": 127.36570244285718,
+      "aggregate_response": 126.08662273310507,
+      "component_min": 126.08662273310507,
+      "point_estimate_decline_layers": [],
+      "layers": [
+        {
+          "depth_cm": [
+            0,
+            10
+          ],
+          "h": 10,
+          "soc_ratio": 1.1808165910563837,
+          "mwd_ratio": 1.2432432432432432
+        },
+        {
+          "depth_cm": [
+            10,
+            20
+          ],
+          "h": 10,
+          "soc_ratio": 1.2359702501690333,
+          "mwd_ratio": 1.25
+        },
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 1.415686274509804,
+          "mwd_ratio": 1.2898550724637683
+        }
+      ]
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "index": 110.9086357519757,
+      "carbon_concentration_response": 106.16387687755334,
+      "aggregate_response": 115.8654510945541,
+      "component_min": 106.16387687755334,
+      "point_estimate_decline_layers": [
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 0.9784283513097073,
+          "mwd_ratio": 1.0714285714285714
+        }
+      ],
+      "layers": [
+        {
+          "depth_cm": [
+            0,
+            5
+          ],
+          "h": 5,
+          "soc_ratio": 1.2036667995217218,
+          "mwd_ratio": 1.543478260869565
+        },
+        {
+          "depth_cm": [
+            5,
+            10
+          ],
+          "h": 5,
+          "soc_ratio": 1.0396732788798133,
+          "mwd_ratio": 1.1827956989247312
+        },
+        {
+          "depth_cm": [
+            10,
+            20
+          ],
+          "h": 10,
+          "soc_ratio": 1.0932001902044697,
+          "mwd_ratio": 1.074468085106383
+        },
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 0.9784283513097073,
+          "mwd_ratio": 1.0714285714285714
+        }
+      ]
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "index": 149.07037479389683,
+      "carbon_concentration_response": 113.04249918869928,
+      "aggregate_response": 196.58072672383355,
+      "component_min": 113.04249918869928,
+      "point_estimate_decline_layers": [],
+      "layers": [
+        {
+          "depth_cm": [
+            0,
+            5
+          ],
+          "h": 5,
+          "soc_ratio": 1.3176265270506107,
+          "mwd_ratio": 2.0882352941176467
+        },
+        {
+          "depth_cm": [
+            5,
+            10
+          ],
+          "h": 5,
+          "soc_ratio": 1.119815668202765,
+          "mwd_ratio": 1.8032786885245904
+        },
+        {
+          "depth_cm": [
+            10,
+            20
+          ],
+          "h": 10,
+          "soc_ratio": 1.1236559139784945,
+          "mwd_ratio": 2.3488372093023258
+        },
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 1.0583333333333333,
+          "mwd_ratio": 1.6666666666666665
+        }
+      ]
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "index": 102.57086951930732,
+      "carbon_concentration_response": 102.14111734697504,
+      "aggregate_response": 103.00242984622439,
+      "component_min": 102.14111734697504,
+      "point_estimate_decline_layers": [
+        {
+          "depth_cm": [
+            5,
+            10
+          ],
+          "h": 5,
+          "soc_ratio": 1.014780241151303,
+          "mwd_ratio": 0.989247311827957
+        },
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 0.9424756034925528,
+          "mwd_ratio": 0.9857142857142857
+        }
+      ],
+      "layers": [
+        {
+          "depth_cm": [
+            0,
+            5
+          ],
+          "h": 5,
+          "soc_ratio": 1.068951773614986,
+          "mwd_ratio": 1.0978260869565217
+        },
+        {
+          "depth_cm": [
+            5,
+            10
+          ],
+          "h": 5,
+          "soc_ratio": 1.014780241151303,
+          "mwd_ratio": 0.989247311827957
+        },
+        {
+          "depth_cm": [
+            10,
+            20
+          ],
+          "h": 10,
+          "soc_ratio": 1.0855920114122681,
+          "mwd_ratio": 1.0638297872340425
+        },
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 0.9424756034925528,
+          "mwd_ratio": 0.9857142857142857
+        }
+      ]
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "index": 144.1333769621532,
+      "carbon_concentration_response": 109.5633935319543,
+      "aggregate_response": 189.6110524219502,
+      "component_min": 109.5633935319543,
+      "point_estimate_decline_layers": [],
+      "layers": [
+        {
+          "depth_cm": [
+            0,
+            5
+          ],
+          "h": 5,
+          "soc_ratio": 1.256980802792321,
+          "mwd_ratio": 1.8676470588235292
+        },
+        {
+          "depth_cm": [
+            5,
+            10
+          ],
+          "h": 5,
+          "soc_ratio": 1.0984499371596146,
+          "mwd_ratio": 1.7704918032786887
+        },
+        {
+          "depth_cm": [
+            10,
+            20
+          ],
+          "h": 10,
+          "soc_ratio": 1.0826001955034212,
+          "mwd_ratio": 2.162790697674419
+        },
+        {
+          "depth_cm": [
+            20,
+            30
+          ],
+          "h": 10,
+          "soc_ratio": 1.0338888888888889,
+          "mwd_ratio": 1.7333333333333334
+        }
+      ]
+    }
+  ],
+  "sensitivity": [
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0,
+      "index": 128.3783783783784
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0.25,
+      "index": 126.8463369198996
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0.5,
+      "index": 125.33257853260574
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0.75,
+      "index": 123.8368850300436
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 1,
+      "index": 122.35904082955282
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0,
+      "index": 123.83086886590146
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0.25,
+      "index": 122.20941977513937
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0.5,
+      "index": 120.60920203951524
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0.75,
+      "index": 119.02993765434576
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 1,
+      "index": 117.47135225515817
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0,
+      "index": 114.75524753630972
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0.25,
+      "index": 115.24197994614013
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0.5,
+      "index": 115.7307768231201
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0.75,
+      "index": 116.22164692365158
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 1,
+      "index": 116.71459904127659
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0,
+      "index": 109.34426147677118
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0.25,
+      "index": 110.75736957755925
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0.5,
+      "index": 112.18873994906495
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0.75,
+      "index": 113.6386086033327
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 1,
+      "index": 115.10721460250318
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0,
+      "index": 124.32432432432432
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0.25,
+      "index": 122.73337937123661
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0.5,
+      "index": 121.16279331297908
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 0.75,
+      "index": 119.61230562224823
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 10,
+      "carbon_weight": 1,
+      "index": 118.08165910563837
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0,
+      "index": 124.66170438647364
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0.25,
+      "index": 123.68687106982897
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0.5,
+      "index": 122.71966078384891
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 0.75,
+      "index": 121.76001391773073
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 20,
+      "carbon_weight": 1,
+      "index": 120.80787132681809
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0,
+      "index": 126.08662273310507
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0.25,
+      "index": 126.40518335021001
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0.5,
+      "index": 126.7245488176993
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 0.75,
+      "index": 127.04472116904513
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 30,
+      "carbon_weight": 1,
+      "index": 127.36570244285718
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0,
+      "index": 121.70686729090643
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0.25,
+      "index": 123.20022974746769
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0.5,
+      "index": 124.71191599689544
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 0.75,
+      "index": 126.24215087501804
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "depth_cm": 40,
+      "carbon_weight": 1,
+      "index": 127.791161976435
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0,
+      "index": 154.3478260869565
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0.25,
+      "index": 145.0447314206708
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0.5,
+      "index": 136.3023674919927
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0.75,
+      "index": 128.0869370569538
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 1,
+      "index": 120.36667995217218
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0,
+      "index": 135.11548572759327
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0.25,
+      "index": 128.885553388152
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0.5,
+      "index": 122.9428720380775
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0.75,
+      "index": 117.27419705023792
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 1,
+      "index": 111.86689448346725
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0,
+      "index": 120.48953366078979
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0.25,
+      "index": 117.93349051562174
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0.5,
+      "index": 115.43167080680918
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0.75,
+      "index": 112.98292424819374
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 1,
+      "index": 110.58612495557918
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0,
+      "index": 115.8654510945541
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0.25,
+      "index": 113.35995373889429
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0.5,
+      "index": 110.9086357519757
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0.75,
+      "index": 108.51032554844795
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 1,
+      "index": 106.16387687755334
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0,
+      "index": 208.82352941176467
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0.25,
+      "index": 186.11554833533347
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0.5,
+      "index": 165.87688863288776
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0.75,
+      "index": 147.83903026173869
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 1,
+      "index": 131.76265270506107
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0,
+      "index": 194.0533483995376
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0.25,
+      "index": 172.60692448794643
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0.5,
+      "index": 153.5307204276957
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0.75,
+      "index": 136.5627838221133
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 1,
+      "index": 121.47011277803557
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0,
+      "index": 213.4946662824488
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0.25,
+      "index": 183.6234400177001
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0.5,
+      "index": 157.93166317010605
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0.75,
+      "index": 135.8345657246784
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 1,
+      "index": 116.82919609184785
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0,
+      "index": 196.58072672383355
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0.25,
+      "index": 171.1851705317329
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0.5,
+      "index": 149.07037479389683
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0.75,
+      "index": 129.81250988135997
+    },
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 1,
+      "index": 113.04249918869928
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0,
+      "index": 109.78260869565217
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0.25,
+      "index": 109.0535199240072
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0.5,
+      "index": 108.32927318010464
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 0.75,
+      "index": 107.60983630704732
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 5,
+      "carbon_weight": 1,
+      "index": 106.89517736149861
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0,
+      "index": 104.21235557151292
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0.25,
+      "index": 104.19711004995906
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0.5,
+      "index": 104.18186675871588
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 0.75,
+      "index": 104.16662569745708
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 10,
+      "carbon_weight": 1,
+      "index": 104.15138686585641
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0,
+      "index": 105.29207380178292
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0.25,
+      "index": 105.55121130846743
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0.5,
+      "index": 105.81098658630552
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 0.75,
+      "index": 106.07140120493509
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 20,
+      "carbon_weight": 1,
+      "index": 106.332456737857
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0,
+      "index": 103.00242984622439
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0.25,
+      "index": 102.78642318871051
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0.5,
+      "index": 102.57086951930732
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 0.75,
+      "index": 102.35576788805227
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_IR",
+      "control": "CT_IR",
+      "depth_cm": 30,
+      "carbon_weight": 1,
+      "index": 102.14111734697504
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0,
+      "index": 186.76470588235293
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0.25,
+      "index": 169.1621777220288
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0.5,
+      "index": 153.21868356478973
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 0.75,
+      "index": 138.77785985885933
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 5,
+      "carbon_weight": 1,
+      "index": 125.6980802792321
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0,
+      "index": 181.84206908921294
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0.25,
+      "index": 163.03632878903636
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0.5,
+      "index": 146.17544024956084
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 0.75,
+      "index": 131.05827082135457
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 10,
+      "carbon_weight": 1,
+      "index": 117.50448858822658
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0,
+      "index": 198.3144814359301
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0.25,
+      "index": 172.21903096545083
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0.5,
+      "index": 149.55738185091158
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 0.75,
+      "index": 129.8776931951646
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 20,
+      "carbon_weight": 1,
+      "index": 112.78758013103376
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0,
+      "index": 189.6110524219502
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0.25,
+      "index": 165.31570190070735
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0.5,
+      "index": 144.1333769621532
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 0.75,
+      "index": 125.66519765310484
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST_BR",
+      "control": "CT_BR",
+      "depth_cm": 30,
+      "carbon_weight": 1,
+      "index": 109.5633935319543
+    }
+  ],
+  "chen_spatial_grid": {
+    "min": [
+      102.57086951930732,
+      1.0,
+      1.0
+    ],
+    "max": [
+      144.1333769621532,
+      0.0,
+      0.0
+    ],
+    "meaning": "ST and CT IR area fractions varied independently 0..1, step .01; hypothetical weights, not measured coverage or statistical uncertainty"
+  },
+  "yields": [
+    {
+      "study": "chen2021",
+      "treatment": "NT",
+      "control": "CT",
+      "annual": [
+        {
+          "year": 2011,
+          "treatment": 8030,
+          "control": 8835,
+          "delta_kg_ha": -805,
+          "change_pct": -9.111488398415391
+        },
+        {
+          "year": 2013,
+          "treatment": 9527,
+          "control": 8570,
+          "delta_kg_ha": 957,
+          "change_pct": 11.16686114352392
+        },
+        {
+          "year": 2015,
+          "treatment": 9850,
+          "control": 9740,
+          "delta_kg_ha": 110,
+          "change_pct": 1.129363449691989
+        },
+        {
+          "year": 2017,
+          "treatment": 9129,
+          "control": 8612,
+          "delta_kg_ha": 517,
+          "change_pct": 6.0032512772875135
+        },
+        {
+          "year": 2019,
+          "treatment": 8975,
+          "control": 9146,
+          "delta_kg_ha": -171,
+          "change_pct": -1.869669801005902
+        }
+      ],
+      "mean_treatment_kg_ha": 9102.2,
+      "mean_control_kg_ha": 8980.6,
+      "ratio_of_means_pct": 1.3540297975636495,
+      "delta_kg_mu": 8.10666666666669
+    },
+    {
+      "study": "chen2021",
+      "treatment": "ST",
+      "control": "CT",
+      "annual": [
+        {
+          "year": 2011,
+          "treatment": 8225,
+          "control": 8835,
+          "delta_kg_ha": -610,
+          "change_pct": -6.904357668364458
+        },
+        {
+          "year": 2013,
+          "treatment": 8775,
+          "control": 8570,
+          "delta_kg_ha": 205,
+          "change_pct": 2.392065344224048
+        },
+        {
+          "year": 2015,
+          "treatment": 9477,
+          "control": 9740,
+          "delta_kg_ha": -263,
+          "change_pct": -2.7002053388090363
+        },
+        {
+          "year": 2017,
+          "treatment": 9133,
+          "control": 8612,
+          "delta_kg_ha": 521,
+          "change_pct": 6.049698095680456
+        },
+        {
+          "year": 2019,
+          "treatment": 9239,
+          "control": 9146,
+          "delta_kg_ha": 93,
+          "change_pct": 1.0168379619505785
+        }
+      ],
+      "mean_treatment_kg_ha": 8969.8,
+      "mean_control_kg_ha": 8980.6,
+      "ratio_of_means_pct": -0.12025922544152134,
+      "delta_kg_mu": -0.7200000000000728
+    },
+    {
+      "study": "eco2024",
+      "treatment": "T1",
+      "control": "CK",
+      "annual": [
+        {
+          "year": 2018,
+          "treatment": 10902.2,
+          "control": 11786.5,
+          "delta_kg_ha": -884.2999999999993,
+          "change_pct": -7.502651338395616
+        },
+        {
+          "year": 2019,
+          "treatment": 9365.8,
+          "control": 11092.2,
+          "delta_kg_ha": -1726.4000000000015,
+          "change_pct": -15.564090081318415
+        },
+        {
+          "year": 2020,
+          "treatment": 9798.0,
+          "control": 10854.3,
+          "delta_kg_ha": -1056.2999999999993,
+          "change_pct": -9.731627097095153
+        }
+      ],
+      "mean_treatment_kg_ha": 10022.0,
+      "mean_control_kg_ha": 11244.333333333334,
+      "ratio_of_means_pct": -10.870660777280417,
+      "delta_kg_mu": -81.48888888888892
+    },
+    {
+      "study": "eco2024",
+      "treatment": "T2",
+      "control": "CK",
+      "annual": [
+        {
+          "year": 2018,
+          "treatment": 11155.5,
+          "control": 11786.5,
+          "delta_kg_ha": -631.0,
+          "change_pct": -5.353582488440168
+        },
+        {
+          "year": 2019,
+          "treatment": 9658.7,
+          "control": 11092.2,
+          "delta_kg_ha": -1433.5,
+          "change_pct": -12.923495789834295
+        },
+        {
+          "year": 2020,
+          "treatment": 9577.2,
+          "control": 10854.3,
+          "delta_kg_ha": -1277.0999999999985,
+          "change_pct": -11.765843951245113
+        }
+      ],
+      "mean_treatment_kg_ha": 10130.466666666667,
+      "mean_control_kg_ha": 11244.333333333334,
+      "ratio_of_means_pct": -9.906026739394658,
+      "delta_kg_mu": -74.25777777777779
+    },
+    {
+      "study": "eco2024",
+      "treatment": "T3",
+      "control": "CK",
+      "annual": [
+        {
+          "year": 2018,
+          "treatment": 11309.0,
+          "control": 11786.5,
+          "delta_kg_ha": -477.5,
+          "change_pct": -4.051245068510589
+        },
+        {
+          "year": 2019,
+          "treatment": 11419.3,
+          "control": 11092.2,
+          "delta_kg_ha": 327.09999999999854,
+          "change_pct": 2.948919060240507
+        },
+        {
+          "year": 2020,
+          "treatment": 10759.3,
+          "control": 10854.3,
+          "delta_kg_ha": -95.0,
+          "change_pct": -0.8752291718489458
+        }
+      ],
+      "mean_treatment_kg_ha": 11162.533333333333,
+      "mean_control_kg_ha": 11244.333333333334,
+      "ratio_of_means_pct": -0.7274775442445147,
+      "delta_kg_mu": -5.453333333333406
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SM",
+      "control": "CK",
+      "ratio_of_means_pct": -7.634408602150544,
+      "delta_dry_kg_mu": -47.33333333333339,
+      "no_price_conversion": "Dry mass; market moisture unspecified"
+    },
+    {
+      "study": "liang2021",
+      "treatment": "SI",
+      "control": "CK",
+      "ratio_of_means_pct": 7.956989247311808,
+      "delta_dry_kg_mu": 49.33333333333323,
+      "no_price_conversion": "Dry mass; market moisture unspecified"
+    }
+  ],
+  "trial_margin": [
+    {
+      "year": 2021,
+      "treatment": "YS40",
+      "revenue": 2144.4666666666667,
+      "listed_cost": 445.0,
+      "margin_recalculated": 1699.4666666666667,
+      "margin_reported": 1699.4666666666667
+    },
+    {
+      "year": 2021,
+      "treatment": "WS40",
+      "revenue": 1794.6666666666667,
+      "listed_cost": 320.0,
+      "margin_recalculated": 1474.6666666666667,
+      "margin_reported": 1474.6666666666667
+    },
+    {
+      "year": 2021,
+      "treatment": "YS20",
+      "revenue": 2144.6,
+      "listed_cost": 445.0,
+      "margin_recalculated": 1699.6,
+      "margin_reported": 1699.6
+    },
+    {
+      "year": 2021,
+      "treatment": "WS20",
+      "revenue": 1704.2,
+      "listed_cost": 320.0,
+      "margin_recalculated": 1384.2,
+      "margin_reported": 1384.2
+    },
+    {
+      "year": 2021,
+      "treatment": "YB",
+      "revenue": 2288.3333333333335,
+      "listed_cost": 405.0,
+      "margin_recalculated": 1883.3333333333333,
+      "margin_reported": 1908.3333333333333
+    },
+    {
+      "year": 2021,
+      "treatment": "CK",
+      "revenue": 1863.6666666666667,
+      "listed_cost": 340.0,
+      "margin_recalculated": 1523.6666666666667,
+      "margin_reported": 1523.6666666666667
+    },
+    {
+      "year": 2022,
+      "treatment": "YS40",
+      "revenue": 2205.4666666666667,
+      "listed_cost": 371.0,
+      "margin_recalculated": 1834.4666666666667,
+      "margin_reported": 1834.4666666666667
+    },
+    {
+      "year": 2022,
+      "treatment": "WS40",
+      "revenue": 1859.0,
+      "listed_cost": 331.0,
+      "margin_recalculated": 1528.0,
+      "margin_reported": 1528.0
+    },
+    {
+      "year": 2022,
+      "treatment": "YS20",
+      "revenue": 2283.0,
+      "listed_cost": 371.0,
+      "margin_recalculated": 1912.0,
+      "margin_reported": 1912.0
+    },
+    {
+      "year": 2022,
+      "treatment": "WS20",
+      "revenue": 1769.2,
+      "listed_cost": 331.0,
+      "margin_recalculated": 1438.2,
+      "margin_reported": 1438.2
+    },
+    {
+      "year": 2022,
+      "treatment": "YB",
+      "revenue": 2146.0,
+      "listed_cost": 341.0,
+      "margin_recalculated": 1805.0,
+      "margin_reported": 1805.0
+    },
+    {
+      "year": 2022,
+      "treatment": "CK",
+      "revenue": 1926.0,
+      "listed_cost": 361.0,
+      "margin_recalculated": 1565.0,
+      "margin_reported": 1563.8
+    }
+  ],
+  "source_arithmetic_flags": [
+    {
+      "study": "xu2024",
+      "year": 2021,
+      "treatment": "YB",
+      "published": 28625,
+      "recalculated": 28250,
+      "difference": 375,
+      "unit": "CNY/ha"
+    },
+    {
+      "study": "xu2024",
+      "year": 2022,
+      "treatment": "CK",
+      "published": 23457,
+      "recalculated": 23475,
+      "difference": -18,
+      "unit": "CNY/ha"
+    }
+  ],
+  "margin_contrasts": [
+    {
+      "year": 2021,
+      "treatment": "CK",
+      "control": "WS20",
+      "meaning": "no-till vs rotary; same straw/fertilizer",
+      "delta_revenue": 159.46666666666667,
+      "delta_listed_cost": 20.0,
+      "delta_margin_recalculated": 139.46666666666667,
+      "delta_margin_published": 139.46666666666667
+    },
+    {
+      "year": 2021,
+      "treatment": "CK",
+      "control": "WS40",
+      "meaning": "no-till vs subsoil; same straw/fertilizer",
+      "delta_revenue": 69.0,
+      "delta_listed_cost": 20.0,
+      "delta_margin_recalculated": 49.0,
+      "delta_margin_published": 49.0
+    },
+    {
+      "year": 2021,
+      "treatment": "YB",
+      "control": "CK",
+      "meaning": "added manure under no-till, not a tillage effect",
+      "delta_revenue": 424.6666666666667,
+      "delta_listed_cost": 65.0,
+      "delta_margin_recalculated": 359.6666666666667,
+      "delta_margin_published": 384.6666666666667
+    },
+    {
+      "year": 2022,
+      "treatment": "CK",
+      "control": "WS20",
+      "meaning": "no-till vs rotary; same straw/fertilizer",
+      "delta_revenue": 156.8,
+      "delta_listed_cost": 30.0,
+      "delta_margin_recalculated": 126.80000000000001,
+      "delta_margin_published": 125.6
+    },
+    {
+      "year": 2022,
+      "treatment": "CK",
+      "control": "WS40",
+      "meaning": "no-till vs subsoil; same straw/fertilizer",
+      "delta_revenue": 67.0,
+      "delta_listed_cost": 30.0,
+      "delta_margin_recalculated": 37.0,
+      "delta_margin_published": 35.8
+    },
+    {
+      "year": 2022,
+      "treatment": "YB",
+      "control": "CK",
+      "meaning": "added manure under no-till, not a tillage effect",
+      "delta_revenue": 220.0,
+      "delta_listed_cost": -20.0,
+      "delta_margin_recalculated": 240.0,
+      "delta_margin_published": 241.2
+    }
+  ],
+  "regional_baselines": [
+    {
+      "region": "Liaoyang",
+      "year": 2023,
+      "source": "https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/2024102419143214552/index.shtml",
+      "revenue": 1708.21,
+      "total_cost": 1646.97,
+      "profit_reported": 61.24,
+      "cash_return": null,
+      "status": "previous-year comparison reported in 2024 release; not tillage-classified",
+      "profit_recalculated": 61.24000000000001,
+      "unit": "CNY/mu/year"
+    },
+    {
+      "region": "Liaoyang",
+      "year": 2024,
+      "source": "https://fgw.ln.gov.cn/fgw/xxgk/jgjc/fxyc/2024102419143214552/index.shtml",
+      "revenue": 1143.83,
+      "total_cost": 1884.97,
+      "profit_reported": -741.14,
+      "cash_return": null,
+      "status": "official forecast/survey; quoted grain price and yield do not reconcile with revenue; not tillage-classified",
+      "profit_recalculated": -741.1400000000001,
+      "unit": "CNY/mu/year"
+    },
+    {
+      "region": "Weihai",
+      "year": 2026,
+      "source": "https://fgw.weihai.gov.cn/art/2026/10/29/art_53887_6709046.html",
+      "revenue": 890.3,
+      "total_cost": 1045.95,
+      "profit_reported": null,
+      "cash_return": 40.36,
+      "status": "official direct-report survey; production 867.57 + land 178.28 = 1045.85, differs from reported total by 0.10; not tillage-classified",
+      "profit_recalculated": -155.6500000000001,
+      "unit": "CNY/mu/year"
+    }
+  ],
+  "liang_carbon": [
+    {
+      "treatment": "SM",
+      "control": "CK",
+      "method": "endpoint_stocks_common_initial",
+      "additional_tC_ha_year": 1.9666666666666661,
+      "additional_tCO2_mu_year": 0.4807407407407406,
+      "value_at_2025_mean": 34.01721481481481,
+      "value_at_daily_price_min": 24.440859259259252,
+      "value_at_daily_price_max": 51.61232592592591,
+      "eligible_cash_income": null,
+      "status": "unresolved source reconciliation; fixed-depth soil-C benchmark valuation only"
+    },
+    {
+      "treatment": "SM",
+      "control": "CK",
+      "method": "published_sequestered_quantities",
+      "additional_tC_ha_year": 2.0716666666666668,
+      "additional_tCO2_mu_year": 0.5064074074074074,
+      "value_at_2025_mean": 35.83338814814815,
+      "value_at_daily_price_min": 25.745752592592595,
+      "value_at_daily_price_max": 54.36789925925926,
+      "eligible_cash_income": null,
+      "status": "unresolved source reconciliation; fixed-depth soil-C benchmark valuation only"
+    },
+    {
+      "treatment": "SM",
+      "control": "CK",
+      "method": "published_rates",
+      "additional_tC_ha_year": 2.0600000000000005,
+      "additional_tCO2_mu_year": 0.5035555555555556,
+      "value_at_2025_mean": 35.63159111111112,
+      "value_at_daily_price_min": 25.60076444444445,
+      "value_at_daily_price_max": 54.06172444444445,
+      "eligible_cash_income": null,
+      "status": "unresolved source reconciliation; fixed-depth soil-C benchmark valuation only"
+    },
+    {
+      "treatment": "SI",
+      "control": "CK",
+      "method": "endpoint_stocks_common_initial",
+      "additional_tC_ha_year": 2.5833333333333335,
+      "additional_tCO2_mu_year": 0.6314814814814815,
+      "value_at_2025_mean": 44.683629629629635,
+      "value_at_daily_price_min": 32.104518518518525,
+      "value_at_daily_price_max": 67.79585185185185,
+      "eligible_cash_income": null,
+      "status": "unresolved source reconciliation; fixed-depth soil-C benchmark valuation only"
+    },
+    {
+      "treatment": "SI",
+      "control": "CK",
+      "method": "published_sequestered_quantities",
+      "additional_tC_ha_year": 2.5366666666666666,
+      "additional_tCO2_mu_year": 0.620074074074074,
+      "value_at_2025_mean": 43.87644148148148,
+      "value_at_daily_price_min": 31.524565925925923,
+      "value_at_daily_price_max": 66.57115259259258,
+      "eligible_cash_income": null,
+      "status": "unresolved source reconciliation; fixed-depth soil-C benchmark valuation only"
+    },
+    {
+      "treatment": "SI",
+      "control": "CK",
+      "method": "published_rates",
+      "additional_tC_ha_year": 2.54,
+      "additional_tCO2_mu_year": 0.6208888888888889,
+      "value_at_2025_mean": 43.93409777777778,
+      "value_at_daily_price_min": 31.56599111111111,
+      "value_at_daily_price_max": 66.6586311111111,
+      "eligible_cash_income": null,
+      "status": "unresolved source reconciliation; fixed-depth soil-C benchmark valuation only"
+    }
+  ],
+  "luancheng_carbon": [
+    {
+      "start": 2001,
+      "end": 2006,
+      "treatment": "NT",
+      "control": "CT",
+      "additional_tC_ha_year": 0.42000000000000026,
+      "signed_value_at_2025_mean": 7.264693333333338,
+      "eligible_cash_income": null
+    },
+    {
+      "start": 2006,
+      "end": 2011,
+      "treatment": "NT",
+      "control": "CT",
+      "additional_tC_ha_year": -1.1599999999999995,
+      "signed_value_at_2025_mean": -20.0643911111111,
+      "eligible_cash_income": null
+    },
+    {
+      "start": 2011,
+      "end": 2018,
+      "treatment": "NT",
+      "control": "CT",
+      "additional_tC_ha_year": -0.2857142857142857,
+      "signed_value_at_2025_mean": -4.941968253968254,
+      "eligible_cash_income": null
+    },
+    {
+      "start": 2001,
+      "end": 2018,
+      "treatment": "NT",
+      "control": "CT",
+      "additional_tC_ha_year": -0.3352941176470586,
+      "signed_value_at_2025_mean": -5.799545098039211,
+      "eligible_cash_income": null
+    },
+    {
+      "start": 2006,
+      "end": 2018,
+      "treatment": "NT",
+      "control": "CK",
+      "additional_tC_ha_year": -0.19166666666666643,
+      "signed_value_at_2025_mean": -3.3152370370370328,
+      "eligible_cash_income": null
+    },
+    {
+      "start": 2011,
+      "end": 2018,
+      "treatment": "NT",
+      "control": "CK",
+      "additional_tC_ha_year": 0.27142857142857124,
+      "signed_value_at_2025_mean": 4.6948698412698375,
+      "eligible_cash_income": null
+    }
+  ],
+  "subsidy": {
+    "formula": "max(0, incremental_cost + lost_straw_net_revenue + measured_transition_risk - incremental_grain_revenue - verified_carbon_net_cash - existing_actual_benefit)",
+    "scope": "Incremental adoption compensation, not compensation of all baseline farm losses",
+    "unknown_inputs": "Keep missing costs/risk/actual subsidy receipts unknown; do not replace with zero",
+    "policy_caps": {
+      "source": "https://www.jl.gov.cn/gb/2026/zb_430670/szfwj_426267/202610/t20261029_9735043.html",
+      "issued": "2026-08-15",
+      "high_cover_cap": 80,
+      "additional_operation_cap": 25,
+      "combined_cap": 105,
+      "unit": "CNY/mu",
+      "eligibility": "cover >=60%; extra strip/mix/subsoil operation per local implementation; <30% no subsidy; caps are not verified farmer receipts"
+    },
+    "ecology_role": "Index and components screen/monitor soil outcomes; no arbitrary yuan per index point",
+    "carbon_cash_rule": "No credit claim or carbon receipts have been verified for these experimental plots"
+  }
+}
