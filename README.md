@@ -8,6 +8,8 @@
 
 2026年11月10日整理版本。论文已完成，待投稿。
 
+- [结项答辩 PPT（17页，可编辑）](final_manuscripts_20261109/deliverables/黑土生态价值量化与资产化路径研究_结项答辩.pptx)
+
 - [研究报告 PDF](final_manuscripts_20261109/deliverables/梨树县保护性耕作研究报告_评审终稿.pdf) · [可编辑 Word](final_manuscripts_20261109/deliverables/梨树县保护性耕作研究报告_评审终稿.docx)
 - [论文 PDF](final_manuscripts_20261109/deliverables/梨树县保护性耕作论文_评审终稿.pdf) · [可编辑 Word](final_manuscripts_20261109/deliverables/梨树县保护性耕作论文_评审终稿.docx)
 - [12张分析图](final_manuscripts_20261109/figures/)：提供 PNG 和 SVG
@@ -47,7 +49,7 @@ python3 decision_calculator.py 已填写的账户.json
 
 收入补差按保护目标合格措施相对最佳可行备选的经营差额计算，生态奖励另行设计。投入减排参考估值与实际碳收入分别核算。具体数据定义和适用条件见报告及数据快照。
 
-仓库保持私有。代码许可与论文投稿安排由团队确定。
+仓库已公开，研究报告、论文、代码及配套数据图表可在线查阅。代码许可与论文投稿安排由团队确定。
 
 ## 前期研究
 

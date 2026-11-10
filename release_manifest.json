@@ -86,6 +86,11 @@
       "sha256": "e3b13995b7f549718f1243b39dc9d1f3e7f65dacf22a49f8f69864dd3af2930b"
     },
     {
+      "path": "final_manuscripts_20261109/deliverables/黑土生态价值量化与资产化路径研究_结项答辩.pptx",
+      "bytes": 96293,
+      "sha256": "a3f135587459d511f29ed2aa06b9447c28e71101117b1f64c011fc02727408ad"
+    },
+    {
       "path": "final_manuscripts_20261109/delivery_validation.json",
       "bytes": 639,
       "sha256": "61ea9fbec4ee74576bc5213f0d3f13f12543e2cef9e827c34cbe02a3b6e9b0db"
@@ -292,5 +297,6 @@
       "exit_code": 0,
       "stdout": "10项核算边界检查通过"
     }
-  ]
+  ],
+  "visibility": "public"
 }
