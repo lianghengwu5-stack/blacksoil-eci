@@ -1,0 +1,21 @@
+{
+  "checked": "2026-11-09",
+  "policy": {
+    "id": "吉政办规〔2026〕1号",
+    "date": "2026-08-15",
+    "url": "https://xxgk.jl.gov.cn/szf/gkml/202608/t20260825_9687313.html",
+    "conditional_caps_CNY_mu": [
+      80,
+      105
+    ]
+  },
+  "carbon_price": {
+    "year": 2025,
+    "mean_CNY_t": 70.76,
+    "daily_mean_range": [
+      50.84,
+      107.36
+    ],
+    "url": "https://www.ccer.com.cn/wcm/ccer/html/2307ptggc1/20260101/090113981.shtml"
+  }
+}

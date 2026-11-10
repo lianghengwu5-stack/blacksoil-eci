@@ -1,0 +1,198 @@
+{
+  "frequency_gain_pct": 14.105222801178074,
+  "same_dose_frequency_gain_pct": [
+    18.39441164477065,
+    9.960077446327364
+  ],
+  "weight_switches": [
+    {
+      "from": "HF33",
+      "to": "HF67",
+      "interval": [
+        0.558,
+        0.559
+      ]
+    },
+    {
+      "from": "HF67",
+      "to": "LF67",
+      "interval": [
+        0.878,
+        0.879
+      ]
+    }
+  ],
+  "water": [
+    {
+      "year": 2014,
+      "treatment": "NT",
+      "rain_type": "平水年",
+      "stages": [
+        17.625,
+        35.25,
+        96.125,
+        75.625
+      ],
+      "minimum": 17.625,
+      "worst": 0,
+      "min_0_20": 35.25,
+      "min_equal": 34.25
+    },
+    {
+      "year": 2014,
+      "treatment": "CT",
+      "rain_type": "平水年",
+      "stages": [
+        26.375,
+        51.5,
+        67.625,
+        76.25
+      ],
+      "minimum": 26.375,
+      "worst": 0,
+      "min_0_20": 52.75,
+      "min_equal": 50.0
+    },
+    {
+      "year": 2015,
+      "treatment": "NT",
+      "rain_type": "枯水年",
+      "stages": [
+        98.25,
+        93.75,
+        31.25,
+        97.625
+      ],
+      "minimum": 31.25,
+      "worst": 2,
+      "min_0_20": 39.5,
+      "min_equal": 39.5
+    },
+    {
+      "year": 2015,
+      "treatment": "CT",
+      "rain_type": "枯水年",
+      "stages": [
+        72.0,
+        59.75,
+        4.625,
+        55.5
+      ],
+      "minimum": 4.625,
+      "worst": 2,
+      "min_0_20": 9.25,
+      "min_equal": 9.25
+    },
+    {
+      "year": 2016,
+      "treatment": "NT",
+      "rain_type": "丰水年",
+      "stages": [
+        96.25,
+        97.125,
+        89.125,
+        71.25
+      ],
+      "minimum": 71.25,
+      "worst": 3,
+      "min_0_20": 67.5,
+      "min_equal": 68.75
+    },
+    {
+      "year": 2016,
+      "treatment": "CT",
+      "rain_type": "丰水年",
+      "stages": [
+        75.0,
+        58.25,
+        64.75,
+        33.75
+      ],
+      "minimum": 33.75,
+      "worst": 3,
+      "min_0_20": 50.0,
+      "min_equal": 55.0
+    }
+  ],
+  "farm_totals": {
+    "CRT": {
+      "yield": 759.3333333333334,
+      "revenue": 1746.4666666666667,
+      "cost": 455.53333333333336,
+      "balance": 1290.9333333333334,
+      "emissions": 277.567884
+    },
+    "SRTS": {
+      "yield": 792.6666666666666,
+      "revenue": 1823.1333333333332,
+      "cost": 358.93333333333334,
+      "balance": 1464.1999999999998,
+      "emissions": 244.41735466666665
+    }
+  },
+  "components": [
+    [
+      "粮食增收",
+      76.66666666666652
+    ],
+    [
+      "机械节本",
+      44.53333333333333
+    ],
+    [
+      "农资节本",
+      30.4
+    ],
+    [
+      "人工节本",
+      21.666666666666668
+    ]
+  ],
+  "gain": 173.26666666666642,
+  "cost_saving": 96.6,
+  "saving_share_pct": 55.75221238938061,
+  "avoided_emissions_kg_mu": 33.15052933333334,
+  "carbon_reference_value": 2.3457314556266673,
+  "benchmark_field_reduction_pct": 79.3103448275862,
+  "benchmark_r2_increment": 0.132284,
+  "boundaries": [
+    {
+      "additional_support": 0,
+      "extra_cost_limit_at_observed_yield": 173.26666666666642,
+      "yield_loss_limit_at_zero_extra_cost": 42.0
+    },
+    {
+      "additional_support": 80,
+      "extra_cost_limit_at_observed_yield": 253.26666666666642,
+      "yield_loss_limit_at_zero_extra_cost": 76.78260869565217
+    },
+    {
+      "additional_support": 105,
+      "extra_cost_limit_at_observed_yield": 278.2666666666664,
+      "yield_loss_limit_at_zero_extra_cost": 87.65217391304348
+    }
+  ],
+  "dehui_means": {
+    "maize": -31.21333333333334,
+    "soybean": 37.906666666666666
+  },
+  "checks": [
+    "Frequency gain agrees with source abstract",
+    "Water stage scores 2014NT",
+    "Water stage scores 2014CT",
+    "Water stage scores 2015NT",
+    "Water stage scores 2015CT",
+    "Water stage scores 2016NT",
+    "Water stage scores 2016CT",
+    "Source cost total CRT",
+    "Source emissions CRT",
+    "Source cost total SRTS",
+    "Source emissions SRTS",
+    "Farm budget decomposition closes",
+    "Changchun decompositions close",
+    "Paired records preserve three experiments",
+    "Rule equivalence on 12 records",
+    "Four microplot geometric shortfalls retained",
+    "Source stock median"
+  ]
+}

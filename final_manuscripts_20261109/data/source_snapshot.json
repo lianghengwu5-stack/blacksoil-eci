@@ -1,0 +1,4974 @@
+{
+  "yang": {
+    "path": "research_synthesis_20261109/regional_lishu/v2/yang2022_tables.json",
+    "sha256": "797622f1b9baf3f73d57b8398492bf5ba46ab1ff29ff2de1a302c008a8514bdd",
+    "data": {
+      "doi": "10.1016/j.agee.2021.107815",
+      "soil_year": 2017,
+      "yield_year": 2017,
+      "design": "随机完全区组，4处理×4区组；三个土层为同一小区内重复测量",
+      "layer_depth_cm": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "records": [
+        {
+          "treatment": "LF33",
+          "label": "间隔还田 33%",
+          "mean_annual_straw_t_ha": 2.5,
+          "straw_schedule_t_ha": [
+            7.5,
+            0,
+            0
+          ],
+          "SOC_g_kg_layers": [
+            14.41,
+            12.21,
+            10.84
+          ],
+          "SOC_SE_layers": [
+            0.35,
+            0.21,
+            0.23
+          ],
+          "SOC_0_20_thickness_mean": 12.075,
+          "yield_kg_ha_figure": 9272.234095018905,
+          "SOC_Mg_ha_figure": 37.929333850001754,
+          "n_blocks": 4,
+          "yield_letters": "b",
+          "SOC_letters": "a"
+        },
+        {
+          "treatment": "HF33",
+          "label": "每年还田 33%",
+          "mean_annual_straw_t_ha": 2.5,
+          "straw_schedule_t_ha": [
+            2.5,
+            2.5,
+            2.5
+          ],
+          "SOC_g_kg_layers": [
+            16.37,
+            12.4,
+            10.9
+          ],
+          "SOC_SE_layers": [
+            0.12,
+            0.31,
+            0.24
+          ],
+          "SOC_0_20_thickness_mean": 12.642500000000002,
+          "yield_kg_ha_figure": 10977.807003123457,
+          "SOC_Mg_ha_figure": 39.14256525874516,
+          "n_blocks": 4,
+          "yield_letters": "a",
+          "SOC_letters": "a"
+        },
+        {
+          "treatment": "LF67",
+          "label": "间隔还田 67%",
+          "mean_annual_straw_t_ha": 5.0,
+          "straw_schedule_t_ha": [
+            7.5,
+            7.5,
+            0
+          ],
+          "SOC_g_kg_layers": [
+            17.39,
+            12.43,
+            10.84
+          ],
+          "SOC_SE_layers": [
+            0.84,
+            0.67,
+            0.4
+          ],
+          "SOC_0_20_thickness_mean": 12.875,
+          "yield_kg_ha_figure": 9594.443531152388,
+          "SOC_Mg_ha_figure": 40.92965089653714,
+          "n_blocks": 4,
+          "yield_letters": "ab",
+          "SOC_letters": "a"
+        },
+        {
+          "treatment": "HF67",
+          "label": "每年还田 67%",
+          "mean_annual_straw_t_ha": 5.0,
+          "straw_schedule_t_ha": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "SOC_g_kg_layers": [
+            16.41,
+            12.2,
+            11.09
+          ],
+          "SOC_SE_layers": [
+            0.32,
+            0.59,
+            0.43
+          ],
+          "SOC_0_20_thickness_mean": 12.6975,
+          "yield_kg_ha_figure": 10550.057537399312,
+          "SOC_Mg_ha_figure": 40.39384225173494,
+          "n_blocks": 4,
+          "yield_letters": "ab",
+          "SOC_letters": "a"
+        }
+      ],
+      "supplementary_tables": [
+        [
+          [
+            "Soil depth",
+            "　",
+            "Treatment",
+            "Chao1",
+            "Simpson",
+            "Shannon",
+            "Phylogenetic diversity"
+          ],
+          [
+            "0-5cm",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "LF-33%",
+            "1840.38±9.32",
+            "0.993±0.0009",
+            "8.77±0.06",
+            "121.89±3.37"
+          ],
+          [
+            "",
+            "",
+            "HF-33%",
+            "1846.09±29.67",
+            "0.993±0.0010",
+            "8.81±0.09",
+            "128.80±1.67"
+          ],
+          [
+            "",
+            "",
+            "LF-67%",
+            "1801.19±15.04",
+            "0.994±0.0003",
+            "8.86±0.01",
+            "127.49±2.49"
+          ],
+          [
+            "",
+            "",
+            "HF-67%",
+            "1846.27±24.57",
+            "0.993±0.0012",
+            "8.77±0.11",
+            "125.27±2.83"
+          ],
+          [
+            "",
+            "Frequency",
+            "",
+            "1.436",
+            "0.121",
+            "0.066",
+            "0.777"
+          ],
+          [
+            "",
+            "Quantity",
+            "",
+            "0.846",
+            "0.234",
+            "0.133",
+            "0.151"
+          ],
+          [
+            "",
+            "FxQ",
+            "",
+            "0.862",
+            "1.123",
+            "0.675",
+            "2.944"
+          ],
+          [
+            "5-10cm",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "LF-33%",
+            "1669.07±98.45",
+            "0.991±0.0021",
+            "8.51±0.20",
+            "115.99±6.32"
+          ],
+          [
+            "",
+            "",
+            "HF-33%",
+            "1829.44±23.64",
+            "0.995±0.0003",
+            "8.94±0.05",
+            "126.59±2.13"
+          ],
+          [
+            "",
+            "",
+            "LF-67%",
+            "1670.87±83.66",
+            "0.990±0.0018",
+            "8.56±0.20",
+            "117.69±6.36"
+          ],
+          [
+            "",
+            "",
+            "HF-67%",
+            "1857.58±35.21",
+            "0.994±0.0008",
+            "8.94±0.12",
+            "127.83±2.15"
+          ],
+          [
+            "",
+            "Frequency",
+            "",
+            "6.515 *",
+            "6.736 *",
+            "7.008 *",
+            "4.802"
+          ],
+          [
+            "",
+            "Quantity",
+            "",
+            "0.048",
+            "0.180",
+            "0.016",
+            "0.097"
+          ],
+          [
+            "",
+            "FxQ",
+            "",
+            "0.038",
+            "0.005",
+            "0.029",
+            "0.002"
+          ],
+          [
+            "10-20cm",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "LF-33%",
+            "1649.47±44.26",
+            "0.993±0.0016",
+            "8.68±0.17",
+            "121.67±2.95"
+          ],
+          [
+            "",
+            "",
+            "HF-33%",
+            "1718.25±48.45",
+            "0.995±0.0001",
+            "8.85±0.02",
+            "126.85±2.12"
+          ],
+          [
+            "",
+            "",
+            "LF-67%",
+            "1722.85±31.70",
+            "0.993±0.0007",
+            "8.76±0.03",
+            "126.75±1.77"
+          ],
+          [
+            "",
+            "",
+            "HF-67%",
+            "1650.24±19.85",
+            "0.995±0.0003",
+            "8.80±0.05",
+            "125.32±2.70"
+          ],
+          [
+            "",
+            "Frequency",
+            "",
+            "0.003",
+            "2.604",
+            "1.303",
+            "0.597"
+          ],
+          [
+            "",
+            "Quantity",
+            "",
+            "0.005",
+            "0.066",
+            "0.037",
+            "0.531"
+          ],
+          [
+            "　",
+            "FxQ",
+            "　",
+            "3.504",
+            "0.103",
+            "0.490",
+            "1.843"
+          ]
+        ],
+        [
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            " Name",
+            "Topological roles",
+            "Pi",
+            "Zi",
+            "Module",
+            "Degree",
+            "Relative abundance (%)",
+            "Relative abundance (%)",
+            "Phylum",
+            "Phylum",
+            "Class",
+            "Class",
+            "Order",
+            "Order",
+            "Family",
+            "Family",
+            "Family"
+          ],
+          [
+            "High frequency",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　",
+            "　"
+          ],
+          [
+            "OTU_4",
+            "module hubs",
+            "0.000 ",
+            "3.245 ",
+            "H3",
+            "8",
+            "1.204",
+            "1.204",
+            "Actinobacteria",
+            "Actinobacteria",
+            "MB-A2-108",
+            "MB-A2-108",
+            "unidentified",
+            "unidentified",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ],
+          [
+            "OTU_38",
+            "module hubs",
+            "0.346 ",
+            "2.788 ",
+            "H4",
+            "18",
+            "0.459",
+            "0.459",
+            "Actinobacteria",
+            "Actinobacteria",
+            "Thermoleophilia",
+            "Thermoleophilia",
+            "Gaiellales",
+            "Gaiellales",
+            "Gaiellaceae",
+            "Gaiellaceae",
+            "Gaiellaceae"
+          ],
+          [
+            "OTU_15",
+            "module hubs",
+            "0.341 ",
+            "2.591 ",
+            "H2",
+            "36",
+            "0.52",
+            "0.52",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Rhizobiales",
+            "Rhizobiales",
+            "Xanthobacteraceae",
+            "Xanthobacteraceae",
+            "Xanthobacteraceae"
+          ],
+          [
+            "OTU_151",
+            "connectors",
+            "0.764 ",
+            "-0.040 ",
+            "H4",
+            "15",
+            "0.118",
+            "0.118",
+            "Bacteroidetes",
+            "Bacteroidetes",
+            "Sphingobacteriia",
+            "Sphingobacteriia",
+            "Sphingobacteriales",
+            "Sphingobacteriales",
+            "Chitinophagaceae",
+            "Chitinophagaceae",
+            "Chitinophagaceae"
+          ],
+          [
+            "OTU_74",
+            "connectors",
+            "0.726 ",
+            "0.913 ",
+            "H3",
+            "19",
+            "0.246",
+            "0.246",
+            "Chloroflexi",
+            "Chloroflexi",
+            "Gitt-GS-136",
+            "Gitt-GS-136",
+            "unidentified",
+            "unidentified",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ],
+          [
+            "OTU_1",
+            "connectors",
+            "0.719 ",
+            "-0.254 ",
+            "H3",
+            "8",
+            "1.634",
+            "1.634",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Rhizobiales",
+            "Rhizobiales",
+            "Bradyrhizobiaceae",
+            "Bradyrhizobiaceae",
+            "Bradyrhizobiaceae"
+          ],
+          [
+            "OTU_81",
+            "connectors",
+            "0.700 ",
+            "1.011 ",
+            "H2",
+            "10",
+            "0.093",
+            "0.093",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Deltaproteobacteria",
+            "Deltaproteobacteria",
+            "GR-WP33-30",
+            "GR-WP33-30",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ],
+          [
+            "OTU_68",
+            "connectors",
+            "0.688 ",
+            "0.612 ",
+            "H6",
+            "8",
+            "0.284",
+            "0.284",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Caulobacterales",
+            "Caulobacterales",
+            "Caulobacteraceae",
+            "Caulobacteraceae",
+            "Caulobacteraceae"
+          ],
+          [
+            "OTU_20",
+            "connectors",
+            "0.684 ",
+            "2.361 ",
+            "H5",
+            "23",
+            "0.436",
+            "0.436",
+            "Actinobacteria",
+            "Actinobacteria",
+            "Acidimicrobiia",
+            "Acidimicrobiia",
+            "Acidimicrobiales",
+            "Acidimicrobiales",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ],
+          [
+            "OTU_272",
+            "connectors",
+            "0.667 ",
+            "-0.834 ",
+            "H5",
+            "3",
+            "0.073",
+            "0.073",
+            "Actinobacteria",
+            "Actinobacteria",
+            "Thermoleophilia",
+            "Thermoleophilia",
+            "Solirubrobacterales",
+            "Solirubrobacterales",
+            "Elev-16S-1332",
+            "Elev-16S-1332",
+            "Elev-16S-1332"
+          ],
+          [
+            "OTU_846",
+            "connectors",
+            "0.667 ",
+            "-0.951 ",
+            "H1",
+            "3",
+            "0.018",
+            "0.018",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Deltaproteobacteria",
+            "Deltaproteobacteria",
+            "Sh765B-TzT-29",
+            "Sh765B-TzT-29",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ],
+          [
+            "OTU_297",
+            "connectors",
+            "0.667 ",
+            "-0.951 ",
+            "H1",
+            "3",
+            "0.035",
+            "0.035",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Sphingomonadales",
+            "Sphingomonadales",
+            "Erythrobacteraceae",
+            "Erythrobacteraceae",
+            "Erythrobacteraceae"
+          ],
+          [
+            "OTU_702",
+            "connectors",
+            "0.657 ",
+            "1.939 ",
+            "H4",
+            "22",
+            "0.035",
+            "0.035",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Subgroup_6",
+            "Subgroup_6",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ],
+          [
+            "OTU_59",
+            "connectors",
+            "0.647 ",
+            "0.385 ",
+            "H2",
+            "23",
+            "0.679",
+            "0.679",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Gammaproteobacteria",
+            "Gammaproteobacteria",
+            "Xanthomonadales",
+            "Xanthomonadales",
+            "Xanthomonadales_Incertae_Sedis",
+            "Xanthomonadales_Incertae_Sedis",
+            "Xanthomonadales_Incertae_Sedis"
+          ],
+          [
+            "OTU_155",
+            "connectors",
+            "0.642 ",
+            "0.612 ",
+            "H6",
+            "9",
+            "0.09",
+            "0.09",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Gammaproteobacteria",
+            "Gammaproteobacteria",
+            "Xanthomonadales",
+            "Xanthomonadales",
+            "Xanthomonadaceae",
+            "Xanthomonadaceae",
+            "Xanthomonadaceae"
+          ],
+          [
+            "OTU_480",
+            "connectors",
+            "0.640 ",
+            "0.357 ",
+            "H1",
+            "10",
+            "0.02",
+            "0.02",
+            "Chloroflexi",
+            "Chloroflexi",
+            "Anaerolineae",
+            "Anaerolineae",
+            "Anaerolineales",
+            "Anaerolineales",
+            "Anaerolineaceae",
+            "Anaerolineaceae",
+            "Anaerolineaceae"
+          ],
+          [
+            "OTU_10",
+            "connectors",
+            "0.639 ",
+            "1.656 ",
+            "H4",
+            "21",
+            "0.391",
+            "0.391",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Rhizobiales",
+            "Rhizobiales",
+            "Rhizobiales_Incertae_Sedis",
+            "Rhizobiales_Incertae_Sedis",
+            "Rhizobiales_Incertae_Sedis"
+          ],
+          [
+            "OTU_208",
+            "connectors",
+            "0.630 ",
+            "1.939 ",
+            "H4",
+            "21",
+            "0.039",
+            "0.039",
+            "Actinobacteria",
+            "Actinobacteria",
+            "Acidimicrobiia",
+            "Acidimicrobiia",
+            "Acidimicrobiales",
+            "Acidimicrobiales",
+            "OM1_clade",
+            "OM1_clade",
+            "OM1_clade"
+          ],
+          [
+            "OTU_78",
+            "connectors",
+            "0.627 ",
+            "0.242 ",
+            "H4",
+            "13",
+            "0.205",
+            "0.205",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadales",
+            "Gemmatimonadales",
+            "Gemmatimonadaceae",
+            "Gemmatimonadaceae",
+            "Gemmatimonadaceae"
+          ],
+          [
+            "OTU_134",
+            "connectors",
+            "0.627 ",
+            "-0.264 ",
+            "H2",
+            "13",
+            "0.184",
+            "0.184",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadales",
+            "Gemmatimonadales",
+            "Gemmatimonadaceae",
+            "Gemmatimonadaceae",
+            "Gemmatimonadaceae"
+          ],
+          [
+            "OTU_51",
+            "connectors",
+            "0.625 ",
+            "0.444 ",
+            "H5",
+            "12",
+            "0.105",
+            "0.105",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Subgroup_4",
+            "Subgroup_4",
+            "Unknown_Family",
+            "Unknown_Family",
+            "Unknown_Family"
+          ],
+          [
+            "OTU_124",
+            "connectors",
+            "0.625 ",
+            "-0.136 ",
+            "H6",
+            "4",
+            "0.557",
+            "0.557",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Betaproteobacteria",
+            "Betaproteobacteria",
+            "Nitrosomonadales",
+            "Nitrosomonadales",
+            "Nitrosomonadaceae",
+            "Nitrosomonadaceae",
+            "Nitrosomonadaceae"
+          ],
+          [
+            "OTU_2018",
+            "connectors",
+            "0.625 ",
+            "-0.254 ",
+            "H3",
+            "4",
+            "0.027",
+            "0.027",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Rhizobiales",
+            "Rhizobiales",
+            "BCf3-20",
+            "BCf3-20",
+            "BCf3-20"
+          ],
+          [
+            "OTU_442",
+            "connectors",
+            "0.625 ",
+            "-0.254 ",
+            "H3",
+            "4",
+            "0.136",
+            "0.136",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Sphingomonadales",
+            "Sphingomonadales",
+            "Erythrobacteraceae",
+            "Erythrobacteraceae",
+            "Erythrobacteraceae"
+          ],
+          [
+            "OTU_277",
+            "connectors",
+            "0.625 ",
+            "-0.951 ",
+            "H1",
+            "4",
+            "0.026",
+            "0.026",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Subgroup_3",
+            "Subgroup_3",
+            "Unknown_Family",
+            "Unknown_Family",
+            "Unknown_Family"
+          ],
+          [
+            "OTU_57",
+            "network hubs",
+            "0.660 ",
+            "3.000 ",
+            "H5",
+            "31",
+            "0.268",
+            "0.268",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Alphaproteobacteria",
+            "Alphaproteobacteria",
+            "Rhizobiales",
+            "Rhizobiales",
+            "Rhizobiales_Incertae_Sedis",
+            "Rhizobiales_Incertae_Sedis",
+            "Rhizobiales_Incertae_Sedis"
+          ],
+          [
+            "Low frequency",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "OTU_279",
+            "module hubs",
+            "0.000 ",
+            "2.834 ",
+            "L1",
+            "8",
+            "0.086",
+            "0.086",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadetes",
+            "Gemmatimonadales",
+            "Gemmatimonadales",
+            "Gemmatimonadaceae",
+            "Gemmatimonadaceae",
+            "Gemmatimonadaceae"
+          ],
+          [
+            "OTU_135",
+            "module hubs",
+            "0.375 ",
+            "2.834 ",
+            "L1",
+            "6",
+            "0.136",
+            "0.136",
+            "Actinobacteria",
+            "Actinobacteria",
+            "Thermoleophilia",
+            "Thermoleophilia",
+            "Gaiellales",
+            "Gaiellales",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ],
+          [
+            "OTU_787",
+            "connectors",
+            "0.625 ",
+            "1.000 ",
+            "L9",
+            "4",
+            "0.322",
+            "0.322",
+            "Proteobacteria",
+            "Proteobacteria",
+            "Betaproteobacteria",
+            "Betaproteobacteria",
+            "Nitrosomonadales",
+            "Nitrosomonadales",
+            "Nitrosomonadaceae",
+            "Nitrosomonadaceae",
+            "Nitrosomonadaceae"
+          ],
+          [
+            "OTU_1129",
+            "connectors",
+            "0.625 ",
+            "-0.426 ",
+            "L2",
+            "4",
+            "0.07",
+            "0.07",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Acidobacteria",
+            "Subgroup_6",
+            "Subgroup_6",
+            "unidentified",
+            "unidentified",
+            "unidentified"
+          ]
+        ],
+        [
+          [
+            "　",
+            "　",
+            "　",
+            "Increase compared with high frequency than low frequency stover mulching",
+            "Increase compared with high frequency than low frequency stover mulching",
+            "Increase compared with high frequency than low frequency stover mulching",
+            "Increase compared with high frequency than low frequency stover mulching",
+            "Increase compared with high frequency than low frequency stover mulching"
+          ],
+          [
+            "",
+            "Area\n(million ha)",
+            "Maize area estimation (million ha)",
+            "SOC\n(million Mg)",
+            "TN\n(million Mg)",
+            "TP\n(million Mg)",
+            "TK\n(million Mg)",
+            "Yield\n(million Mg)"
+          ],
+          [
+            "Mollisols in Ukraine",
+            "190.00",
+            "57.00",
+            "19.38",
+            "5.70",
+            "10.83",
+            "178.41",
+            "75934.83"
+          ],
+          [
+            "Mollisols in America",
+            "120.00",
+            "36.00",
+            "12.24",
+            "3.60",
+            "6.84",
+            "112.68",
+            "47958.84"
+          ],
+          [
+            "Mollisols in Northeast China",
+            "103.00",
+            "30.90",
+            "10.51",
+            "3.09",
+            "5.87",
+            "96.72",
+            "41164.67"
+          ],
+          [
+            "Total ",
+            "413.00",
+            "123.90",
+            "42.13",
+            "12.39",
+            "23.54",
+            "387.81",
+            "165058.34"
+          ]
+        ]
+      ],
+      "figure_calibration": {
+        "page": 4,
+        "yield_axis_range": [
+          0,
+          14000
+        ],
+        "SOC_stock_axis_range": [
+          0,
+          90
+        ],
+        "yield_frame": {
+          "x0": 70.2913,
+          "x1": 236.5933,
+          "top": 381.043989,
+          "bottom": 466.20598900000005
+        },
+        "stock_frame": {
+          "x0": 65.0523,
+          "x1": 231.3543,
+          "top": 477.3579890000001,
+          "bottom": 562.518989
+        },
+        "yield_rects": [
+          {
+            "x0": 90.2293,
+            "x1": 116.9273,
+            "top": 409.63398900000004,
+            "bottom": 466.03698900000006,
+            "height": 56.40300000000002
+          },
+          {
+            "x0": 123.48330000000001,
+            "x1": 150.18030000000002,
+            "top": 399.25898900000004,
+            "bottom": 466.03698900000006,
+            "height": 66.77800000000002
+          },
+          {
+            "x0": 156.7033,
+            "x1": 183.3993,
+            "top": 407.67398900000006,
+            "bottom": 466.03698900000006,
+            "height": 58.363
+          },
+          {
+            "x0": 189.9563,
+            "x1": 216.6533,
+            "top": 401.860989,
+            "bottom": 466.03698900000006,
+            "height": 64.17600000000004
+          }
+        ],
+        "SOC_rects": [
+          {
+            "x0": 92.0883,
+            "x1": 98.34030000000001,
+            "top": 477.4589890000001,
+            "bottom": 513.3489890000001,
+            "height": 35.889999999999986
+          },
+          {
+            "x0": 125.3423,
+            "x1": 131.5943,
+            "top": 477.4589890000001,
+            "bottom": 514.496989,
+            "height": 37.037999999999954
+          },
+          {
+            "x0": 158.56130000000002,
+            "x1": 164.8143,
+            "top": 477.4589890000001,
+            "bottom": 516.187989,
+            "height": 38.728999999999985
+          },
+          {
+            "x0": 191.8143,
+            "x1": 198.0663,
+            "top": 477.4589890000001,
+            "bottom": 515.6809890000001,
+            "height": 38.22199999999998
+          }
+        ]
+      },
+      "data_level": "published_means_SE_and_figure_derived_means",
+      "figure_precision_note": "图形恢复的均值，正文产量取整到10 kg/ha、碳储量到0.1 Mg/ha；几何精度不等于实验精度。",
+      "exclusions": "补表S3的跨洲外推未进入分析；同试验4区组的逐小区原始记录未取得。"
+    }
+  },
+  "water": {
+    "path": "research_synthesis_20261109/results/dynamic_water_index.json",
+    "sha256": "694b5253b2a59ce76664f3e37e23eb6f38a976cadf46348a9211dcafebfce10b",
+    "data": {
+      "source_doi": "10.11975/j.issn.1002-6819.2020.10.013",
+      "source_url": "https://www.aeeisp.com/nygcxb/cn/article/pdf/preview/10.11975/j.issn.1002-6819.2020.10.013.pdf",
+      "source_sha256": "01a05c196ab66b1037d7ffd896eafbace877e1d83d3bb71c484488141b1f222a",
+      "experiment_id": "CAU_lishu_2011_NT_CT",
+      "independent_experiments": 1,
+      "field_plot_replicates_reported": 3,
+      "sensor_series_replication_verified": false,
+      "treatments": "NT residue retained versus CT rotary/ridge and residue removed; package contrast",
+      "soil_function": "water availability with aeration and penetration-resistance constraints",
+      "original_threshold_conventions": "2 MPa penetration resistance; 10% air-filled porosity; source conventions, not universal thresholds",
+      "threshold_measurement_time": "July 2014; applied to 2014-2016 time series in source",
+      "original_MGM_definition": "mean over four layers of geometric mean of four stage-normal percentages",
+      "candidate_name": "固定剖面最弱阶段水分适宜度",
+      "candidate_formula": "I = min_stage sum_layer(thickness_layer / total_thickness * normal_percent_stage_layer)",
+      "candidate_status": "proposed diagnostic extension of published LLWR/MGM; novelty unproven; no independent validation",
+      "data_roles": "six treatment-years are examples, not model training or validation samples",
+      "depth_cm": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          40
+        ]
+      ],
+      "stage_order": [
+        "播种-拔节",
+        "拔节-抽穗",
+        "抽穗-乳熟",
+        "乳熟-成熟"
+      ],
+      "results": [
+        {
+          "year": 2014,
+          "treatment": "NT",
+          "rain_type": "平水年",
+          "April_September_precipitation_mm": 505.6,
+          "original_table3_percent": [
+            [
+              96,
+              37,
+              4,
+              0
+            ],
+            [
+              91,
+              55,
+              32,
+              18
+            ],
+            [
+              100,
+              93,
+              98,
+              95
+            ],
+            [
+              100,
+              95,
+              65,
+              70
+            ]
+          ],
+          "original_MGM_reported": 48,
+          "original_MGM_rebuilt": 47.96109294512969,
+          "candidate_diagnostics": {
+            "primary_0_40_thickness": {
+              "score": 17.625,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                17.625,
+                35.25,
+                96.125,
+                75.625
+              ],
+              "worst_stage": "播种-拔节",
+              "worst_stage_index": 0,
+              "weights_normalized": [
+                0.125,
+                0.125,
+                0.25,
+                0.5
+              ]
+            },
+            "sensitivity_0_20_thickness": {
+              "score": 35.25,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                35.25,
+                52.5,
+                97.25,
+                81.25
+              ],
+              "worst_stage": "播种-拔节",
+              "worst_stage_index": 0,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.5,
+                0.0
+              ]
+            },
+            "sensitivity_equal_horizons": {
+              "score": 34.25,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                34.25,
+                49.0,
+                96.5,
+                82.5
+              ],
+              "worst_stage": "播种-拔节",
+              "worst_stage_index": 0,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ]
+            }
+          },
+          "whole_season_exposure": null,
+          "daily_joint_suitability_across_all_horizons": null,
+          "candidate_rounding_interval_if_nearest_integer": [
+            17.375,
+            18.125
+          ],
+          "sampling_confidence_interval": null,
+          "yield_prediction": null
+        },
+        {
+          "year": 2014,
+          "treatment": "CT",
+          "rain_type": "平水年",
+          "April_September_precipitation_mm": 505.6,
+          "original_table3_percent": [
+            [
+              96,
+              93,
+              11,
+              0
+            ],
+            [
+              91,
+              95,
+              59,
+              27
+            ],
+            [
+              98,
+              77,
+              35,
+              74
+            ],
+            [
+              100,
+              100,
+              85,
+              60
+            ]
+          ],
+          "original_MGM_reported": 56,
+          "original_MGM_rebuilt": 56.07146533203644,
+          "candidate_diagnostics": {
+            "primary_0_40_thickness": {
+              "score": 26.375,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                26.375,
+                51.5,
+                67.625,
+                76.25
+              ],
+              "worst_stage": "播种-拔节",
+              "worst_stage_index": 0,
+              "weights_normalized": [
+                0.125,
+                0.125,
+                0.25,
+                0.5
+              ]
+            },
+            "sensitivity_0_20_thickness": {
+              "score": 52.75,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                52.75,
+                76.0,
+                61.25,
+                92.5
+              ],
+              "worst_stage": "播种-拔节",
+              "worst_stage_index": 0,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.5,
+                0.0
+              ]
+            },
+            "sensitivity_equal_horizons": {
+              "score": 50.0,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                50.0,
+                68.0,
+                71.0,
+                86.25
+              ],
+              "worst_stage": "播种-拔节",
+              "worst_stage_index": 0,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ]
+            }
+          },
+          "whole_season_exposure": null,
+          "daily_joint_suitability_across_all_horizons": null,
+          "candidate_rounding_interval_if_nearest_integer": [
+            26.125,
+            26.875
+          ],
+          "sampling_confidence_interval": null,
+          "yield_prediction": null
+        },
+        {
+          "year": 2015,
+          "treatment": "NT",
+          "rain_type": "枯水年",
+          "April_September_precipitation_mm": 394.5,
+          "original_table3_percent": [
+            [
+              95,
+              95,
+              98,
+              100
+            ],
+            [
+              100,
+              68,
+              91,
+              100
+            ],
+            [
+              93,
+              19,
+              23,
+              23
+            ],
+            [
+              100,
+              81,
+              100,
+              100
+            ]
+          ],
+          "original_MGM_reported": 72,
+          "original_MGM_rebuilt": 72.41315258349721,
+          "candidate_diagnostics": {
+            "primary_0_40_thickness": {
+              "score": 31.25,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                98.25,
+                93.75,
+                31.25,
+                97.625
+              ],
+              "worst_stage": "抽穗-乳熟",
+              "worst_stage_index": 2,
+              "weights_normalized": [
+                0.125,
+                0.125,
+                0.25,
+                0.5
+              ]
+            },
+            "sensitivity_0_20_thickness": {
+              "score": 39.5,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                96.5,
+                87.5,
+                39.5,
+                95.25
+              ],
+              "worst_stage": "抽穗-乳熟",
+              "worst_stage_index": 2,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.5,
+                0.0
+              ]
+            },
+            "sensitivity_equal_horizons": {
+              "score": 39.5,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                97.0,
+                89.75,
+                39.5,
+                95.25
+              ],
+              "worst_stage": "抽穗-乳熟",
+              "worst_stage_index": 2,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ]
+            }
+          },
+          "whole_season_exposure": null,
+          "daily_joint_suitability_across_all_horizons": null,
+          "candidate_rounding_interval_if_nearest_integer": [
+            30.75,
+            31.75
+          ],
+          "sampling_confidence_interval": null,
+          "yield_prediction": null
+        },
+        {
+          "year": 2015,
+          "treatment": "CT",
+          "rain_type": "枯水年",
+          "April_September_precipitation_mm": 394.5,
+          "original_table3_percent": [
+            [
+              100,
+              72,
+              2,
+              100
+            ],
+            [
+              55,
+              23,
+              0,
+              100
+            ],
+            [
+              30,
+              7,
+              0,
+              0
+            ],
+            [
+              52,
+              38,
+              5,
+              86
+            ]
+          ],
+          "original_MGM_reported": 20,
+          "original_MGM_rebuilt": 19.9710249623653,
+          "candidate_diagnostics": {
+            "primary_0_40_thickness": {
+              "score": 4.625,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                72.0,
+                59.75,
+                4.625,
+                55.5
+              ],
+              "worst_stage": "抽穗-乳熟",
+              "worst_stage_index": 2,
+              "weights_normalized": [
+                0.125,
+                0.125,
+                0.25,
+                0.5
+              ]
+            },
+            "sensitivity_0_20_thickness": {
+              "score": 9.25,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                44.0,
+                19.5,
+                9.25,
+                25.0
+              ],
+              "worst_stage": "抽穗-乳熟",
+              "worst_stage_index": 2,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.5,
+                0.0
+              ]
+            },
+            "sensitivity_equal_horizons": {
+              "score": 9.25,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                68.5,
+                44.5,
+                9.25,
+                45.25
+              ],
+              "worst_stage": "抽穗-乳熟",
+              "worst_stage_index": 2,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ]
+            }
+          },
+          "whole_season_exposure": null,
+          "daily_joint_suitability_across_all_horizons": null,
+          "candidate_rounding_interval_if_nearest_integer": [
+            4.5,
+            5.125
+          ],
+          "sampling_confidence_interval": null,
+          "yield_prediction": null
+        },
+        {
+          "year": 2016,
+          "treatment": "NT",
+          "rain_type": "丰水年",
+          "April_September_precipitation_mm": 711.6,
+          "original_table3_percent": [
+            [
+              100,
+              70,
+              100,
+              100
+            ],
+            [
+              100,
+              77,
+              100,
+              100
+            ],
+            [
+              100,
+              79,
+              95,
+              86
+            ],
+            [
+              95,
+              35,
+              70,
+              75
+            ]
+          ],
+          "original_MGM_reported": 85,
+          "original_MGM_rebuilt": 85.19480906486531,
+          "candidate_diagnostics": {
+            "primary_0_40_thickness": {
+              "score": 71.25,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                96.25,
+                97.125,
+                89.125,
+                71.25
+              ],
+              "worst_stage": "乳熟-成熟",
+              "worst_stage_index": 3,
+              "weights_normalized": [
+                0.125,
+                0.125,
+                0.25,
+                0.5
+              ]
+            },
+            "sensitivity_0_20_thickness": {
+              "score": 67.5,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                92.5,
+                94.25,
+                92.25,
+                67.5
+              ],
+              "worst_stage": "乳熟-成熟",
+              "worst_stage_index": 3,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.5,
+                0.0
+              ]
+            },
+            "sensitivity_equal_horizons": {
+              "score": 68.75,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                92.5,
+                94.25,
+                90.0,
+                68.75
+              ],
+              "worst_stage": "乳熟-成熟",
+              "worst_stage_index": 3,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ]
+            }
+          },
+          "whole_season_exposure": null,
+          "daily_joint_suitability_across_all_horizons": null,
+          "candidate_rounding_interval_if_nearest_integer": [
+            70.75,
+            71.75
+          ],
+          "sampling_confidence_interval": null,
+          "yield_prediction": null
+        },
+        {
+          "year": 2016,
+          "treatment": "CT",
+          "rain_type": "丰水年",
+          "April_September_precipitation_mm": 711.6,
+          "original_table3_percent": [
+            [
+              100,
+              100,
+              0,
+              100
+            ],
+            [
+              55,
+              55,
+              50,
+              64
+            ],
+            [
+              72,
+              56,
+              47,
+              74
+            ],
+            [
+              100,
+              100,
+              5,
+              15
+            ]
+          ],
+          "original_MGM_reported": 51,
+          "original_MGM_rebuilt": 51.36279471996049,
+          "candidate_diagnostics": {
+            "primary_0_40_thickness": {
+              "score": 33.75,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                75.0,
+                58.25,
+                64.75,
+                33.75
+              ],
+              "worst_stage": "乳熟-成熟",
+              "worst_stage_index": 3,
+              "weights_normalized": [
+                0.125,
+                0.125,
+                0.25,
+                0.5
+              ]
+            },
+            "sensitivity_0_20_thickness": {
+              "score": 50.0,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                50.0,
+                52.5,
+                55.5,
+                52.5
+              ],
+              "worst_stage": "播种-拔节",
+              "worst_stage_index": 0,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.5,
+                0.0
+              ]
+            },
+            "sensitivity_equal_horizons": {
+              "score": 55.0,
+              "status": "exploratory_point_diagnostic",
+              "stage_scores": [
+                75.0,
+                56.0,
+                62.25,
+                55.0
+              ],
+              "worst_stage": "乳熟-成熟",
+              "worst_stage_index": 3,
+              "weights_normalized": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ]
+            }
+          },
+          "whole_season_exposure": null,
+          "daily_joint_suitability_across_all_horizons": null,
+          "candidate_rounding_interval_if_nearest_integer": [
+            33.25,
+            34.125
+          ],
+          "sampling_confidence_interval": null,
+          "yield_prediction": null
+        }
+      ],
+      "contrasts": [
+        {
+          "year": 2014,
+          "rain_type": "平水年",
+          "NT_minus_CT_score_percentage_points_by_protocol": {
+            "primary_0_40_thickness": -8.75,
+            "sensitivity_0_20_thickness": -17.5,
+            "sensitivity_equal_horizons": -15.75
+          },
+          "same_sign_in_three_selected_protocols": true,
+          "general_robustness_or_significance_claim": false
+        },
+        {
+          "year": 2015,
+          "rain_type": "枯水年",
+          "NT_minus_CT_score_percentage_points_by_protocol": {
+            "primary_0_40_thickness": 26.625,
+            "sensitivity_0_20_thickness": 30.25,
+            "sensitivity_equal_horizons": 30.25
+          },
+          "same_sign_in_three_selected_protocols": true,
+          "general_robustness_or_significance_claim": false
+        },
+        {
+          "year": 2016,
+          "rain_type": "丰水年",
+          "NT_minus_CT_score_percentage_points_by_protocol": {
+            "primary_0_40_thickness": 37.5,
+            "sensitivity_0_20_thickness": 17.5,
+            "sensitivity_equal_horizons": 13.75
+          },
+          "same_sign_in_three_selected_protocols": true,
+          "general_robustness_or_significance_claim": false
+        }
+      ],
+      "threshold_table_audit": [
+        {
+          "treatment": "NT",
+          "depth_cm": [
+            0,
+            5
+          ],
+          "lower_from_printed_means": 0.17,
+          "upper_from_printed_means": 0.36,
+          "width_from_printed_means": 0.18999999999999997,
+          "width_reported": 0.19,
+          "difference": -2.7755575615628914e-17
+        },
+        {
+          "treatment": "NT",
+          "depth_cm": [
+            5,
+            10
+          ],
+          "lower_from_printed_means": 0.24,
+          "upper_from_printed_means": 0.33,
+          "width_from_printed_means": 0.09000000000000002,
+          "width_reported": 0.08,
+          "difference": 0.010000000000000023
+        },
+        {
+          "treatment": "NT",
+          "depth_cm": [
+            10,
+            20
+          ],
+          "lower_from_printed_means": 0.22,
+          "upper_from_printed_means": 0.34,
+          "width_from_printed_means": 0.12000000000000002,
+          "width_reported": 0.11,
+          "difference": 0.010000000000000023
+        },
+        {
+          "treatment": "NT",
+          "depth_cm": [
+            20,
+            40
+          ],
+          "lower_from_printed_means": 0.24,
+          "upper_from_printed_means": 0.33,
+          "width_from_printed_means": 0.09000000000000002,
+          "width_reported": 0.07,
+          "difference": 0.020000000000000018
+        },
+        {
+          "treatment": "CT",
+          "depth_cm": [
+            0,
+            5
+          ],
+          "lower_from_printed_means": 0.14,
+          "upper_from_printed_means": 0.33,
+          "width_from_printed_means": 0.19,
+          "width_reported": 0.17,
+          "difference": 0.01999999999999999
+        },
+        {
+          "treatment": "CT",
+          "depth_cm": [
+            5,
+            10
+          ],
+          "lower_from_printed_means": 0.2,
+          "upper_from_printed_means": 0.36,
+          "width_from_printed_means": 0.15999999999999998,
+          "width_reported": 0.16,
+          "difference": -2.7755575615628914e-17
+        },
+        {
+          "treatment": "CT",
+          "depth_cm": [
+            10,
+            20
+          ],
+          "lower_from_printed_means": 0.25,
+          "upper_from_printed_means": 0.32,
+          "width_from_printed_means": 0.07,
+          "width_reported": 0.06,
+          "difference": 0.010000000000000009
+        },
+        {
+          "treatment": "CT",
+          "depth_cm": [
+            20,
+            40
+          ],
+          "lower_from_printed_means": 0.25,
+          "upper_from_printed_means": 0.32,
+          "width_from_printed_means": 0.07,
+          "width_reported": 0.05,
+          "difference": 0.020000000000000004
+        }
+      ],
+      "limitations": [
+        "No paired yield or full farm budget is reported in this source; do not join other sites to fabricate validation.",
+        "Table3 integer percentages reproduce MGM only approximately; rounding intervals are not sampling confidence intervals.",
+        "Printed Table2 component means do not fully reproduce printed LLWR widths; no silent correction or daily reclassification.",
+        "Unknown stage durations prevent calculation of whole-season time-weighted fraction.",
+        "Thickness weights do not represent stage-dependent root density; early seedling root zone is shallower.",
+        "Worst-stage operation prioritizes stage shortfall and is noise-sensitive; retain full stage/depth matrix.",
+        "No observed daily above/below breakdown available; do not infer drought versus waterlogging from score alone.",
+        "Does not include temperature, erosion, carbon stocks, N losses or biodiversity; not a comprehensive ecosystem index.",
+        "Daily means can hide short within-day stresses; serial observations are not independent replicates.",
+        "A high score does not imply higher yield, verified carbon cash or an optimal subsidy."
+      ]
+    }
+  },
+  "benchmark": {
+    "path": "research_synthesis_20261109/regional_lishu/v2/index_benchmark.json",
+    "sha256": "25ebad56d4565e8af17ed3e037e69b306e72a71d58ca5604c0afda1368e57182",
+    "data": {
+      "doi": "10.3390/land12061187",
+      "year": 2021,
+      "n_sites": 62,
+      "transect_km": 30,
+      "depths_cm": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "TDS_R2": [
+        0.35,
+        0.44,
+        0.43,
+        0.37,
+        0.32
+      ],
+      "IDS_R2": [
+        0.48,
+        0.43,
+        0.41,
+        0.4,
+        0.38
+      ],
+      "MDS_R2": [
+        0.42,
+        0.47,
+        0.56,
+        0.45,
+        0.36
+      ],
+      "TDS_n": [
+        11,
+        20,
+        29,
+        38,
+        47
+      ],
+      "IDS_n": [
+        5,
+        10,
+        16,
+        20,
+        25
+      ],
+      "MDS_n": [
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "MDS_weights": {
+        "SOM_0_10": 0.22,
+        "black_soil_thickness": 0.2,
+        "AP_10_20": 0.18,
+        "TN_10_20": 0.16,
+        "AK_10_20": 0.16,
+        "BD_0_20": 0.08
+      },
+      "BST_yield_r": 0.654,
+      "BST_yield_R2_reconstructed": 0.42771600000000004,
+      "MDS_without_BST_R2": 0.49,
+      "MDS_0_30_fields": [
+        "SOM_0_10",
+        "black_soil_thickness",
+        "TN_10_20",
+        "AK_10_20",
+        "AP_10_20",
+        "BD_0_20"
+      ],
+      "source": "Tables 2, 3, 6 and Figure 3; R2为原文样本内拟合，非独立预测验证",
+      "raw_access": "Data Availability Statement: not publicly available due to privacy; 未取得62行原始记录",
+      "validation_protocol": {
+        "outer_split": "按地块/坡面空间分组留出，土层和同地块重复观测留在同组",
+        "inner_fit": "指标筛选、归一化上下界、PCA及权重仅使用训练集",
+        "baselines": [
+          "训练集平均产量",
+          "黑土层厚度单指标",
+          "有机质单指标",
+          "同一组分项正则回归"
+        ],
+        "metrics": [
+          "留出RMSE/MAE",
+          "不同年度排序稳定性",
+          "选择后收益损失",
+          "保护目标漏检率",
+          "测量成本"
+        ],
+        "status": "待原始记录后执行，现阶段完成文献基准比较与聚合敏感性测试"
+      }
+    }
+  },
+  "farm": {
+    "path": "research_synthesis_20261109/regional_lishu/published_data.json",
+    "sha256": "40ba1dfd2e045d07d0e075086fe84d297424c9e31cccee7279a11da4bc5178a5",
+    "data": {
+      "doi": "10.3390/land11081223",
+      "region": "吉林省梨树县",
+      "crop": "玉米",
+      "production_year": 2020,
+      "interview_dates": [
+        "2020-08",
+        "2021-06"
+      ],
+      "data_level": "published_group_means_and_SD",
+      "survey_description": "23家合作社及23位相邻非成员农户；逐户记录未公开取得",
+      "groups": {
+        "CRT": "传统农户常规垄作",
+        "SRTS": "合作社秸秆覆盖条带旋耕"
+      },
+      "price_CNY_kg": 2.3,
+      "cost_rows": [
+        {
+          "item": "收获",
+          "CRT": 1100,
+          "CRT_sd": 141,
+          "SRTS": 917,
+          "SRTS_sd": 41,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "秸秆处理",
+          "CRT": 0,
+          "CRT_sd": null,
+          "SRTS": 93,
+          "SRTS_sd": 16,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "灭茬翻耕起垄镇压",
+          "CRT": 680,
+          "CRT_sd": 44,
+          "SRTS": 0,
+          "SRTS_sd": null,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "条带旋耕",
+          "CRT": 0,
+          "CRT_sd": null,
+          "SRTS": 433,
+          "SRTS_sd": 52,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "播种施肥",
+          "CRT": 460,
+          "CRT_sd": 55,
+          "SRTS": 418,
+          "SRTS_sd": 49,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "中耕",
+          "CRT": 200,
+          "CRT_sd": 14,
+          "SRTS": 0,
+          "SRTS_sd": null,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "植保作业",
+          "CRT": 200,
+          "CRT_sd": 71,
+          "SRTS": 111,
+          "SRTS_sd": 46,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "种子",
+          "CRT": 552,
+          "CRT_sd": 51,
+          "SRTS": 450,
+          "SRTS_sd": 54,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "肥料",
+          "CRT": 2666,
+          "CRT_sd": 185,
+          "SRTS": 2220,
+          "SRTS_sd": 161,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "农药",
+          "CRT": 275,
+          "CRT_sd": 54,
+          "SRTS": 367,
+          "SRTS_sd": 31,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        },
+        {
+          "item": "人工",
+          "CRT": 700,
+          "CRT_sd": 112,
+          "SRTS": 375,
+          "SRTS_sd": 67,
+          "unit": "CNY/ha",
+          "source": "Table 4"
+        }
+      ],
+      "input_rows": [
+        {
+          "item": "N",
+          "unit": "kg/ha",
+          "CRT": 256.42,
+          "CRT_sd": 10.49,
+          "SRTS": 226.31,
+          "SRTS_sd": 19.87,
+          "emission_factor": 13.5,
+          "source": "Tables 1-2"
+        },
+        {
+          "item": "P",
+          "unit": "kg/ha",
+          "CRT": 100.33,
+          "CRT_sd": 1.87,
+          "SRTS": 89.22,
+          "SRTS_sd": 5.29,
+          "emission_factor": 2.332,
+          "source": "Tables 1-2"
+        },
+        {
+          "item": "K",
+          "unit": "kg/ha",
+          "CRT": 124.84,
+          "CRT_sd": 8.88,
+          "SRTS": 112.73,
+          "SRTS_sd": 7.15,
+          "emission_factor": 0.66,
+          "source": "Tables 1-2"
+        },
+        {
+          "item": "除草剂",
+          "unit": "kg/ha",
+          "CRT": 3.55,
+          "CRT_sd": 0.49,
+          "SRTS": 1.54,
+          "SRTS_sd": 0.23,
+          "emission_factor": 17.242,
+          "source": "Tables 1-2"
+        },
+        {
+          "item": "杀虫剂",
+          "unit": "kg/ha",
+          "CRT": 0,
+          "CRT_sd": 0,
+          "SRTS": 1.75,
+          "SRTS_sd": 0.24,
+          "emission_factor": 18.084,
+          "source": "Tables 1-2"
+        },
+        {
+          "item": "柴油",
+          "unit": "L/ha",
+          "CRT": 126.67,
+          "CRT_sd": 7.79,
+          "SRTS": 105.63,
+          "SRTS_sd": 5.3,
+          "emission_factor": 2.56,
+          "source": "Tables 1-2"
+        }
+      ],
+      "yield_t_ha": {
+        "CRT": 11.39,
+        "SRTS": 11.89
+      },
+      "yield_SD_t_ha": {
+        "CRT": 0.74,
+        "SRTS": 0.63
+      },
+      "reported_totals_CNY_ha": {
+        "CRT": {
+          "cost": 6833,
+          "revenue": 26197,
+          "balance": 19364
+        },
+        "SRTS": {
+          "cost": 5384,
+          "revenue": 27347,
+          "balance": 21963
+        }
+      },
+      "reported_carbon_kgCO2e_ha": {
+        "CRT": 4163.52,
+        "SRTS": 3666.26
+      },
+      "soil": {
+        "scope": "H合作社0–20 cm；2011与2020年两轮采样，非23组经营数据的逐户配对土壤",
+        "SOC_g_kg": [
+          11.67,
+          12.39
+        ],
+        "SOC_n": [
+          17,
+          25
+        ],
+        "STI_percent": [
+          3.35,
+          3.69
+        ],
+        "STI_n": [
+          13,
+          20
+        ],
+        "source": "Section 2.2.1 and 3.2.1, Figure 5",
+        "index_dependency": "STI由SOC换算的有机质与黏粉粒比例计算，不能当作独立碳指标再重复加权"
+      },
+      "boundaries": [
+        "经营结余=玉米销售收入−文献列示机械、农资、人工成本；未扣土地成本、未加政府补贴",
+        "模式间比较包含合作社规模经营、集采、服务和技术变化；非随机纯耕作处理效果",
+        "碳排放为投入系数核算；土壤SOC浓度变化单独保留，未折算年度额外碳汇",
+        "成本与产量协方差未公开，保留原文SD，不伪造逐户数据或计算差额显著性"
+      ]
+    }
+  },
+  "economics": {
+    "path": "research_synthesis_20261109/mainline_v10/economic_comparisons.json",
+    "sha256": "22510cab8cb8ec8bb418b9ec4fa736cd8d6fe73c2d9ea3d1abd73ea48cb9631f",
+    "data": {
+      "baselines": [
+        {
+          "year": 2020,
+          "treatment": "CT",
+          "revenue": 1088.0,
+          "listed_cost": 222.72000000000003,
+          "balance": 865.2800000000001
+        },
+        {
+          "year": 2020,
+          "treatment": "MP",
+          "revenue": 1115.3066666666668,
+          "listed_cost": 207.7866666666667,
+          "balance": 907.5200000000001
+        },
+        {
+          "year": 2020,
+          "treatment": "NT",
+          "revenue": 1107.2,
+          "listed_cost": 159.57333333333335,
+          "balance": 947.6266666666668
+        },
+        {
+          "year": 2021,
+          "treatment": "CT",
+          "revenue": 1894.4,
+          "listed_cost": 222.72000000000003,
+          "balance": 1671.68
+        },
+        {
+          "year": 2021,
+          "treatment": "MP",
+          "revenue": 1918.72,
+          "listed_cost": 207.7866666666667,
+          "balance": 1710.9333333333334
+        },
+        {
+          "year": 2021,
+          "treatment": "NT",
+          "revenue": 1899.9466666666667,
+          "listed_cost": 159.57333333333335,
+          "balance": 1740.3733333333334
+        }
+      ],
+      "changchun": [
+        {
+          "year": 2020,
+          "reference": "CT",
+          "revenue_change": 19.200000000000003,
+          "cost_saving": 63.14666666666667,
+          "balance_change": 82.34666666666666,
+          "unit": "CNY/mu/year",
+          "doi": "10.1016/j.agsy.2024.103872"
+        },
+        {
+          "year": 2020,
+          "reference": "MP",
+          "revenue_change": -8.106666666666667,
+          "cost_saving": 48.21333333333334,
+          "balance_change": 40.10666666666667,
+          "unit": "CNY/mu/year",
+          "doi": "10.1016/j.agsy.2024.103872"
+        },
+        {
+          "year": 2021,
+          "reference": "CT",
+          "revenue_change": 5.546666666666667,
+          "cost_saving": 63.14666666666667,
+          "balance_change": 68.69333333333333,
+          "unit": "CNY/mu/year",
+          "doi": "10.1016/j.agsy.2024.103872"
+        },
+        {
+          "year": 2021,
+          "reference": "MP",
+          "revenue_change": -18.773333333333333,
+          "cost_saving": 48.21333333333334,
+          "balance_change": 29.440000000000005,
+          "unit": "CNY/mu/year",
+          "doi": "10.1016/j.agsy.2024.103872"
+        }
+      ],
+      "dehui": [
+        {
+          "crop": "maize",
+          "year": 2002,
+          "NT_minus_RT": -16.466666666666665
+        },
+        {
+          "crop": "maize",
+          "year": 2003,
+          "NT_minus_RT": -33.333333333333336
+        },
+        {
+          "crop": "maize",
+          "year": 2004,
+          "NT_minus_RT": -134.0
+        },
+        {
+          "crop": "maize",
+          "year": 2005,
+          "NT_minus_RT": 2.2
+        },
+        {
+          "crop": "maize",
+          "year": 2006,
+          "NT_minus_RT": 25.533333333333335
+        },
+        {
+          "crop": "soybean",
+          "year": 2002,
+          "NT_minus_RT": -8.533333333333333
+        },
+        {
+          "crop": "soybean",
+          "year": 2003,
+          "NT_minus_RT": 136.0
+        },
+        {
+          "crop": "soybean",
+          "year": 2004,
+          "NT_minus_RT": 22.533333333333335
+        },
+        {
+          "crop": "soybean",
+          "year": 2005,
+          "NT_minus_RT": 22.2
+        },
+        {
+          "crop": "soybean",
+          "year": 2006,
+          "NT_minus_RT": 17.333333333333332
+        }
+      ]
+    }
+  },
+  "pairs": {
+    "path": "research_synthesis_20261109/mainline_v10/paired_effects.json",
+    "sha256": "cee9dfee80da2c7fb89bf234333370d95a9959213d686ecb7c006f228a2122b9",
+    "data": [
+      {
+        "id": "li2024-2018-T1",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2018,
+        "treatment": "T1",
+        "control": "CK",
+        "soil_pct": 1.3052208835341306,
+        "yield_pct": -7.502651338395616,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 29.88,
+        "soil_treatment": 30.27,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2018-T2",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2018,
+        "treatment": "T2",
+        "control": "CK",
+        "soil_pct": 1.3052208835341306,
+        "yield_pct": -5.353582488440168,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 29.88,
+        "soil_treatment": 30.27,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2018-T3",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2018,
+        "treatment": "T3",
+        "control": "CK",
+        "soil_pct": 2.309236947791171,
+        "yield_pct": -4.051245068510589,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 29.88,
+        "soil_treatment": 30.57,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2019-T1",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2019,
+        "treatment": "T1",
+        "control": "CK",
+        "soil_pct": 11.73322354878552,
+        "yield_pct": -15.564090081318415,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 24.29,
+        "soil_treatment": 27.14,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2019-T2",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2019,
+        "treatment": "T2",
+        "control": "CK",
+        "soil_pct": 3.3758748456154786,
+        "yield_pct": -12.923495789834295,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 24.29,
+        "soil_treatment": 25.11,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2019-T3",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2019,
+        "treatment": "T3",
+        "control": "CK",
+        "soil_pct": 1.5232606010703975,
+        "yield_pct": 2.948919060240507,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 24.29,
+        "soil_treatment": 24.66,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2020-T1",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2020,
+        "treatment": "T1",
+        "control": "CK",
+        "soil_pct": 13.169552960128893,
+        "yield_pct": -9.731627097095153,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 24.83,
+        "soil_treatment": 28.1,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2020-T2",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2020,
+        "treatment": "T2",
+        "control": "CK",
+        "soil_pct": 4.510672573499797,
+        "yield_pct": -11.765843951245113,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 24.83,
+        "soil_treatment": 25.95,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "li2024-2020-T3",
+        "experiment": "gongzhuling_xiangshan_2017",
+        "study": "Li2024",
+        "soil_metric": "SOM",
+        "year": 2020,
+        "treatment": "T3",
+        "control": "CK",
+        "soil_pct": 1.812323801852611,
+        "yield_pct": -0.8752291718489458,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 24.83,
+        "soil_treatment": 25.28,
+        "doi": "10.12357/cjea.20230346",
+        "soil_source": "Table 3; original SOM units"
+      },
+      {
+        "id": "yan2020-2018-NT-CT",
+        "experiment": "neaeu_xiangyang_2015_possible_overlap_zhang2025",
+        "study": "Yan2020",
+        "soil_metric": "SOC",
+        "year": 2018,
+        "treatment": "NT",
+        "control": "CT",
+        "soil_pct": 25.093522940880874,
+        "yield_pct": 2.300334539244875,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 8.593875744966606,
+        "soil_treatment": 10.7503819265406,
+        "doi": "10.11975/j.issn.1002-6819.2020.22.020",
+        "soil_source": "Figures 1-2; secondary digitization, visually checked direction and scale, not exact plot data"
+      },
+      {
+        "id": "yan2020-2018-NTS-CTS",
+        "experiment": "neaeu_xiangyang_2015_possible_overlap_zhang2025",
+        "study": "Yan2020",
+        "soil_metric": "SOC",
+        "year": 2018,
+        "treatment": "NTS",
+        "control": "CTS",
+        "soil_pct": 23.347668030926382,
+        "yield_pct": -3.5089082148047623,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 8.995716187209961,
+        "soil_treatment": 11.09600613960405,
+        "doi": "10.11975/j.issn.1002-6819.2020.22.020",
+        "soil_source": "Figures 1-2; secondary digitization, visually checked direction and scale, not exact plot data"
+      },
+      {
+        "id": "yan2020-2019-NT-CT",
+        "experiment": "neaeu_xiangyang_2015_possible_overlap_zhang2025",
+        "study": "Yan2020",
+        "soil_metric": "SOC",
+        "year": 2019,
+        "treatment": "NT",
+        "control": "CT",
+        "soil_pct": 22.662283436213283,
+        "yield_pct": -10.236436877142573,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 9.029865336419125,
+        "soil_treatment": 11.0762390128668,
+        "doi": "10.11975/j.issn.1002-6819.2020.22.020",
+        "soil_source": "Figures 1-2; secondary digitization, visually checked direction and scale, not exact plot data"
+      },
+      {
+        "id": "yan2020-2019-NTS-CTS",
+        "experiment": "neaeu_xiangyang_2015_possible_overlap_zhang2025",
+        "study": "Yan2020",
+        "soil_metric": "SOC",
+        "year": 2019,
+        "treatment": "NTS",
+        "control": "CTS",
+        "soil_pct": 20.782166957236537,
+        "yield_pct": -4.341452887985941,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 9.544048061587905,
+        "soil_treatment": 11.527508064226,
+        "doi": "10.11975/j.issn.1002-6819.2020.22.020",
+        "soil_source": "Figures 1-2; secondary digitization, visually checked direction and scale, not exact plot data"
+      },
+      {
+        "id": "you2017-2014-RR-RT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2014,
+        "treatment": "RT RR",
+        "control": "PT RR",
+        "soil_pct": 4.059040590405916,
+        "yield_pct": 6.767676767676756,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 13.55,
+        "soil_treatment": 14.100000000000001,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": 0.48192771084338837
+      },
+      {
+        "id": "you2017-2014-RR-NT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2014,
+        "treatment": "NT RR",
+        "control": "PT RR",
+        "soil_pct": 3.3210332103321027,
+        "yield_pct": 11.616161616161612,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 13.55,
+        "soil_treatment": 14.0,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": -1.4457831325301207
+      },
+      {
+        "id": "you2017-2014-RI-RT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2014,
+        "treatment": "RT RI",
+        "control": "PT RI",
+        "soil_pct": 5.714285714285716,
+        "yield_pct": 1.314553990610312,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 14.0,
+        "soil_treatment": 14.8,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": 0.46189376443419583
+      },
+      {
+        "id": "you2017-2014-RI-NT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2014,
+        "treatment": "NT RI",
+        "control": "PT RI",
+        "soil_pct": 3.214285714285703,
+        "yield_pct": 9.859154929577452,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 14.0,
+        "soil_treatment": 14.45,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": -2.771362586605075
+      },
+      {
+        "id": "you2017-2015-RR-RT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2015,
+        "treatment": "RT RR",
+        "control": "PT RR",
+        "soil_pct": 2.491103202846956,
+        "yield_pct": 23.086419753086428,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 14.05,
+        "soil_treatment": 14.399999999999999,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": -0.46948356807512415
+      },
+      {
+        "id": "you2017-2015-RR-NT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2015,
+        "treatment": "NT RR",
+        "control": "PT RR",
+        "soil_pct": 1.7793594306049876,
+        "yield_pct": 50.987654320987666,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 14.05,
+        "soil_treatment": 14.3,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": -2.3474178403755874
+      },
+      {
+        "id": "you2017-2015-RI-RT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2015,
+        "treatment": "RT RI",
+        "control": "PT RI",
+        "soil_pct": 3.806228373702436,
+        "yield_pct": 32.56083429895711,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 14.45,
+        "soil_treatment": 15.0,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": -0.9029345372460473
+      },
+      {
+        "id": "you2017-2015-RI-NT",
+        "experiment": "shenyang_agri_2014_splitplot",
+        "study": "You2017",
+        "soil_metric": "SOC",
+        "year": 2015,
+        "treatment": "NT RI",
+        "control": "PT RI",
+        "soil_pct": 1.384083044982698,
+        "yield_pct": 50.40556199304751,
+        "depth_cm": [
+          0,
+          20
+        ],
+        "soil_control": 14.45,
+        "soil_treatment": 14.65,
+        "doi": "10.1038/s41598-017-13624-5",
+        "soil_source": "Table 2; 0–20 cm thickness mean",
+        "sensitivity_soil_pct_0_30": -3.8374717832956984
+      }
+    ]
+  },
+  "baseline": {
+    "path": "research_synthesis_20261109/mainline_v10/baseline_comparisons.json",
+    "sha256": "23559fed6235c8092f09cadddf4022fe0b4e0644b46d22c369430f0f173225ef",
+    "data": [
+      {
+        "site": "齐齐哈尔",
+        "vs_RT_pct": 12.655808632828581,
+        "vs_DP_pct": 8.663057928385687,
+        "direction_switch": false
+      },
+      {
+        "site": "白城",
+        "vs_RT_pct": -5.3838164161784,
+        "vs_DP_pct": 3.3275549157591344,
+        "direction_switch": true
+      },
+      {
+        "site": "赤峰",
+        "vs_RT_pct": 7.4321485756515315,
+        "vs_DP_pct": -0.6582147143328054,
+        "direction_switch": true
+      },
+      {
+        "site": "海伦",
+        "vs_RT_pct": -3.3768664668469617,
+        "vs_DP_pct": -14.017574861084746,
+        "direction_switch": false
+      },
+      {
+        "site": "公主岭",
+        "vs_RT_pct": -6.497559727403179,
+        "vs_DP_pct": 3.8566228459538943,
+        "direction_switch": true
+      },
+      {
+        "site": "铁岭",
+        "vs_RT_pct": -5.1858345321172505,
+        "vs_DP_pct": -7.237999747034884,
+        "direction_switch": false
+      }
+    ]
+  },
+  "frontier": {
+    "path": "research_synthesis_20261109/mainline_v10/choice_and_compensation.json",
+    "sha256": "be7f48f4ad1c3cfee6ebc89305f184a0aab56d27b982330b024f317b5ea6750d",
+    "data": {
+      "options": [
+        {
+          "treatment": "PT",
+          "balance": 257.06666666666666,
+          "modeled_GHG": 234.26666666666668,
+          "dominated": true
+        },
+        {
+          "treatment": "RT",
+          "balance": 241.66666666666666,
+          "modeled_GHG": 231.33333333333334,
+          "dominated": true
+        },
+        {
+          "treatment": "ST",
+          "balance": 263.0,
+          "modeled_GHG": 228.6,
+          "dominated": false
+        },
+        {
+          "treatment": "NT",
+          "balance": 256.8,
+          "modeled_GHG": 225.86666666666667,
+          "dominated": false
+        }
+      ],
+      "NT_compensation": [
+        {
+          "reference": "PT",
+          "gap": 0.2666666666666515
+        },
+        {
+          "reference": "RT",
+          "gap": 0
+        },
+        {
+          "reference": "ST",
+          "gap": 6.199999999999989
+        }
+      ],
+      "source": "10.1016/j.eja.2025.127891",
+      "unit": "USD/mu",
+      "soil_carbon_credit_cash": null
+    }
+  },
+  "rules": {
+    "path": "research_synthesis_20261109/results/index_added_value_v8.json",
+    "sha256": "7a65dc3c3a68756138ad83cf0e1ee565165493f01d8a05f44aa97cf69fe3ff61",
+    "data": {
+      "decision": "Remove composite score from the core selection/payment rule; retain optional display only.",
+      "theorem": "For fixed positive targets t: 100 min(r_j/t_j)>=100 iff all r_j>=t_j.",
+      "additional_decision_information_for_this_rule": false,
+      "paired_records": 12,
+      "experimental_contexts": 2,
+      "external_validation_sites": 0,
+      "decision_disagreements": 0,
+      "microplot_geometric_concealed_point_shortfalls": 4,
+      "microplot_records": 8,
+      "artificial_missingness_checks": 192,
+      "yan_minimum_determined_by_SOC_count": 4,
+      "notes": [
+        "12 records are NOT 12 independent sites; no cross-protocol ranking.",
+        "No-decline target=1 is illustrative, not a calibrated ecosystem standard.",
+        "Point shortfall is not proof of significant ecological degradation.",
+        "Comparison tests rule equivalence, not predictive accuracy or human usability.",
+        "Compression may aid communication; no usability study has measured that benefit."
+      ],
+      "rows": [
+        {
+          "id": "yan2020-2018-NT-CT",
+          "experiment": "Yan2020_field",
+          "ratios": {
+            "SOC_0_10": 1.2048891250031954,
+            "MWD_0_10": 1.8939699333998161,
+            "SOC_10_20": 1.3043548503189375,
+            "MWD_10_20": 1.6466091159842873
+          },
+          "reported_min_score": 120.48891250031954,
+          "geometric_score": 148.79098179091181,
+          "yield_change_pct": 2.300334539244875,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 120.48891250031954,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        },
+        {
+          "id": "yan2020-2018-NTS-CTS",
+          "experiment": "Yan2020_field",
+          "ratios": {
+            "SOC_0_10": 1.2181401336362436,
+            "MWD_0_10": 1.79663479149198,
+            "SOC_10_20": 1.2509306324424505,
+            "MWD_10_20": 2.351630797233991
+          },
+          "reported_min_score": 121.81401336362437,
+          "geometric_score": 159.2904928624931,
+          "yield_change_pct": -3.5089082148047623,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 121.81401336362437,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        },
+        {
+          "id": "yan2020-2019-NT-CT",
+          "experiment": "Yan2020_field",
+          "ratios": {
+            "SOC_0_10": 1.2018971572719488,
+            "MWD_0_10": 1.5757181704813379,
+            "SOC_10_20": 1.254482722703667,
+            "MWD_10_20": 1.9874589371683429
+          },
+          "reported_min_score": 120.18971572719488,
+          "geometric_score": 147.41007766162468,
+          "yield_change_pct": -10.236436877142573,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 120.18971572719488,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        },
+        {
+          "id": "yan2020-2019-NTS-CTS",
+          "experiment": "Yan2020_field",
+          "ratios": {
+            "SOC_0_10": 1.2967843297157144,
+            "MWD_0_10": 1.7937250039173813,
+            "SOC_10_20": 1.1214797584408207,
+            "MWD_10_20": 2.771283882440887
+          },
+          "reported_min_score": 112.14797584408207,
+          "geometric_score": 163.97363255961895,
+          "yield_change_pct": -4.341452887985941,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 112.14797584408207,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        },
+        {
+          "id": "Zhang2020_ST_30",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0035906642728905,
+            "MWD_0-20": 1.2135922330097086,
+            "SOC_20-35": 0.9873551106427818,
+            "MWD_20-35": 1.3661971830985915
+          },
+          "reported_min_score": 98.73551106427819,
+          "geometric_score": 112.80279216821516,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_shortfall",
+            "missing": [],
+            "shortfalls": [
+              "SOC_20-35"
+            ],
+            "ecological_certification": false
+          },
+          "min_score": 98.73551106427819,
+          "score_targets_met": false,
+          "geometric_hides_point_shortfall": true
+        },
+        {
+          "id": "Zhang2020_ST_60",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0123674911660778,
+            "MWD_0-20": 1.0555555555555554,
+            "SOC_20-35": 0.9560669456066946,
+            "MWD_20-35": 1.1081081081081081
+          },
+          "reported_min_score": 95.60669456066945,
+          "geometric_score": 103.18256463649873,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_shortfall",
+            "missing": [],
+            "shortfalls": [
+              "SOC_20-35"
+            ],
+            "ecological_certification": false
+          },
+          "min_score": 95.60669456066945,
+          "score_targets_met": false,
+          "geometric_hides_point_shortfall": true
+        },
+        {
+          "id": "Zhang2020_ST_150",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0132508833922262,
+            "MWD_0-20": 0.959349593495935,
+            "SOC_20-35": 0.9382978723404255,
+            "MWD_20-35": 1.146341463414634
+          },
+          "reported_min_score": 93.82978723404256,
+          "geometric_score": 100.7551200244623,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_shortfall",
+            "missing": [],
+            "shortfalls": [
+              "MWD_0-20",
+              "SOC_20-35"
+            ],
+            "ecological_certification": false
+          },
+          "min_score": 93.82978723404256,
+          "score_targets_met": false,
+          "geometric_hides_point_shortfall": true
+        },
+        {
+          "id": "Zhang2020_ST_360",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0153291253381425,
+            "MWD_0-20": 1.7848101265822782,
+            "SOC_20-35": 0.8991507430997877,
+            "MWD_20-35": 1.051948051948052
+          },
+          "reported_min_score": 89.91507430997878,
+          "geometric_score": 117.10923211895317,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_shortfall",
+            "missing": [],
+            "shortfalls": [
+              "SOC_20-35"
+            ],
+            "ecological_certification": false
+          },
+          "min_score": 89.91507430997878,
+          "score_targets_met": false,
+          "geometric_hides_point_shortfall": true
+        },
+        {
+          "id": "Zhang2020_SST_30",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0008976660682225,
+            "MWD_0-20": 1.3883495145631066,
+            "SOC_20-35": 1.0242360379346682,
+            "MWD_20-35": 1.4507042253521127
+          },
+          "reported_min_score": 100.08976660682225,
+          "geometric_score": 119.58533106663825,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 100.08976660682225,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        },
+        {
+          "id": "Zhang2020_SST_60",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0159010600706713,
+            "MWD_0-20": 1.1481481481481481,
+            "SOC_20-35": 1.0303347280334727,
+            "MWD_20-35": 1.337837837837838
+          },
+          "reported_min_score": 101.59010600706712,
+          "geometric_score": 111.93537117522618,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 101.59010600706712,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        },
+        {
+          "id": "Zhang2020_SST_150",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0424028268551238,
+            "MWD_0-20": 1.032520325203252,
+            "SOC_20-35": 1.1351063829787233,
+            "MWD_20-35": 1.3658536585365855
+          },
+          "reported_min_score": 103.2520325203252,
+          "geometric_score": 112.18448108792461,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 103.2520325203252,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        },
+        {
+          "id": "Zhang2020_SST_360",
+          "experiment": "Zhang2020_PVC_microplot",
+          "ratios": {
+            "SOC_0-20": 1.0577096483318305,
+            "MWD_0-20": 1.4050632911392407,
+            "SOC_20-35": 1.1061571125265393,
+            "MWD_20-35": 1.12987012987013
+          },
+          "reported_min_score": 105.77096483318304,
+          "geometric_score": 117.46628827799177,
+          "yield_change_pct": null,
+          "direct_check": {
+            "status": "point_targets_met",
+            "missing": [],
+            "shortfalls": [],
+            "ecological_certification": false
+          },
+          "min_score": 105.77096483318304,
+          "score_targets_met": true,
+          "geometric_hides_point_shortfall": false
+        }
+      ]
+    }
+  },
+  "carbon_summary": {
+    "path": "artifacts/reassessment/summary.json",
+    "sha256": "822c7bec6bdaa40531bbdc786b28c3457e88d2756f230bc830256e9a0a272c41",
+    "data": {
+      "n_carbon_profiles": 90,
+      "n_historical_eci": 89,
+      "n_source_references": 2,
+      "n_unique_coordinates": 90,
+      "source_counts": {
+        "Liu et al., 2022": 76,
+        "Zhang et al., 2022": 14
+      },
+      "year_counts": {
+        "2014": 76,
+        "2016": 14
+      },
+      "method_counts": {
+        "direct": 89,
+        "direct,indirect": 1
+      },
+      "n_partial_bottom_layer": 85,
+      "latitude_range": [
+        43.21752778,
+        49.12
+      ],
+      "longitude_range": [
+        118.563125,
+        131.8470833
+      ],
+      "nearest_neighbor_median_km": 14.460652255106446,
+      "n_nearest_under_5km": 17,
+      "stock_summary": [
+        {
+          "group": "all_carbon_eligible",
+          "n": 90,
+          "median": 68.05851926977688,
+          "mean": 69.34113518975322,
+          "q25": 46.7825,
+          "q75": 88.82875,
+          "minimum": 24.188235294117646,
+          "maximum": 157.21276595744678
+        },
+        {
+          "group": "source_label_direct_only",
+          "n": 89,
+          "median": 68.64117647058825,
+          "mean": 69.63966014926615,
+          "q25": 47.03,
+          "q75": 89.01333333333334,
+          "minimum": 24.188235294117646,
+          "maximum": 157.21276595744678
+        },
+        {
+          "group": "historical_eci_common_sample",
+          "n": 89,
+          "median": 68.64117647058825,
+          "mean": 69.75946255143585,
+          "q25": 47.03,
+          "q75": 89.01333333333334,
+          "minimum": 24.188235294117646,
+          "maximum": 157.21276595744678
+        },
+        {
+          "group": "Liu et al., 2022",
+          "n": 76,
+          "median": 64.84570135746606,
+          "mean": 68.51985661909244,
+          "q25": 46.168749999999996,
+          "q75": 88.72053571428572,
+          "minimum": 24.188235294117646,
+          "maximum": 157.21276595744678
+        },
+        {
+          "group": "Zhang et al., 2022",
+          "n": 14,
+          "median": 80.23440860215054,
+          "mean": 73.7995045733403,
+          "q25": 55.29904761904763,
+          "q75": 88.71735294117647,
+          "minimum": 40.4,
+          "maximum": 104.77692307692308
+        },
+        {
+          "group": "method=direct",
+          "n": 89,
+          "median": 68.64117647058825,
+          "mean": 69.63966014926615,
+          "q25": 47.03,
+          "q75": 89.01333333333334,
+          "minimum": 24.188235294117646,
+          "maximum": 157.21276595744678
+        },
+        {
+          "group": "method=direct,indirect",
+          "n": 1,
+          "median": 42.77241379310345,
+          "mean": 42.77241379310345,
+          "q25": 42.77241379310345,
+          "q75": 42.77241379310345,
+          "minimum": 42.77241379310345,
+          "maximum": 42.77241379310345
+        }
+      ],
+      "grid_diagnostics": [
+        {
+          "grid_km": 25,
+          "occupied_cells": 70,
+          "largest_cell_n": 7,
+          "equal_cell_mean_stock": 68.4620465555568
+        },
+        {
+          "grid_km": 50,
+          "occupied_cells": 48,
+          "largest_cell_n": 7,
+          "equal_cell_mean_stock": 65.97404511977363
+        },
+        {
+          "grid_km": 100,
+          "occupied_cells": 27,
+          "largest_cell_n": 12,
+          "equal_cell_mean_stock": 65.52595460265722
+        }
+      ],
+      "eci_vs_stock_rho": 0.8426455566905007,
+      "top_k": 23,
+      "top_k_overlap": 19,
+      "median_absolute_rank_change": 8.0,
+      "maximum_absolute_rank_change": 38.0,
+      "map_source_range": [
+        31.37,
+        50.17
+      ],
+      "decision": "Carbon-stock description and evidence-quality assessment. Historical ECI is exploratory only; no environmental attribution model or revenue estimate."
+    }
+  },
+  "profiles": {
+    "path": "artifacts/reassessment/carbon_profiles.csv",
+    "sha256": "45f6480cf74a9af538abc1e83e89875148179bc83b31b1973c20b1af7ca91158",
+    "data": [
+      {
+        "profile_id": "3830",
+        "latitude": "43.91355556",
+        "longitude": "118.563125",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "42.66923076923077",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15379,15380",
+        "NDVI": "0.24",
+        "MAP": "31.75",
+        "AI": "0.29",
+        "SOC_0_30_g_kg_thickness_mean": "10.26",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "10.31737374449749",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3860",
+        "latitude": "44.10896667",
+        "longitude": "118.9326639",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "70.15294117647058",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15513,15514",
+        "NDVI": "0.35",
+        "MAP": "31.37",
+        "AI": "0.29",
+        "SOC_0_30_g_kg_thickness_mean": "19.439999999999998",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "25.785201185896327",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3884",
+        "latitude": "45.42685",
+        "longitude": "123.1302667",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "32.126666666666665",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15604,15605",
+        "NDVI": "0.23",
+        "MAP": "34.42",
+        "AI": "0.3",
+        "SOC_0_30_g_kg_thickness_mean": "6.900000000000001",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "8.19191994225824",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3885",
+        "latitude": "45.71743333",
+        "longitude": "122.0984833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "73.4",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15609,15610",
+        "NDVI": "0.32",
+        "MAP": "34.32",
+        "AI": "0.3",
+        "SOC_0_30_g_kg_thickness_mean": "17.773333333333333",
+        "partial_bottom_layer": "False",
+        "eci_entropy": "28.089429797578617",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3886",
+        "latitude": "45.41238333",
+        "longitude": "122.894",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "55.0",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15614,15615",
+        "NDVI": "0.25",
+        "MAP": "33.33",
+        "AI": "0.3",
+        "SOC_0_30_g_kg_thickness_mean": "13.633333333333333",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "18.517152057342784",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3887",
+        "latitude": "45.11775",
+        "longitude": "125.9240333",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "72.27551020408163",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15619,15620",
+        "NDVI": "0.34",
+        "MAP": "43.88",
+        "AI": "0.43",
+        "SOC_0_30_g_kg_thickness_mean": "18.546666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "48.768917437355",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3888",
+        "latitude": "44.16321667",
+        "longitude": "124.7244167",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "47.03",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15623,15624",
+        "NDVI": "0.36",
+        "MAP": "43.43",
+        "AI": "0.43",
+        "SOC_0_30_g_kg_thickness_mean": "12.0",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "37.08245227711392",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3890",
+        "latitude": "44.46843333",
+        "longitude": "126.0273",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "46.7",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15632,15633",
+        "NDVI": "0.34",
+        "MAP": "48.33",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "11.379999999999999",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "47.70464755175327",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3891",
+        "latitude": "44.91953333",
+        "longitude": "123.25785",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "41.400000000000006",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15636",
+        "NDVI": "0.31",
+        "MAP": "36.1",
+        "AI": "0.32",
+        "SOC_0_30_g_kg_thickness_mean": "9.4",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "16.699977265783573",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3893",
+        "latitude": "44.42735",
+        "longitude": "124.5515667",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "50.0608695652174",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15643,15644",
+        "NDVI": "0.34",
+        "MAP": "41.39",
+        "AI": "0.41",
+        "SOC_0_30_g_kg_thickness_mean": "13.3",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "35.05292370659056",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3894",
+        "latitude": "43.63955",
+        "longitude": "124.8233667",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "91.37142857142857",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15647,15648",
+        "NDVI": "0.24",
+        "MAP": "48.42",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "23.069999999999997",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "67.07922967416567",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3896",
+        "latitude": "44.0983",
+        "longitude": "125.2332",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "60.44",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15653,15654",
+        "NDVI": "0.24",
+        "MAP": "46.52",
+        "AI": "0.48",
+        "SOC_0_30_g_kg_thickness_mean": "15.733333333333333",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "49.204635271055686",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3898",
+        "latitude": "45.03821667",
+        "longitude": "126.7378333",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "138.95714285714286",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15662,15663",
+        "NDVI": "0.35",
+        "MAP": "46.67",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "37.269999999999996",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "89.11415137479499",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3899",
+        "latitude": "45.00591667",
+        "longitude": "126.7913667",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "74.63529411764705",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15666,15667",
+        "NDVI": "0.34",
+        "MAP": "47.28",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "22.680000000000003",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "62.86286044659971",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3900",
+        "latitude": "43.75763333",
+        "longitude": "124.89095",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "53.85294117647058",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15671,15672",
+        "NDVI": "0.35",
+        "MAP": "47.69",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "11.979999999999999",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "48.574134144734",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3903",
+        "latitude": "44.92693333",
+        "longitude": "126.2348",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "71.82777777777778",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15685,15686",
+        "NDVI": "0.34",
+        "MAP": "46.39",
+        "AI": "0.48",
+        "SOC_0_30_g_kg_thickness_mean": "17.846666666666668",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "54.72649591018561",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3907",
+        "latitude": "44.81181667",
+        "longitude": "126.2642833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "57.49310344827586",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15702,15703",
+        "NDVI": "0.35",
+        "MAP": "47.58",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "17.12",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "53.63988150733197",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3911",
+        "latitude": "45.12228333",
+        "longitude": "126.5943833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "77.69999999999999",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15716,15717",
+        "NDVI": "0.34",
+        "MAP": "46.34",
+        "AI": "0.49",
+        "SOC_0_30_g_kg_thickness_mean": "17.88",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "56.98124071212344",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3914",
+        "latitude": "44.84905",
+        "longitude": "126.74895",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "58.72857142857143",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15732,15733",
+        "NDVI": "0.28",
+        "MAP": "47.95",
+        "AI": "0.53",
+        "SOC_0_30_g_kg_thickness_mean": "15.793333333333331",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "54.20152329355085",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3918",
+        "latitude": "44.92083333",
+        "longitude": "125.80625",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "45.53684210526316",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15750,15751",
+        "NDVI": "0.35",
+        "MAP": "44.75",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "12.416666666666668",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "39.90827531709775",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3922",
+        "latitude": "44.921",
+        "longitude": "125.806",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "76.46410256410257",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15768,15769",
+        "NDVI": "0.35",
+        "MAP": "44.75",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "21.673333333333336",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "55.03586051026973",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3923",
+        "latitude": "44.5706",
+        "longitude": "126.0543833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "56.9969696969697",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15774,15775",
+        "NDVI": "0.35",
+        "MAP": "47.58",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "16.2",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "52.75225271928768",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3924",
+        "latitude": "44.468",
+        "longitude": "126.027",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "72.26",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15778,15779",
+        "NDVI": "0.34",
+        "MAP": "48.33",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "20.8",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "61.68639766594507",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3933",
+        "latitude": "45.53256667",
+        "longitude": "122.0309833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "42.77241379310345",
+        "stock_method_mix": "direct,indirect",
+        "source_sample_ids": "15817,15818,15819",
+        "NDVI": "0.3",
+        "MAP": "34.32",
+        "AI": "0.3",
+        "SOC_0_30_g_kg_thickness_mean": "9.739999999999998",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "13.82540299967793",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3934",
+        "latitude": "44.72635",
+        "longitude": "123.0263833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "67.47586206896551",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15821,15822",
+        "NDVI": "0.23",
+        "MAP": "35.72",
+        "AI": "0.31",
+        "SOC_0_30_g_kg_thickness_mean": "14.410000000000002",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "24.97744148219664",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3935",
+        "latitude": "45.15833333",
+        "longitude": "123.8645333",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "32.11",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15825,15826",
+        "NDVI": "-0.06",
+        "MAP": "37.07",
+        "AI": "0.34",
+        "SOC_0_30_g_kg_thickness_mean": "7.13",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "",
+        "in_historical_eci_sample": "False"
+      },
+      {
+        "profile_id": "3936",
+        "latitude": "44.52853333",
+        "longitude": "122.8043333",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "26.349999999999998",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15829,15830",
+        "NDVI": "0.32",
+        "MAP": "36.42",
+        "AI": "0.31",
+        "SOC_0_30_g_kg_thickness_mean": "5.55",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "9.42471672641221",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3937",
+        "latitude": "44.28595",
+        "longitude": "124.0175167",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "39.491891891891896",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15835,15836",
+        "NDVI": "0.33",
+        "MAP": "38.71",
+        "AI": "0.36",
+        "SOC_0_30_g_kg_thickness_mean": "9.266666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "22.235044083286983",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3938",
+        "latitude": "45.29891667",
+        "longitude": "125.00875",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "51.49629629629629",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15838,15839",
+        "NDVI": "0.35",
+        "MAP": "40.08",
+        "AI": "0.39",
+        "SOC_0_30_g_kg_thickness_mean": "11.873333333333335",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "31.378148804893037",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3939",
+        "latitude": "45.03636667",
+        "longitude": "124.1042667",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "46.224999999999994",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15842,15843",
+        "NDVI": "0.06",
+        "MAP": "36.75",
+        "AI": "0.34",
+        "SOC_0_30_g_kg_thickness_mean": "10.436666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "18.170898169247128",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3940",
+        "latitude": "45.24238333",
+        "longitude": "125.0754167",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "48.235",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15846,15847",
+        "NDVI": "0.31",
+        "MAP": "40.32",
+        "AI": "0.39",
+        "SOC_0_30_g_kg_thickness_mean": "12.31",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "30.722604401696536",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3941",
+        "latitude": "45.14523333",
+        "longitude": "124.1529",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "98.45517241379311",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15850,15851",
+        "NDVI": "0.32",
+        "MAP": "37.5",
+        "AI": "0.35",
+        "SOC_0_30_g_kg_thickness_mean": "23.253333333333334",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "45.92086134747027",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3949",
+        "latitude": "43.86005",
+        "longitude": "124.5696333",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "36.989999999999995",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15880,15881",
+        "NDVI": "0.36",
+        "MAP": "45.17",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "8.693333333333333",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "35.25405477249834",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3953",
+        "latitude": "44.93183333",
+        "longitude": "125.2296833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "25.08",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15896,15897",
+        "NDVI": "0.35",
+        "MAP": "43.33",
+        "AI": "0.42",
+        "SOC_0_30_g_kg_thickness_mean": "5.489999999999999",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "25.363293750377903",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3956",
+        "latitude": "45.12156667",
+        "longitude": "125.92505",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "104.924",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15913,15914",
+        "NDVI": "0.34",
+        "MAP": "43.89",
+        "AI": "0.43",
+        "SOC_0_30_g_kg_thickness_mean": "37.440000000000005",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "72.37285272849094",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "3967",
+        "latitude": "43.21752778",
+        "longitude": "123.8988611",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "35.68333333333334",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "15967,15968",
+        "NDVI": "0.36",
+        "MAP": "45.6",
+        "AI": "0.42",
+        "SOC_0_30_g_kg_thickness_mean": "9.261407578",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "33.20189938057076",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4001",
+        "latitude": "43.26794444",
+        "longitude": "124.0410278",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "24.188235294117646",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16139,16140",
+        "NDVI": "0.35",
+        "MAP": "46.93",
+        "AI": "0.44",
+        "SOC_0_30_g_kg_thickness_mean": "6.715003867166667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "31.357638781487537",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4012",
+        "latitude": "43.24416667",
+        "longitude": "124.0123333",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "36.32727272727273",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16189,16190,16191",
+        "NDVI": "0.34",
+        "MAP": "46.83",
+        "AI": "0.44",
+        "SOC_0_30_g_kg_thickness_mean": "9.120262955766666",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "35.87414914299754",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4143",
+        "latitude": "46.92677778",
+        "longitude": "125.9255556",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "92.25999999999999",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16753,16754,16755",
+        "NDVI": "0.36",
+        "MAP": "40.75",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "20.240000000000002",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "54.05971081775116",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4148",
+        "latitude": "48.17638889",
+        "longitude": "124.6974722",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "93.4",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16780",
+        "NDVI": "0.31",
+        "MAP": "38.67",
+        "AI": "0.42",
+        "SOC_0_30_g_kg_thickness_mean": "22.6",
+        "partial_bottom_layer": "False",
+        "eci_entropy": "51.21209880397989",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4149",
+        "latitude": "48.139",
+        "longitude": "124.9771111",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "40.50000000000001",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16785",
+        "NDVI": "0.32",
+        "MAP": "39.46",
+        "AI": "0.43",
+        "SOC_0_30_g_kg_thickness_mean": "11.6",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "31.08664029717147",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4152",
+        "latitude": "47.82802778",
+        "longitude": "124.6807778",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "70.93548387096774",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16800",
+        "NDVI": "0.34",
+        "MAP": "37.07",
+        "AI": "0.4",
+        "SOC_0_30_g_kg_thickness_mean": "19.4",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "40.30939194923299",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4156",
+        "latitude": "47.30641667",
+        "longitude": "123.2353056",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "58.06976744186046",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16816,16817",
+        "NDVI": "0.37",
+        "MAP": "35.03",
+        "AI": "0.34",
+        "SOC_0_30_g_kg_thickness_mean": "16.22666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "27.84018641750331",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4158",
+        "latitude": "47.22355556",
+        "longitude": "123.3791944",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "77.0142857142857",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16825,16826",
+        "NDVI": "0.32",
+        "MAP": "34.92",
+        "AI": "0.34",
+        "SOC_0_30_g_kg_thickness_mean": "17.6",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "32.83695860471848",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4160",
+        "latitude": "46.85522222",
+        "longitude": "125.6811111",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "72.66842105263157",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16836,16837",
+        "NDVI": "0.33",
+        "MAP": "39.67",
+        "AI": "0.43",
+        "SOC_0_30_g_kg_thickness_mean": "20.85",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "46.813086252381375",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4162",
+        "latitude": "46.76247222",
+        "longitude": "125.5869444",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "82.47647058823529",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16848,16849",
+        "NDVI": "0.32",
+        "MAP": "39.42",
+        "AI": "0.42",
+        "SOC_0_30_g_kg_thickness_mean": "20.34",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "47.51587978822901",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4165",
+        "latitude": "48.07297222",
+        "longitude": "126.3948611",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "113.23454545454545",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16862,16863",
+        "NDVI": "0.32",
+        "MAP": "42.5",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "30.76",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "73.35696368653282",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4166",
+        "latitude": "48.99766667",
+        "longitude": "125.0013889",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "119.46666666666667",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16866,16867",
+        "NDVI": "0.33",
+        "MAP": "40.58",
+        "AI": "0.47",
+        "SOC_0_30_g_kg_thickness_mean": "36.71",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "75.56592867398678",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4167",
+        "latitude": "48.68825",
+        "longitude": "124.8283611",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "145.6153846153846",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16871",
+        "NDVI": "0.32",
+        "MAP": "40.08",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "40.7",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "82.83587504887568",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4168",
+        "latitude": "48.41427778",
+        "longitude": "126.2064167",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "105.39999999999999",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16876",
+        "NDVI": "0.33",
+        "MAP": "42.25",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "30.0",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "70.73590042271132",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4169",
+        "latitude": "48.69541667",
+        "longitude": "124.8196389",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "68.64117647058825",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16880,16881",
+        "NDVI": "0.31",
+        "MAP": "40.15",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "17.82",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "45.26665794252989",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4172",
+        "latitude": "47.74433333",
+        "longitude": "123.3445278",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "26.499999999999993",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16894,16895",
+        "NDVI": "0.33",
+        "MAP": "36.17",
+        "AI": "0.37",
+        "SOC_0_30_g_kg_thickness_mean": "6.7",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "15.526240448017802",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4173",
+        "latitude": "47.41958333",
+        "longitude": "126.0644444",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "119.25",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16899",
+        "NDVI": "0.36",
+        "MAP": "41.11",
+        "AI": "0.47",
+        "SOC_0_30_g_kg_thickness_mean": "30.8",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "71.40557909144803",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4174",
+        "latitude": "45.77486111",
+        "longitude": "127.5725833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "50.025000000000006",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16904",
+        "NDVI": "0.44",
+        "MAP": "46.27",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "13.3",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "48.49930046213833",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4175",
+        "latitude": "46.82711111",
+        "longitude": "127.4410556",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "103.0",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16909",
+        "NDVI": "0.33",
+        "MAP": "45.8",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "24.3",
+        "partial_bottom_layer": "False",
+        "eci_entropy": "69.5219178505888",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4177",
+        "latitude": "47.45397222",
+        "longitude": "126.3904722",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "111.49999999999999",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16919",
+        "NDVI": "0.34",
+        "MAP": "41.75",
+        "AI": "0.47",
+        "SOC_0_30_g_kg_thickness_mean": "30.6",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "69.7427765552246",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4179",
+        "latitude": "47.7435",
+        "longitude": "126.1794722",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "157.21276595744678",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16927",
+        "NDVI": "0.32",
+        "MAP": "41.33",
+        "AI": "0.47",
+        "SOC_0_30_g_kg_thickness_mean": "46.2",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "86.60555563048588",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4181",
+        "latitude": "47.65191667",
+        "longitude": "126.0713056",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "86.34",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16936",
+        "NDVI": "0.33",
+        "MAP": "41.33",
+        "AI": "0.47",
+        "SOC_0_30_g_kg_thickness_mean": "24.2",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "57.88079368292222",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4182",
+        "latitude": "46.71880556",
+        "longitude": "127.4278611",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "90.05714285714288",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16941,16942",
+        "NDVI": "0.34",
+        "MAP": "45.67",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "24.2",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "66.34210588339755",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4184",
+        "latitude": "46.67244444",
+        "longitude": "126.6839444",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "63.738461538461536",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16951,16952",
+        "NDVI": "0.35",
+        "MAP": "42.75",
+        "AI": "0.47",
+        "SOC_0_30_g_kg_thickness_mean": "16.653333333333332",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "47.704550866426665",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4187",
+        "latitude": "46.66475",
+        "longitude": "124.6476111",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "65.95294117647059",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16963,16964",
+        "NDVI": "0.34",
+        "MAP": "36.01",
+        "AI": "0.35",
+        "SOC_0_30_g_kg_thickness_mean": "15.766666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "30.76126440110688",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4189",
+        "latitude": "46.61958333",
+        "longitude": "125.1923333",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "61.84705882352941",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16972,16973",
+        "NDVI": "0.04",
+        "MAP": "36.64",
+        "AI": "0.37",
+        "SOC_0_30_g_kg_thickness_mean": "15.183333333333332",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "28.35201815369537",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4191",
+        "latitude": "46.60472222",
+        "longitude": "124.6380278",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "29.8",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16982,16983",
+        "NDVI": "0.31",
+        "MAP": "37.0",
+        "AI": "0.36",
+        "SOC_0_30_g_kg_thickness_mean": "6.693333333333333",
+        "partial_bottom_layer": "False",
+        "eci_entropy": "15.969689000738017",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4192",
+        "latitude": "46.64566667",
+        "longitude": "125.7275278",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "39.225",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "16986,16987,16988",
+        "NDVI": "0.32",
+        "MAP": "39.92",
+        "AI": "0.42",
+        "SOC_0_30_g_kg_thickness_mean": "9.973333333333333",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "28.974217068352985",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4196",
+        "latitude": "45.84430556",
+        "longitude": "127.7760833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "46.00000000000001",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17008,17009",
+        "NDVI": "0.47",
+        "MAP": "46.58",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "11.266666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "47.033266531256565",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4197",
+        "latitude": "47.71088889",
+        "longitude": "123.2447778",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "54.30434782608696",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17012,17013",
+        "NDVI": "0.3",
+        "MAP": "36.25",
+        "AI": "0.36",
+        "SOC_0_30_g_kg_thickness_mean": "15.32",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "28.23303791843596",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4200",
+        "latitude": "48.69383333",
+        "longitude": "124.8978611",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "95.8",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17019",
+        "NDVI": "0.32",
+        "MAP": "40.42",
+        "AI": "0.46",
+        "SOC_0_30_g_kg_thickness_mean": "22.2",
+        "partial_bottom_layer": "False",
+        "eci_entropy": "56.64972892408488",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4207",
+        "latitude": "48.31133333",
+        "longitude": "124.4621667",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "51.38947368421053",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17046,17047",
+        "NDVI": "0.31",
+        "MAP": "38.83",
+        "AI": "0.43",
+        "SOC_0_30_g_kg_thickness_mean": "11.65",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "33.03725521918604",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4211",
+        "latitude": "46.60295",
+        "longitude": "123.21685",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "33.379999999999995",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17059,17060",
+        "NDVI": "0.33",
+        "MAP": "33.54",
+        "AI": "0.31",
+        "SOC_0_30_g_kg_thickness_mean": "8.68",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "11.19581767720272",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4217",
+        "latitude": "46.82972222",
+        "longitude": "131.693",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "88.275",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17081,17082",
+        "NDVI": "0.35",
+        "MAP": "44.75",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "19.513333333333335",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "61.27027532671081",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4221",
+        "latitude": "46.80986111",
+        "longitude": "131.7419167",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "75.42432432432432",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17101,17102",
+        "NDVI": "0.37",
+        "MAP": "43.61",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "19.066666666666666",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "56.142342975840776",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4222",
+        "latitude": "46.70633333",
+        "longitude": "131.8470833",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "99.15384615384616",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17105",
+        "NDVI": "0.35",
+        "MAP": "44.42",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "22.2",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "65.81292118809674",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4223",
+        "latitude": "46.85927778",
+        "longitude": "131.7186389",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "109.07142857142857",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17109,17110",
+        "NDVI": "0.37",
+        "MAP": "44.81",
+        "AI": "0.52",
+        "SOC_0_30_g_kg_thickness_mean": "27.15",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "73.77849191861921",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4224",
+        "latitude": "46.79366667",
+        "longitude": "131.7451389",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "72.8225806451613",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17114,17115",
+        "NDVI": "0.33",
+        "MAP": "44.17",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "16.71",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "54.47233051813544",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4225",
+        "latitude": "46.68513889",
+        "longitude": "131.82775",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "102.31212121212123",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17118,17119",
+        "NDVI": "0.35",
+        "MAP": "44.58",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "24.866666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "68.94345288687622",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "4244",
+        "latitude": "46.6845",
+        "longitude": "131.8285556",
+        "Year": "2014",
+        "References": "Liu et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "52.56153846153846",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "17193,17194",
+        "NDVI": "0.35",
+        "MAP": "44.57",
+        "AI": "0.51",
+        "SOC_0_30_g_kg_thickness_mean": "11.583333333333334",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "45.943163568927694",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5676",
+        "latitude": "49.12",
+        "longitude": "125.6",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "89.53333333333333",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19666,19667,19668",
+        "NDVI": "0.38",
+        "MAP": "42.03",
+        "AI": "0.52",
+        "SOC_0_30_g_kg_thickness_mean": "27.415000000000003",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "66.89843022037883",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5677",
+        "latitude": "47.2",
+        "longitude": "127.03",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "87.82941176470588",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19669,19670",
+        "NDVI": "0.32",
+        "MAP": "44.27",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "29.657",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "67.98774653774042",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5678",
+        "latitude": "48.64",
+        "longitude": "126.21",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "85.87297297297297",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19672,19673,19674",
+        "NDVI": "0.32",
+        "MAP": "42.6",
+        "AI": "0.52",
+        "SOC_0_30_g_kg_thickness_mean": "24.95566666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "63.79842541991786",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5679",
+        "latitude": "43.61",
+        "longitude": "124.95",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "46.32857142857142",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19676,19677",
+        "NDVI": "0.32",
+        "MAP": "49.44",
+        "AI": "0.52",
+        "SOC_0_30_g_kg_thickness_mean": "12.359666666666667",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "50.09154509798599",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5680",
+        "latitude": "44.39",
+        "longitude": "125.68",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "65.07619047619048",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19679,19680",
+        "NDVI": "0.35",
+        "MAP": "46.92",
+        "AI": "0.48",
+        "SOC_0_30_g_kg_thickness_mean": "16.919666666666668",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "52.93970196075707",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5681",
+        "latitude": "44.92",
+        "longitude": "126.07",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "40.4",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19681,19682,19683",
+        "NDVI": "0.34",
+        "MAP": "46.17",
+        "AI": "0.47",
+        "SOC_0_30_g_kg_thickness_mean": "10.708333333333334",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "40.1787818678779",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5682",
+        "latitude": "45.12",
+        "longitude": "126.19",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "50.00645161290323",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19684,19685,19686",
+        "NDVI": "0.34",
+        "MAP": "44.58",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "13.016333333333334",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "41.20626595836487",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5683",
+        "latitude": "45.36",
+        "longitude": "126.34",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "69.74705882352941",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19688,19689",
+        "NDVI": "0.34",
+        "MAP": "45.31",
+        "AI": "0.46",
+        "SOC_0_30_g_kg_thickness_mean": "19.423333333333336",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "52.81782876933917",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5685",
+        "latitude": "46.17",
+        "longitude": "126.67",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "74.83548387096774",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19693,19694,19695",
+        "NDVI": "0.22",
+        "MAP": "42.5",
+        "AI": "0.45",
+        "SOC_0_30_g_kg_thickness_mean": "18.886999999999997",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "48.75498481869005",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5686",
+        "latitude": "43.38",
+        "longitude": "124.46",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "52.040000000000006",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19696,19697",
+        "NDVI": "0.36",
+        "MAP": "50.17",
+        "AI": "0.5",
+        "SOC_0_30_g_kg_thickness_mean": "13.92",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "51.56287723284038",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5687",
+        "latitude": "47.59",
+        "longitude": "126.23",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "85.63333333333334",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19699,19700,19701",
+        "NDVI": "0.34",
+        "MAP": "41.33",
+        "AI": "0.48",
+        "SOC_0_30_g_kg_thickness_mean": "23.964000000000002",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "58.49971472188555",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5689",
+        "latitude": "48.31",
+        "longitude": "126.45",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "104.77692307692308",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19705,19706,19707",
+        "NDVI": "0.32",
+        "MAP": "42.75",
+        "AI": "0.52",
+        "SOC_0_30_g_kg_thickness_mean": "27.989666666666665",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "70.98891350761899",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5690",
+        "latitude": "47.39",
+        "longitude": "126.83",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "89.01333333333334",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19708,19709",
+        "NDVI": "0.32",
+        "MAP": "43.5",
+        "AI": "0.49",
+        "SOC_0_30_g_kg_thickness_mean": "27.481333333333335",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "64.87617301390368",
+        "in_historical_eci_sample": "True"
+      },
+      {
+        "profile_id": "5691",
+        "latitude": "46.8",
+        "longitude": "126.96",
+        "Year": "2016",
+        "References": "Zhang et al., 2022",
+        "status": "complete",
+        "stock_0_30_tC_ha": "92.10000000000001",
+        "stock_method_mix": "direct",
+        "source_sample_ids": "19711,19712",
+        "NDVI": "0.34",
+        "MAP": "43.42",
+        "AI": "0.48",
+        "SOC_0_30_g_kg_thickness_mean": "24.497333333333337",
+        "partial_bottom_layer": "True",
+        "eci_entropy": "62.406796347720984",
+        "in_historical_eci_sample": "True"
+      }
+    ]
+  }
+}
