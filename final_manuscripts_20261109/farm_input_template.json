@@ -1,0 +1,10 @@
+{
+  "period": null,
+  "accounting_scope": "complete_farm_account",
+  "ecological_minima": {"surface_residue_cover_percent": 30},
+  "note": "30%为覆盖目标示例，按具体项目设置；每项金额元/亩/年，产量kg/亩。无支出填0，未知留null。经营成本与土地成本及转型成本互不重复；实际碳净现金填写已确认可获得的金额，不能填写参照估值。",
+  "alternatives": [
+    {"id": "当地现行措施", "available": true, "yield_kg_mu": null, "price_CNY_kg": null, "production_cost_CNY_mu": null, "land_cost_CNY_mu": null, "annual_transition_cost_CNY_mu": null, "existing_support_CNY_mu": null, "realized_carbon_net_cash_CNY_mu": null, "indicators": {"surface_residue_cover_percent": null}},
+    {"id": "拟采用的保护性措施", "available": true, "yield_kg_mu": null, "price_CNY_kg": null, "production_cost_CNY_mu": null, "land_cost_CNY_mu": null, "annual_transition_cost_CNY_mu": null, "existing_support_CNY_mu": null, "realized_carbon_net_cash_CNY_mu": null, "indicators": {"surface_residue_cover_percent": null}}
+  ]
+}

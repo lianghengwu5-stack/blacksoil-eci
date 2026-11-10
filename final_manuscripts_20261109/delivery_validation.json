@@ -1,0 +1,21 @@
+{
+  "documents": [
+    {
+      "name": "梨树县保护性耕作研究报告_评审终稿.pdf",
+      "pages": 17,
+      "sha256": "bbe77ef61f4640dd8f3789e8bb7345a4e3381d545634102a9a6097955cb98712"
+    },
+    {
+      "name": "梨树县保护性耕作论文_评审终稿.pdf",
+      "pages": 12,
+      "sha256": "e3b13995b7f549718f1243b39dc9d1f3e7f65dacf22a49f8f69864dd3af2930b"
+    }
+  ],
+  "unique_figures": 12,
+  "report_figures": 12,
+  "paper_figures": 6,
+  "analysis_checks": 17,
+  "calculator_checks": 10,
+  "standalone_snapshot_reproduction": "passed",
+  "visual_review": "all pages inspected; equations re-rendered and inspected"
+}
