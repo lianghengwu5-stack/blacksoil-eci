@@ -1,782 +1,296 @@
-[
-  {
-    "path": ".gitignore",
-    "bytes": 126,
-    "sha256": "dddab896e41114e151a42a603af6ec4525ed3cb55c63b37ac7e80e1cbf493ea7"
-  },
-  {
-    "path": "CITATION.cff",
-    "bytes": 600,
-    "sha256": "ff74837c4b22b0b2ba51d3d9bb9a98eba789c7d928b697aedeef19c4942c6c6c"
-  },
-  {
-    "path": "README.md",
-    "bytes": 4274,
-    "sha256": "35ac9be5e8d0af272f99cbde42e32bc9a1020f09a0aaf0f8e00e15d5bf0e26d1"
-  },
-  {
-    "path": "artifacts/asset_scenarios/base_scenario.json",
-    "bytes": 806,
-    "sha256": "f61500d119c611ca4afa1dc5452f0c7e6a69b615f4c86f8c95efcbf70b24a47f"
-  },
-  {
-    "path": "artifacts/asset_scenarios/cashflow_scenarios.csv",
-    "bytes": 22122,
-    "sha256": "b6d347ac165506c96c977df6b5dfb94841c45066df78caf3473a8441921e2271"
-  },
-  {
-    "path": "artifacts/asset_scenarios/fig04_cashflow_sensitivity.png",
-    "bytes": 96462,
-    "sha256": "cb86c6e30905db2f4b493dcd2ac0a9f93eb7b1c6bea5331008dabafd7c067d6a"
-  },
-  {
-    "path": "artifacts/asset_scenarios/fig05_scale_break_even.png",
-    "bytes": 71716,
-    "sha256": "5ab219066abfad7fd32eaa79afdfa19d1d2d3cc66b04d8ca4bee096b7f3fa2a0"
-  },
-  {
-    "path": "artifacts/asset_scenarios/price_gain_sensitivity.csv",
-    "bytes": 6058,
-    "sha256": "0a040484477652c20d808cacfe660752bcb31600ba13d31d5dcc932482d6fb9a"
-  },
-  {
-    "path": "artifacts/asset_scenarios/sample_state_cards.csv",
-    "bytes": 803,
-    "sha256": "3b4323205558a76401489b4fdf3468e242c955e72e57230182403f3b10f50871"
-  },
-  {
-    "path": "artifacts/asset_scenarios/sample_state_cards.json",
-    "bytes": 1550,
-    "sha256": "041f608c4ff027a731672b3f992d9e06c8ec4b6250a55abb6f15c66db439ff7b"
-  },
-  {
-    "path": "artifacts/audit/figshare_all_tillage_containing_study_effects_rho_0.0.csv",
-    "bytes": 397,
-    "sha256": "034be68cd0ef563de32f0adcd359449100c838efedbc431f3d5883fd93eff800"
-  },
-  {
-    "path": "artifacts/audit/figshare_all_tillage_containing_study_effects_rho_0.5.csv",
-    "bytes": 392,
-    "sha256": "e7be8b3020a3d690a11e35d9adbc339cddd4941272eb4549ff45b70b729f6b06"
-  },
-  {
-    "path": "artifacts/audit/figshare_all_tillage_containing_study_effects_rho_1.0.csv",
-    "bytes": 394,
-    "sha256": "a4c9983ec10f6226a8a66dc6ba1bc7d9b24415774e98aac6e5ea851ed79b0294"
-  },
-  {
-    "path": "artifacts/audit/figshare_management_composition.csv",
-    "bytes": 339,
-    "sha256": "1d011b20a2afbedc48cc6747f43bf27b75f809bec4704da6476b37e41de4b7bf"
-  },
-  {
-    "path": "artifacts/audit/figshare_tillage_coded_rows.csv",
-    "bytes": 9291,
-    "sha256": "d33de1cc88622176622de95646c67b8ffecdc93964e65dfeeb6ee1ed12d27dbb"
-  },
-  {
-    "path": "artifacts/audit/figshare_tillage_only_code_study_effects_rho_0.0.csv",
-    "bytes": 332,
-    "sha256": "92d27e83d639c783948b4b6b7ee984b645e8bf4c0c0044c8ed67e5c5da06be78"
-  },
-  {
-    "path": "artifacts/audit/figshare_tillage_only_code_study_effects_rho_0.5.csv",
-    "bytes": 327,
-    "sha256": "1240e2dccfc167412113ee66049cc65f1d67c63440f542589b212cdd2eafe42b"
-  },
-  {
-    "path": "artifacts/audit/figshare_tillage_only_code_study_effects_rho_1.0.csv",
-    "bytes": 330,
-    "sha256": "d4f0d16c2726003f6536d497c23eaa9ad1630a284eca202faf455941970b3f26"
-  },
-  {
-    "path": "artifacts/audit/kbs_cells_2001_2013.csv",
-    "bytes": 266,
-    "sha256": "13b66e27d94a4626b717899e98e991f092c8df5a13afb2aa6c40efb17cbeb8c5"
-  },
-  {
-    "path": "artifacts/audit/kbs_matched_replicate_changes.csv",
-    "bytes": 410,
-    "sha256": "37555a80779847ecffe72ccafa6cde9781269f8f35b4fdd40698cc1bc479946b"
-  },
-  {
-    "path": "artifacts/audit/legacy_csv_comparison.csv",
-    "bytes": 415,
-    "sha256": "d332cfa958f3a28c76f65c073da5371fc421098d0667278bc383228d43412f34"
-  },
-  {
-    "path": "artifacts/audit/meta_reanalysis.csv",
-    "bytes": 1911,
-    "sha256": "ca7931b51fad092bda7a4410f84a770f53fdbb5dda487a77a560fa0ca78bec6d"
-  },
-  {
-    "path": "artifacts/audit/soil_scenarios.csv",
-    "bytes": 1389,
-    "sha256": "f9fbbf28a2d5b730352c6de6d63a0aa3cc12ebcf69057ae9334450b012dfb23e"
-  },
-  {
-    "path": "artifacts/audit/summary.json",
-    "bytes": 12084,
-    "sha256": "86f5d495f963ca2fb390e416de386d6674568e6e978f6bf4df640ddaf67ba1a2"
-  },
-  {
-    "path": "artifacts/audit/traces_all_response_categories.csv",
-    "bytes": 189,
-    "sha256": "0dc5924727e5d948b55bdc49af68951c815d6e72017597fc6d0e202bf009bc47"
-  },
-  {
-    "path": "artifacts/audit/traces_comparison_audit.csv",
-    "bytes": 53671,
-    "sha256": "678d64a195318b77e434b68ac8cf4be6a01b039312022c6c63ce58fe9988a224"
-  },
-  {
-    "path": "artifacts/audit/traces_treatment_control_codes.csv",
-    "bytes": 126,
-    "sha256": "02edb5bd9aea5aae64fce4efb3f994c7ec5ae367dfe5e76c30cb486bf8b364a2"
-  },
-  {
-    "path": "artifacts/audit/v10_all_landcovers_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "99a50967a3a777ca7caf9d851761912cbe3855bab4d9b84c9208420d2ffee807"
-  },
-  {
-    "path": "artifacts/audit/v10_all_landcovers_scores.csv",
-    "bytes": 88204,
-    "sha256": "6401a4e8c86f16d6be936e77e386fafa398884c6cf89c622ee5b060f212083e6"
-  },
-  {
-    "path": "artifacts/audit/v10_all_landcovers_weights.csv",
-    "bytes": 283,
-    "sha256": "75d8ec1a5d7fd86346fb39b276517cab41cb2e3afad288f03b3dcb02d5d1fc6a"
-  },
-  {
-    "path": "artifacts/audit/v10_ambiguous_topsoil.csv",
-    "bytes": 1184,
-    "sha256": "97ea1e81838bc3a880ce934cf1b8056c28df578c90739d02157f6edfa891d2b0"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_all_landcovers_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "5f77bca26531f44c01c86663b081b617a4e214d97338df62f11ab3a6a48f6d49"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_all_landcovers_scores.csv",
-    "bytes": 44094,
-    "sha256": "4d3b59459a19f8a499ac7e25197a5ab909b70ea7a52f939453793f2529005bd5"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_all_landcovers_weights.csv",
-    "bytes": 285,
-    "sha256": "fe113f4660a4a95edcbdc0ce642508a85db74e3697c305a958fa585bded131f0"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_ambiguous_topsoil.csv",
-    "bytes": 364,
-    "sha256": "81decc48a5fd13fde018b5b174ccec0b88c612878917a1832713185c2f46b524"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_cropland_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "6a9e40b4b1dd3a4808af2636df505d4cc621ab6821b1304f3902c9b75b4481b2"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_cropland_scores.csv",
-    "bytes": 17160,
-    "sha256": "4eea11701aebe04dc84141947e3551f8c2ab631214e509840708e89981f33baf"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_cropland_weights.csv",
-    "bytes": 287,
-    "sha256": "a65bd3637c373b91b4eda043f52ec93b6549f52ab24e4aeee596365a73b452d0"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_depth_exclusions.csv",
-    "bytes": 249,
-    "sha256": "5b270445533f48174be9a88e886744495a2229dab7c72307b39d404f0e279e8f"
-  },
-  {
-    "path": "artifacts/audit/v10_blacksoil_strict_depth_profiles.csv",
-    "bytes": 24381,
-    "sha256": "dd446a9150df635195075bbb61c1f32ada46cea8256a47f958b2d3562523552d"
-  },
-  {
-    "path": "artifacts/audit/v10_cropland_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "0b8a1ff63c94b1e501e3ee8271f86ce3d25b0ad47baf342456637950531955c7"
-  },
-  {
-    "path": "artifacts/audit/v10_cropland_scores.csv",
-    "bytes": 37673,
-    "sha256": "96d675737a81f42d1a6b2f75d44e18c2c62bd4656741de5844c100c7598fe3a8"
-  },
-  {
-    "path": "artifacts/audit/v10_cropland_weights.csv",
-    "bytes": 285,
-    "sha256": "6be4b23ccff0774576d395f270813b53d6d79d719b415e4e12e2d9c8c0edfe25"
-  },
-  {
-    "path": "artifacts/audit/v10_depth_exclusions.csv",
-    "bytes": 321,
-    "sha256": "872bfd5c5e7e5af2e75762f8280dedd5f3fe53885112b5d16401379dd1f7907e"
-  },
-  {
-    "path": "artifacts/audit/v10_strict_depth_profiles.csv",
-    "bytes": 51340,
-    "sha256": "96b8813691fa4c28e7a5d5a26d8529e59b58671e0c38a4ea397a0de75df0a759"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_all_landcovers_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "5cf8137e1aad4944714bddca18e37cd3dcdcb090ef3ea861fabc19faa6c5d790"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_all_landcovers_scores.csv",
-    "bytes": 33454,
-    "sha256": "224dfdab531565c66542a7c5a49eb444fcbcf565330419675a67b87b0f0ea6af"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_all_landcovers_weights.csv",
-    "bytes": 285,
-    "sha256": "39418693ba04ecef6fcd187e0688ee3ef282cea323105c306c96532853593e9a"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_ambiguous_topsoil.csv",
-    "bytes": 364,
-    "sha256": "81decc48a5fd13fde018b5b174ccec0b88c612878917a1832713185c2f46b524"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_cropland_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "e1271f92e4e7d3724da50e75a754c9d93ecce439665fac8d1b64d2225c3d0555"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_cropland_scores.csv",
-    "bytes": 16696,
-    "sha256": "5dfdbc928b9513c5f7b7ffc7c2602a546a12ef79d19aee62b4d3133ace3677e5"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_cropland_weights.csv",
-    "bytes": 284,
-    "sha256": "6af923befc69bfb35580fab37102d833882cf05326528dd52e9edcc3434d83b5"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_depth_exclusions.csv",
-    "bytes": 249,
-    "sha256": "2131b078fd6f2a06b96a20494c783df390bc1a19b2c0c3a2f7faf32fa36271ff"
-  },
-  {
-    "path": "artifacts/audit/v10_typical_strict_depth_profiles.csv",
-    "bytes": 18615,
-    "sha256": "7c34070eebac93cb91785c95f86cb38b0d8f961c05c0859144e766335bcebd61"
-  },
-  {
-    "path": "artifacts/audit/v9_all_landcovers_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "f6209342ed7eb5fb7f2ac1c8224f629bbe05c665172acfd137f4436ddc0dedec"
-  },
-  {
-    "path": "artifacts/audit/v9_all_landcovers_scores.csv",
-    "bytes": 72713,
-    "sha256": "eece9fe4ec9b414bafda4b0a13856e5c708f470b142a78503ba79aa91257f437"
-  },
-  {
-    "path": "artifacts/audit/v9_all_landcovers_weights.csv",
-    "bytes": 283,
-    "sha256": "35d7240789bd8ff0775498c086bd45553190d58b4a784f3250f6ee78c9c5a6db"
-  },
-  {
-    "path": "artifacts/audit/v9_ambiguous_topsoil.csv",
-    "bytes": 298,
-    "sha256": "802505c7187748aa6bdbd7a21a4fc83e8a7ad832c1e0cb8eb0e862efbec8f0aa"
-  },
-  {
-    "path": "artifacts/audit/v9_cropland_rank_correlation.csv",
-    "bytes": 172,
-    "sha256": "1c072bfb596cd9b23307f5bb8189c97a4c3651cea27139c89daec062fe169722"
-  },
-  {
-    "path": "artifacts/audit/v9_cropland_scores.csv",
-    "bytes": 34432,
-    "sha256": "058aa6d47fe9af6efe9583e2422e00f3b27a3f1243a5f348b0fe7263b61b9e79"
-  },
-  {
-    "path": "artifacts/audit/v9_cropland_weights.csv",
-    "bytes": 281,
-    "sha256": "656baa232ac9d555ddee357cc7dcd9ccdb4ee8ebfcbd3940f8ece111d57fdfc2"
-  },
-  {
-    "path": "artifacts/audit/v9_depth_exclusions.csv",
-    "bytes": 494,
-    "sha256": "7d046b35ccf6adb1b6d4c934c9586ec2e05d2a8283b21760fd63bf6c21c0de62"
-  },
-  {
-    "path": "artifacts/audit/v9_strict_depth_profiles.csv",
-    "bytes": 66276,
-    "sha256": "3c787ba8ac73ab684a0c3c21fdcdcdf6b120438f61edc6aaa3b08e6618997dcd"
-  },
-  {
-    "path": "artifacts/fixed_depth/fig01_fixed_depth_distributions.png",
-    "bytes": 56084,
-    "sha256": "0310f13ad0963da1fe990389cc673c56e2545587ffb5780c94ccd0bc0fd1dd0d"
-  },
-  {
-    "path": "artifacts/fixed_depth/fig02_fixed_depth_weights.png",
-    "bytes": 46670,
-    "sha256": "8c35b61aae89bcec519ea5fb065bc0c1dcfc1857b4b30703a8e3455edbc1275a"
-  },
-  {
-    "path": "artifacts/fixed_depth/fig03_sample_locations.png",
-    "bytes": 170988,
-    "sha256": "26296f677b8ceaa1b8648d6c661697ee826861dd81fcdd922e53027723477128"
-  },
-  {
-    "path": "artifacts/fixed_depth/fixed_depth_eci_profiles.csv",
-    "bytes": 16106,
-    "sha256": "7e51433e4dbc1dbc574f483e03c27574f9238f6931e46b35b4a818a10a8e8ad4"
-  },
-  {
-    "path": "artifacts/fixed_depth/profile_selection.csv",
-    "bytes": 13656,
-    "sha256": "735747afb7bbd52dd0716e365a62f9621b4da8e5cf60132583121b735b0d7b8b"
-  },
-  {
-    "path": "artifacts/fixed_depth/sensitivity.csv",
-    "bytes": 496,
-    "sha256": "c537e58b1026c899b99a01f4e4ca1a94ad239e4819c865ff644db6e4b8fd630c"
-  },
-  {
-    "path": "artifacts/fixed_depth/soilgrids_layerwise_stock.csv",
-    "bytes": 1498,
-    "sha256": "cf8872a73e51f9c7c5bbc270311bf81540edf1d122ac6ace61a4ae21f73eba73"
-  },
-  {
-    "path": "artifacts/fixed_depth/summary.json",
-    "bytes": 685,
-    "sha256": "37bd233f8169216fcc671103f199233598726a51e5436d7c615fefbae2b9d670"
-  },
-  {
-    "path": "artifacts/fixed_depth/weighting_rank_correlations.csv",
-    "bytes": 166,
-    "sha256": "2c8f653e7a3b37d2cd0b6a0f5204b27dc49514a7a5ec719b7eafad3b99ce92fd"
-  },
-  {
-    "path": "artifacts/fixed_depth/weights.csv",
-    "bytes": 306,
-    "sha256": "0fac56d408ebbb1c2b94158e91f74620f29a9f972e724dd0604420f3882d1007"
-  },
-  {
-    "path": "artifacts/paper/equation_1.png",
-    "bytes": 10773,
-    "sha256": "ad93d24eac82943f7f4f2ce939b58396a994f2c488fa504b04e86b475a4080c0"
-  },
-  {
-    "path": "artifacts/paper/equation_2.png",
-    "bytes": 13057,
-    "sha256": "1ba21258bcb28e8bb4a708e7f85034a3053fd12319a0ea8e73c4859f025a3ab3"
-  },
-  {
-    "path": "artifacts/paper/equation_3.png",
-    "bytes": 15052,
-    "sha256": "6ae9c948091f2fe3a2c6c60ea5248199122591c1e97d94b2ae7b10a812219c35"
-  },
-  {
-    "path": "artifacts/paper/equation_4.png",
-    "bytes": 17017,
-    "sha256": "758f04cda53b16bf4867bc4f8efbbdca78d217ff7bab7544874459e5a52809b1"
-  },
-  {
-    "path": "artifacts/paper/equation_5.png",
-    "bytes": 10693,
-    "sha256": "45f90f4a05cf603c32344679be6da92625c346c9fa79b2b3e869dfaecd1d071c"
-  },
-  {
-    "path": "artifacts/paper/equations.json",
-    "bytes": 58,
-    "sha256": "3aa1c373f813164dafe8eca3075af61c1d44e3416e33e3d2304b2d8d72509211"
-  },
-  {
-    "path": "artifacts/paper/tables.json",
-    "bytes": 1309,
-    "sha256": "685fa6162afe456de2ed6253cdd65cca3384bcfd5d906a3eefbb95e6f834c7f6"
-  },
-  {
-    "path": "artifacts/paper/validation.json",
-    "bytes": 160,
-    "sha256": "5966c4e94a739df63f46378b7709126b5fce29d0ea25ac67012718caf4b506a4"
-  },
-  {
-    "path": "artifacts/reassessment/carbon_profile_selection.csv",
-    "bytes": 14252,
-    "sha256": "2e12b38d5863e3d62dd9d8813645c1338c5334f5a8d62ba87c72a087790b722f"
-  },
-  {
-    "path": "artifacts/reassessment/carbon_profiles.csv",
-    "bytes": 13907,
-    "sha256": "45f6480cf74a9af538abc1e83e89875148179bc83b31b1973c20b1af7ca91158"
-  },
-  {
-    "path": "artifacts/reassessment/descriptive_correlations.csv",
-    "bytes": 1520,
-    "sha256": "4274a8e7cdd8a08488b8b19e0ff3bb395339b28636a0ada413fa8ba723685fa8"
-  },
-  {
-    "path": "artifacts/reassessment/external_nearest_points.csv",
-    "bytes": 3127,
-    "sha256": "a50d762dec4b9f3cada100fa38dd37dd7ff83fcbc69be878d6a4a73d60c2bec8"
-  },
-  {
-    "path": "artifacts/reassessment/external_sample_inventory.csv",
-    "bytes": 101882,
-    "sha256": "875ba7427b7f3c6ae44637985570cee80337ed1d50c92711aab67a65fa4fd413"
-  },
-  {
-    "path": "artifacts/reassessment/external_summary.json",
-    "bytes": 1451,
-    "sha256": "440d9f9aa5f909325a522af63c0d9427ba4baa90043d43b986c4ca09c290462a"
-  },
-  {
-    "path": "artifacts/reassessment/fig01_carbon_samples.png",
-    "bytes": 103407,
-    "sha256": "782244ed3a47a3334cc39fb572362c2eb577091361ab92bf680ddd463cf90821"
-  },
-  {
-    "path": "artifacts/reassessment/fig02_rank_comparison.png",
-    "bytes": 94270,
-    "sha256": "51c420682240f090d62c7ad1015fe84818b2eb287ab409b31f963c51003770fd"
-  },
-  {
-    "path": "artifacts/reassessment/fig03_external_coverage.png",
-    "bytes": 195214,
-    "sha256": "8aad2aeba9916875ae1d612954b4e8afe03cbc5909f6cbfc2f39e91423c80790"
-  },
-  {
-    "path": "artifacts/reassessment/grid_100km.csv",
-    "bytes": 1224,
-    "sha256": "3916bf4478267a17b4c7b210d3c6da0a78ba0c383c65f4cb3fa755a4d3e9dd56"
-  },
-  {
-    "path": "artifacts/reassessment/grid_25km.csv",
-    "bytes": 2990,
-    "sha256": "4e4099718d7e502b5226c5aa440673c88870f9814accbbb93754eb8477bac0de"
-  },
-  {
-    "path": "artifacts/reassessment/grid_50km.csv",
-    "bytes": 2212,
-    "sha256": "3d5191b0504f537232c595d49ca56abb30d34734f031b98745c18af46382b9d5"
-  },
-  {
-    "path": "artifacts/reassessment/historical_eci_rank_changes.csv",
-    "bytes": 11382,
-    "sha256": "d816816bb67e8966d862688f3458ec2ab11bb8733f409639ff5d9c4a114bbad8"
-  },
-  {
-    "path": "artifacts/reassessment/nearest_neighbors.csv",
-    "bytes": 6285,
-    "sha256": "cb12db6c16eb4832b112a5b86756ad3b56cf3b12a3e9a851b71493f3f0a33853"
-  },
-  {
-    "path": "artifacts/reassessment/reproduction_validation.json",
-    "bytes": 2978,
-    "sha256": "e3a699d7a33c0e737e9733e19c34c26cff6dd2d372ac405913ed985be2ffd5c1"
-  },
-  {
-    "path": "artifacts/reassessment/source_year_method_counts.csv",
-    "bytes": 152,
-    "sha256": "266fef6a582ea7bad4a051516c044e5abe92f74d0058e2cf28c2c18a4c8cffc5"
-  },
-  {
-    "path": "artifacts/reassessment/spatial_grid_sensitivity.csv",
-    "bytes": 142,
-    "sha256": "8e11c2016e5d9cad18a1f241c73bdf678535294b4a2b09b4256c6faca6c36972"
-  },
-  {
-    "path": "artifacts/reassessment/stock_summary.csv",
-    "bytes": 919,
-    "sha256": "c34ef55a6b09de8da5d23d3375a0e0319d9f4f38e80b671af940eac15b6f2fbb"
-  },
-  {
-    "path": "artifacts/reassessment/summary.json",
-    "bytes": 3222,
-    "sha256": "822c7bec6bdaa40531bbdc786b28c3457e88d2756f230bc830256e9a0a272c41"
-  },
-  {
-    "path": "artifacts/reassessment/validation.json",
-    "bytes": 500,
-    "sha256": "4ee104aee8d380937e572cc694be88a58e76dda6a16bdfbd60d9bbb63f4e8e94"
-  },
-  {
-    "path": "artifacts/report/equation_01.png",
-    "bytes": 7264,
-    "sha256": "629327ff3615faf58361ca18a990324d81954d794fe7a8a768783fe02c8a6e4f"
-  },
-  {
-    "path": "artifacts/report/equation_02.png",
-    "bytes": 8787,
-    "sha256": "2c7023049bf850d8041bdb1e3a4b3b6861cf088da383d225c3044365c0951524"
-  },
-  {
-    "path": "artifacts/report/equation_03.png",
-    "bytes": 15513,
-    "sha256": "244dafdf43a6f31b2f5e13404b45bbaaa236ef573075b634cf94f8618d20d96d"
-  },
-  {
-    "path": "artifacts/report/equation_04.png",
-    "bytes": 17703,
-    "sha256": "396f911c8467b34dea005effabc91fe6afdb0265175ec978dbb13811a1b6f0b7"
-  },
-  {
-    "path": "artifacts/report/equation_05.png",
-    "bytes": 17111,
-    "sha256": "2722c1983cc8a32e0d925e2ced0311e9cd96cc2e1051ff7dbff7ff037f72e953"
-  },
-  {
-    "path": "artifacts/report/equation_06.png",
-    "bytes": 10653,
-    "sha256": "a756086ff60bdb7d19e96dffc6a46b8fb978c785f103d56c87d6e962eac3c1c2"
-  },
-  {
-    "path": "artifacts/report/equation_07.png",
-    "bytes": 11517,
-    "sha256": "039dd01bab8639060713757b3b7322795112d4747ffc353557e3b322733eff56"
-  },
-  {
-    "path": "artifacts/report/equation_08.png",
-    "bytes": 15086,
-    "sha256": "4ca6f3c8f20e4c346e9381e34570724da1389817677b211c8c6a1a37338d13e7"
-  },
-  {
-    "path": "artifacts/report/equations.json",
-    "bytes": 789,
-    "sha256": "9f6188bdb6441ce892bff9c7bb12dfdac9616bb483212b822539c04c87f1f937"
-  },
-  {
-    "path": "artifacts/report/tables.json",
-    "bytes": 4230,
-    "sha256": "3646c20fa460e1a6a769fba63944415902b27a7118d8d826f57edfb503325244"
-  },
-  {
-    "path": "artifacts/report/toc_pages.json",
-    "bytes": 648,
-    "sha256": "c6e966ea6b0df43ba374884c45e5e797d0e8183e584167921f164c5d3561d8ed"
-  },
-  {
-    "path": "artifacts/report/toc_pages_20261108_historical.json",
-    "bytes": 594,
-    "sha256": "40d331dbc74586bc3bce8b5712ab3e71e70e66920355f2dd375ebd3f9a843f1f"
-  },
-  {
-    "path": "artifacts/report/validation.json",
-    "bytes": 363,
-    "sha256": "bd25bde6a2814318562f169a1043fe947a85382656565ffce7f42cf1331d4c33"
-  },
-  {
-    "path": "artifacts/reproduction_validation.json",
-    "bytes": 660,
-    "sha256": "2d96d2d637dddfef53da113e14a9bae23f06ddcbc692984a0f671b2e61ce589a"
-  },
-  {
-    "path": "data/external/README.md",
-    "bytes": 321,
-    "sha256": "893fdc3bf5825288042fc44fd899b05e1196d2bf1690d39a17aa6f80edf56c30"
-  },
-  {
-    "path": "data/external/soilgrids_queries.csv",
-    "bytes": 43349,
-    "sha256": "11693a5b63a2f4e8457b9400a4de4e4aad1657b866661de595bd37595560f618"
-  },
-  {
-    "path": "data/manifest.csv",
-    "bytes": 5483,
-    "sha256": "76cfc3a8d89cd3afeeb1e280db67102daa36da2b8c669c183c6fc69b5afa4dc3"
-  },
-  {
-    "path": "docs/政策与文献核查.md",
-    "bytes": 3313,
-    "sha256": "2736f61dd7ac3a19bf8dfbfcef02fc85e7619e755d78a130159054aea631029d"
-  },
-  {
-    "path": "docs/数据获取与许可.md",
-    "bytes": 3242,
-    "sha256": "d5d4e0085b0142948b424f84bad84b7a921002bbfdac8c0aeced4528e653d1a8"
-  },
-  {
-    "path": "docs/方法修订记录.md",
-    "bytes": 4807,
-    "sha256": "1972dcc488bdf32dcd6749d5b8d722515bd6297eeb5b43b2a9b9f2103711ffb6"
-  },
-  {
-    "path": "docs/研究报告.md",
-    "bytes": 52313,
-    "sha256": "4b5ccfadc8808cf48816c62fce565a3b6a16d6441da26c05bf82c8c3ea843519"
-  },
-  {
-    "path": "docs/研究调整与证据核查_20261109.md",
-    "bytes": 8847,
-    "sha256": "877e992c873b7d6fe093d1cba03502e8c400a77667fb9cb1d04a47166d1a1e98"
-  },
-  {
-    "path": "docs/第一阶段数据与结果核查.md",
-    "bytes": 5861,
-    "sha256": "323c274d6055b6ceb13c398f0ad304cdf1b591cbb396d17f649b0861d638d5ba"
-  },
-  {
-    "path": "docs/论文初稿.md",
-    "bytes": 17447,
-    "sha256": "316b59e98019e98d10856c3a9c4264833641603aaff0eb38967e1582eaf33f80"
-  },
-  {
-    "path": "reports/东北黑土区农田生态状态评价的稳健性与收益约束_论文初稿.docx",
-    "bytes": 228226,
-    "sha256": "5620171067da10ab10a8d4b0ffc0a9fa3c0778bf2845bcebd1b3a2369f940245"
-  },
-  {
-    "path": "reports/东北黑土区农田生态状态评价的稳健性与收益约束_论文初稿.pdf",
-    "bytes": 634561,
-    "sha256": "f4706ce5a332d27add23ab89a3daa8c4dd317fb9609605005dbf3fe0342d5df9"
-  },
-  {
-    "path": "reports/研究报告_修订稿.docx",
-    "bytes": 501664,
-    "sha256": "a32764311ec5b5abeb75432f81a53afff284b62a18f4202c99c81c5f80c1297e"
-  },
-  {
-    "path": "reports/研究报告_修订稿.pdf",
-    "bytes": 1044408,
-    "sha256": "ce3bf97f6affffb6e07fbb2cd88f70edb7331be5ae2bff0f6f431ecf5e59c879"
-  },
-  {
-    "path": "reports/论文_碳储量与指数适用性_初稿.docx",
-    "bytes": 239252,
-    "sha256": "d666cfcdbd1f8aabd0bff551b2b10651599064af9a192c823fda84942391584e"
-  },
-  {
-    "path": "reports/论文_碳储量与指数适用性_初稿.pdf",
-    "bytes": 509923,
-    "sha256": "48e36c699c32fd2153a5688b930f095962a58e11b9ab3c180ea68f1f4a4255d2"
-  },
-  {
-    "path": "reports/黑土生态价值量化与资产化路径研究报告_初稿.docx",
-    "bytes": 573757,
-    "sha256": "f1b0363d2b9ed0486e2e97d891157027dbba2c7d554d786996c3112f27065b57"
-  },
-  {
-    "path": "reports/黑土生态价值量化与资产化路径研究报告_初稿.pdf",
-    "bytes": 1298750,
-    "sha256": "2fb030527edc3051a1e9ae33a867a7dd7b0bc14b43b764800d6dd903876174ad"
-  },
-  {
-    "path": "requirements-lock.txt",
-    "bytes": 151,
-    "sha256": "f0849d3845e14ebcba2fecfe925187719e9f1981a225ca18c8b3496ff3d2919a"
-  },
-  {
-    "path": "requirements.txt",
-    "bytes": 169,
-    "sha256": "c1622714ba623c2f2050edf2684bc72359abc0bf617d96e1fb9419d9124d9ed6"
-  },
-  {
-    "path": "scripts/analyze_fixed_depth.py",
-    "bytes": 9662,
-    "sha256": "c0cc9b1a3e2e774e1b6d6372dddf85f9784a04ae273ee8d87edf2d351a215f66"
-  },
-  {
-    "path": "scripts/asset_scenarios.py",
-    "bytes": 5999,
-    "sha256": "c288b390badc50823ed654f5328b7099b09c14a863e4628d7b48498c6c3724fb"
-  },
-  {
-    "path": "scripts/audit_results.py",
-    "bytes": 15873,
-    "sha256": "3b718bfd54a4b885db99f5790345f32a5ee9b8ee66e1ac024faa3fe60b3173b6"
-  },
-  {
-    "path": "scripts/build_paper.py",
-    "bytes": 3510,
-    "sha256": "0679a0efdb745986fda8755e7227d22cb1810cd7f3e4a7efcb6f7eacef1f78f8"
-  },
-  {
-    "path": "scripts/build_research_report.py",
-    "bytes": 9409,
-    "sha256": "548d7c0d057650814ca8a57fc36556dd58d854841286b47677feed548c517ef2"
-  },
-  {
-    "path": "scripts/check_external_samples.py",
-    "bytes": 3756,
-    "sha256": "1563bcc20ce7e26c112194b86bd0ad5f0e56ff6833e39e79841f0cd69e34ff98"
-  },
-  {
-    "path": "scripts/fetch_data.py",
-    "bytes": 5204,
-    "sha256": "d7433490241d7902de9eb01b2b2888994d4902c2ec725f47a98daa199f20ad8a"
-  },
-  {
-    "path": "scripts/fetch_revision_data.py",
-    "bytes": 1664,
-    "sha256": "4a82a2d48bd5906d8c16b96b3a453e192fac40022313b8403f15f94a7ca9543a"
-  },
-  {
-    "path": "scripts/fetch_source_metadata.py",
-    "bytes": 1654,
-    "sha256": "d685ab74f3c6b0615c879a80168500514a62353a5c8a4e776666ce111837df47"
-  },
-  {
-    "path": "scripts/package_repository.py",
-    "bytes": 2508,
-    "sha256": "12498af48033b1e9bce62aa9eb9eacb6440b4aa2e7a7799a6f5a6352529b2ef3"
-  },
-  {
-    "path": "scripts/prepare_paper_assets.py",
-    "bytes": 806,
-    "sha256": "79f718c36201b14fe06a170587132d8f1109ed755b68ba2d944a88232e33d615"
-  },
-  {
-    "path": "scripts/prepare_report_assets.py",
-    "bytes": 4877,
-    "sha256": "efd983c0486609de7020e1ac53f3ea592844d066c962478eed4e020b6d6e8cfa"
-  },
-  {
-    "path": "scripts/reassess_evidence.py",
-    "bytes": 9594,
-    "sha256": "024d77e49b8fd8f8a5e0c2acbbd002c8eae7617c855af38d2434d7d54ec1c571"
-  },
-  {
-    "path": "scripts/recover_local_data.py",
-    "bytes": 2397,
-    "sha256": "9a9a452efc1ff9275c44ced9ffec2ebff45785cb0cbd9ddca242378f13005c0b"
-  },
-  {
-    "path": "scripts/render_audit_pdf.py",
-    "bytes": 4365,
-    "sha256": "1ba527c2adb8c35b78b56f2209e444813326883c32959eba159b92d6fc59652f"
-  },
-  {
-    "path": "scripts/rerun_legacy.py",
-    "bytes": 1265,
-    "sha256": "984a758b68ef8a184cba9915e727a1d8555e2767cbbdffd2285bb03fab0d16da"
-  },
-  {
-    "path": "scripts/run_analysis.py",
-    "bytes": 466,
-    "sha256": "bc48182db80f88e9a69267accaf34ccc7c49812f1accbb37bbfcf0281e6087be"
-  },
-  {
-    "path": "scripts/run_project.py",
-    "bytes": 854,
-    "sha256": "c09b49878d967aa9e4495b65b6cb6ac51a81f3f7ad3d1e15f69f470403e10767"
-  },
-  {
-    "path": "scripts/write_audit_report.py",
-    "bytes": 7147,
-    "sha256": "1faec01b1476cbe35ee82e25749ab87728440c83dc007eadb257dc47a08af108"
-  },
-  {
-    "path": "tests/test_asset_scenarios.py",
-    "bytes": 1323,
-    "sha256": "fae2f9439fe17c9b07c96a5e311a19d96307e3a5c09a237d9d4425f8b9b42d55"
-  },
-  {
-    "path": "tests/test_depth_integration.py",
-    "bytes": 1178,
-    "sha256": "bbda4223845ac59f8b744eb128728c7941b8669ddc71767cd7b653c377561b09"
-  }
-]
+{
+  "date": "2026-11-10",
+  "analysis_checks": 17,
+  "calculator_checks": 10,
+  "analysis_equal_to_manuscript_results": true,
+  "source": "isolated release tree",
+  "files": [
+    {
+      "path": "final_manuscripts_20261109/build_documents.py",
+      "bytes": 53266,
+      "sha256": "f69ceac695184348e6e19ef30f1524bcb41c07dcab113a221a6a1a08eb2dceda"
+    },
+    {
+      "path": "final_manuscripts_20261109/build_figures.py",
+      "bytes": 17159,
+      "sha256": "0a55a9deede19a89691efda70dd20fbd82306bb76ce4daada6b7be2cdfc5c501"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/analysis_results.json",
+      "bytes": 4191,
+      "sha256": "e7abd982c87a7ca736d11f8084ef1d8f86a60ac8d084f36f370de3b3e420e47b"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/baseline_comparisons.csv",
+      "bytes": 365,
+      "sha256": "6850a691412356913631a6766cad8add253c18725519f0e49eda374b1aa89795"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/changchun_budget.csv",
+      "bytes": 483,
+      "sha256": "a28308a52507e81571bbed888accc2848f892beab4e088cf67da3a924ef55721"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/dehui_annual.csv",
+      "bytes": 294,
+      "sha256": "947801ece783808bd47589a9557b2916cdb7dfb3b5cc5f9ac1b09072187ac599"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/paired_soil_yield.csv",
+      "bytes": 4758,
+      "sha256": "44d35c8b6c95e2c9120596efa7315c8d07246970af0c5aa466646ce13d90d048"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/policy_sources.json",
+      "bytes": 463,
+      "sha256": "5391e02140ad9875fee36780c246727e535902ed150ffc20587aec1a3ed093fc"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/source_snapshot.json",
+      "bytes": 145259,
+      "sha256": "38a53694a05a657f3abfe197ba2239610c904c747f6274a4eeb5881b4aafa4ad"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/water_stage_analysis.csv",
+      "bytes": 487,
+      "sha256": "53c3330ff7794f718e062a18b944f8ef816028105879f64c00830f7b0c000490"
+    },
+    {
+      "path": "final_manuscripts_20261109/data/yang_treatment_means.csv",
+      "bytes": 752,
+      "sha256": "babc5e368e308a72f128db5c468afe608b4d1b93fc0f684ff66a7a5f670985e2"
+    },
+    {
+      "path": "final_manuscripts_20261109/decision_calculator.py",
+      "bytes": 5207,
+      "sha256": "edb978a835090016af416671ac7fce3bd04f7a51709c21aadbdc6e968e4b5155"
+    },
+    {
+      "path": "final_manuscripts_20261109/deliverables/梨树县保护性耕作研究报告_评审终稿.docx",
+      "bytes": 3522648,
+      "sha256": "0279ce728241aeecff7c9b327daf5837559468f4865fc1389f92c73f52d816e6"
+    },
+    {
+      "path": "final_manuscripts_20261109/deliverables/梨树县保护性耕作研究报告_评审终稿.pdf",
+      "bytes": 2613499,
+      "sha256": "bbe77ef61f4640dd8f3789e8bb7345a4e3381d545634102a9a6097955cb98712"
+    },
+    {
+      "path": "final_manuscripts_20261109/deliverables/梨树县保护性耕作论文_评审终稿.docx",
+      "bytes": 2097425,
+      "sha256": "2e6b1c876f51a10d09e9f25db2ec19ef8bc1279f95749c4f9a8d5ba3e6ca7984"
+    },
+    {
+      "path": "final_manuscripts_20261109/deliverables/梨树县保护性耕作论文_评审终稿.pdf",
+      "bytes": 1565474,
+      "sha256": "e3b13995b7f549718f1243b39dc9d1f3e7f65dacf22a49f8f69864dd3af2930b"
+    },
+    {
+      "path": "final_manuscripts_20261109/delivery_validation.json",
+      "bytes": 639,
+      "sha256": "61ea9fbec4ee74576bc5213f0d3f13f12543e2cef9e827c34cbe02a3b6e9b0db"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/1896b68d6541.png",
+      "bytes": 15640,
+      "sha256": "87c57f0eee09e8e63d02bccddc368b1c5de54a5f80bc4d928ce590644560a1b6"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/332419ceee48.png",
+      "bytes": 25416,
+      "sha256": "2447d05fc1ba4009bdd49e5269d1948d30c60f2b634d68172a2f1863b86611e1"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/4e8d43fb87eb.png",
+      "bytes": 22465,
+      "sha256": "b9d6fbdd843a9eca30c7719c96f7b09850426be1c603efce12ecbefad59f03d7"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/84fb1f970903.png",
+      "bytes": 38001,
+      "sha256": "31da230957c82ba3589af528008e24366a0989d6772e02ec5bab20a4d20a6138"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/8ae37bc5c36c.png",
+      "bytes": 31490,
+      "sha256": "caa980383ad230604c36ea337c312889d933592b003ca5cdfae914c6fb9a7f06"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/a865df31c03a.png",
+      "bytes": 32171,
+      "sha256": "c17dd3007e3a45911b6462688603a1448c184baf0cc44fe6a44408ee598c0695"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/b744a054c70c.png",
+      "bytes": 33787,
+      "sha256": "591fc188fe9d5bc5ae940a55b4798ecc4c8026019a03c232c2c51252a5a0a3a4"
+    },
+    {
+      "path": "final_manuscripts_20261109/equations/d32f27799787.png",
+      "bytes": 29473,
+      "sha256": "243fd4af3cedc34406c3da5b6aa6886a909d60589ec8c5c352cf2802cf63655b"
+    },
+    {
+      "path": "final_manuscripts_20261109/farm_input_template.json",
+      "bytes": 1083,
+      "sha256": "90be3178805481d102e28d545f372bb42d390a2fff4860f1cf41bca16aef5eae"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F1_研究框架.png",
+      "bytes": 261586,
+      "sha256": "9ff5c8f78daf3f26e297c12402b3c5aaaebbc22fecab9a43c074ffa47215d7ee"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F1_研究框架.svg",
+      "bytes": 219999,
+      "sha256": "36513967b6444a858e09b3edb88f6060830c7c9d193286414691c04de695e643"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F2_还田频率与土层.png",
+      "bytes": 330377,
+      "sha256": "44a30ecc12c47fe7eaa808de0a178101e0137efc169fb654189af35705772948"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F2_还田频率与土层.svg",
+      "bytes": 200705,
+      "sha256": "f4529aeeabd6a164c2f32b0e82560efb5a34ede75bce8a8a10c6688db16e2431"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F3_水分阶段诊断.png",
+      "bytes": 330237,
+      "sha256": "709feb8465171f959c64a6ace1001ea9619eb45a786b8212c4fd22c7c062c412"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F3_水分阶段诊断.svg",
+      "bytes": 202352,
+      "sha256": "4799ba5576cc4e9fb1635cd2ebd9504648dbc286a33d50b743e4e1ea00e0cd40"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F4_指数基准与复杂度.png",
+      "bytes": 373417,
+      "sha256": "48602b83ea4b8ffde18cb5c9cb4e759c7bcef82c71759f9b04adfae4c3382f79"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F4_指数基准与复杂度.svg",
+      "bytes": 216781,
+      "sha256": "c49a82005829e96869ede3f200051ac78d5ed259f480794bd4f1b2615519437a"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F5_梨树经营收益分解.png",
+      "bytes": 288123,
+      "sha256": "ec07b131c32ee56fa7cf35c89a572d42c7576de31505b86b8b3db8165643c6db"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F5_梨树经营收益分解.svg",
+      "bytes": 193715,
+      "sha256": "1d6261ec16286ebd0b8cd02d7da81b05d7264d6ca3752806d8064909b7798688"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F6_长春收益机制比较.png",
+      "bytes": 196597,
+      "sha256": "f580739046c6f2f3fe83897d21e4eb7f7c3bb62622362d94b4bac0fff2130242"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F6_长春收益机制比较.svg",
+      "bytes": 160901,
+      "sha256": "ba51d517122efe3ac3ea2a38bee338bf1d86604a282aadf4004627c9b5a41edf"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F7_聚合与短板检验.png",
+      "bytes": 362595,
+      "sha256": "611943b53c4fceaabc562fe0bd6ce89f1eb871947bcf1c44d25fd6595dc4d8b9"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F7_聚合与短板检验.svg",
+      "bytes": 202870,
+      "sha256": "51f1481163aedde6366401a41e1871516e22ed7251189c6a088b52b17aff392e"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F8_采用和补偿边界.png",
+      "bytes": 433186,
+      "sha256": "d2aa69b8d119115af5568324d73bfee889cb1b508d686d4db01123e4badc267a"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/F8_采用和补偿边界.svg",
+      "bytes": 5765329,
+      "sha256": "32c057fbdae2ae5b8417ac87bcd6b74466c302e6c06d36ab054699ef9a48b019"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S1_土壤产量联合响应.png",
+      "bytes": 235588,
+      "sha256": "a2d62fc184f2e23c5062a0986c164bcf35b9901f4ca664c977fe3044a0ba288a"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S1_土壤产量联合响应.svg",
+      "bytes": 157141,
+      "sha256": "776235c48668bc038453dc79b0f682ff539e2800d261ee1329d1affdb8f1dc86"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S2_对照敏感性.png",
+      "bytes": 219064,
+      "sha256": "3ff38d60c76304c4d88900db278c13fe182ad6d8de1e59a98e23f0473b8fe0d2"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S2_对照敏感性.svg",
+      "bytes": 147531,
+      "sha256": "9073d328c47add1eebfd66993d6a4eba75ae0fcb2e3aaa2bd5f6e56b05fad36b"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S3_年度与备选比较.png",
+      "bytes": 296281,
+      "sha256": "04dbfacb50767221c7d2619521c54ccd12586b83e17b2826d10f4dcf58995f9a"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S3_年度与备选比较.svg",
+      "bytes": 185210,
+      "sha256": "dff29d1d9e4597d6a610c73c41099f5443cb90b9ee19880059fbde5ae009d873"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S4_前期碳核算.png",
+      "bytes": 296641,
+      "sha256": "f79e1263bd09e471c936ff15bc5fc97c8279f0383e0e482dac13bdc3027f45eb"
+    },
+    {
+      "path": "final_manuscripts_20261109/figures/S4_前期碳核算.svg",
+      "bytes": 191251,
+      "sha256": "db127585b4aafb134ccc2284e7fc1a6274eb45923aad0a15a475c06c9f64876e"
+    },
+    {
+      "path": "final_manuscripts_20261109/prepare_analysis.py",
+      "bytes": 6302,
+      "sha256": "84317fab9fca89b827bedb2d9890797bf37d3246177ee980e7a35e7f91227dcb"
+    },
+    {
+      "path": "final_manuscripts_20261109/requirements.txt",
+      "bytes": 66,
+      "sha256": "3b935c8318f0936c9f5c12077e8389fbe5f11e0c2a3e0d6f4714b917d93b8695"
+    },
+    {
+      "path": "final_manuscripts_20261109/使用说明.txt",
+      "bytes": 4139,
+      "sha256": "db01e949540d9dc535141483f3b4259617640e2798ccf159a1d819404fc93a40"
+    },
+    {
+      "path": "final_manuscripts_20261109/研究报告_content.json",
+      "bytes": 38996,
+      "sha256": "ef6e70d7c5c92a055cb63bd413b157404335484b5c23d9c4de2e0f9a6239715f"
+    },
+    {
+      "path": "final_manuscripts_20261109/论文_content.json",
+      "bytes": 26177,
+      "sha256": "cd12205f1f22bd2d04f6e7227dcd6ffd082b6a45074103110c1800e829c2842f"
+    }
+  ],
+  "runs": [
+    {
+      "script": "prepare_analysis.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"frequency_gain_pct\": 14.105222801178074,\n  \"same_dose_frequency_gain_pct\": [\n    18.39441164477065,\n    9.960077446327364\n  ],\n  \"weight_switches\": [\n    {\n      \"from\": \"HF33\",\n      \"to\": \"HF67\",\n      \"interval\": [\n        0.558,\n        0.559\n      ]\n    },\n    {\n      \"from\": \"HF67\",\n      \"to\": \"LF67\",\n      \"interval\": [\n        0.878,\n        0.879\n      ]\n    }\n  ],\n  \"gain\": 173.26666666666642,\n  \"cost_saving\": 96.6,\n  \"saving_share_pct\": 55.75221238938061,\n  \"benchmark_field_reduction_pct\": 79.3103448275862,\n  \"dehui_means\": {\n    \"maize\": -31.21333333333334,\n    \"soybean\": 37.906666666666666\n  }\n}"
+    },
+    {
+      "script": "decision_calculator.py",
+      "exit_code": 0,
+      "stdout": "10项核算边界检查通过"
+    }
+  ]
+}
